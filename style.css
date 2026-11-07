@@ -20,3 +20,7 @@ dialog{border-radius:3px;border-color:#a38a5d;background:var(--paper);box-shadow
 @media(max-width:760px){#kids-nav{border:0;padding:0;margin-top:10px}.kids-category{padding:11px 14px;gap:12px}.kids-category strong{display:inline-block;font-size:16px}.kids-category small{display:inline-block;font-size:9px;margin-left:12px}.kids-icon{font-size:19px;padding:1px 4px}.kids-category>b{font-size:17px}}
 @media(max-width:540px){.kids-category{padding:10px 12px;gap:11px}.kids-category small{font-size:9px;margin-left:8px}.kids-category-note{padding:15px 13px;gap:12px}.kids-category-note b{font-size:16px}.kids-category-note p{font-size:9px}.kids-category-note>span{font-size:22px}.kids-card-tag{font-size:8px}.tag-origin-legend{font-size:9px!important}.tag-origin-legend span:not(:first-child){margin-left:0}.detail-tag-value{font-size:11px}.detail-tag-value small{font-size:8px}.detail-tags li p{font-size:9px}}
 .identity-note{background:#eee3ce;padding:10px 12px;border-left:2px solid #b2915e;font-size:10px!important;line-height:1.9!important;color:#8b7048!important}.identity-note a{text-decoration:underline;text-underline-offset:3px}
+
+/* Extra chef categories retain a peer-level, readable layout. */
+.creator-button>span:nth-child(2){min-width:0;overflow-wrap:anywhere}.creator-button .count{flex-shrink:0}.card-creator{overflow-wrap:anywhere}
+@media(max-width:760px){#creator-nav{grid-template-columns:repeat(3,minmax(0,1fr))}.creator-button{min-height:44px;line-height:1.5}.creator-button>span:nth-child(2){white-space:normal}}
