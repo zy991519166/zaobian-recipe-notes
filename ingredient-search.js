@@ -53,6 +53,6 @@
     }
     return {matched:true,rank:hasAuxiliary?1:0,main:[...new Set(main)],auxiliary:[...new Set(auxiliary)]};
   }
-  function statusLabel(entry){return ({verified:'配方已核对',verified_partial:'部分食材已核对',title_only:'按标题／菜名识别',unresolved:'食材待核对',missing:'食材待核对',unknown:'食材待核对'})[entry.status]||'部分食材已整理';}
+  function statusLabel(entry){if(entry.ingredientListCoverage==='source_list_transcribed')return '作者食材清单已收录';return ({verified:'配方已核对',verified_partial:'部分食材已核对',title_only:'按标题／菜名识别',unresolved:'食材待核对',missing:'食材待核对',unknown:'食材待核对'})[entry.status]||'部分食材已整理';}
   root.IngredientSearch={data,get,recipeKey,terms,matchesName,match,statusLabel};
 })(window);

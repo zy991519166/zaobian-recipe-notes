@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-11",
   "scope": "945条现有视频目录（含27条待核候选）",
   "coverageNote": "标题与明确菜名的食材索引；原页有配料说明时逐项补充。没有逐一看完原视频，空白不代表不用该食材，不是完整配方或过敏原清单。",
   "roleNote": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
@@ -57,18 +57,19 @@
   },
   "stats": {
     "withMain": 834,
-    "withAuxiliary": 233,
+    "withAuxiliary": 237,
     "total": 945,
     "withAnyIngredient": 845,
     "status": {
-      "title_only": 813,
-      "unknown": 100,
-      "verified_partial": 32
+      "title_only": 810,
+      "verified_partial": 35,
+      "unknown": 100
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
     "descriptionPagesReviewed": 939,
-    "pinnedCommentPagesRead": 88
+    "pinnedCommentPagesRead": 88,
+    "authorIngredientListsTranscribed": 11
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -399,26 +400,43 @@
       "main": [
         "大虾"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "葱",
+        "姜",
+        "糖",
+        "醋",
+        "盐",
+        "食用油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1cPjc6EEyM/",
           "quote": "一汁成菜！油焖大虾，鲍厨版本，让你有手就会！！！"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://i0.hdslb.com/bfs/new_dyn/4f70eef97ef17ec384f1c855c2922a1f3546973504277413.jpg",
+          "quote": "配料：虾500g、葱姜各20g、糖50g、醋50g、盐3g。步骤：热锅凉油放入处理好的虾。",
+          "detail": "已逐项复核作者配方图；食用油来自图中步骤，原图未注明油量。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未逐一核对整段原视频是否另有补充",
+        "食用油用量未注明"
       ],
-      "notes": "",
+      "notes": "已将作者配方卡中的配料及步骤明示的食用油纳入搜索，与下方已有文字笔记一致。主辅角色为编辑整理；未逐一核对整段视频。",
       "recipeComplete": false,
       "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已收录作者配方卡中明示的食材；不等于已逐一核对整段视频的完整配方。"
     },
     "BV1Hwjd6TETG": {
       "main": [
@@ -474,30 +492,56 @@
     "BV1GoMw6HEDP": {
       "main": [
         "排骨（品种待核）",
-        "豆角"
+        "油豆角"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "土豆",
+        "桂皮",
+        "八角",
+        "干辣椒（可选）",
+        "葱",
+        "姜",
+        "蒜",
+        "料酒",
+        "米醋",
+        "酱油",
+        "盐",
+        "胡椒粉",
+        "糖",
+        "食用油",
+        "开水"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1GoMw6HEDP/",
           "quote": "时光不能倒流 豆角一定得做熟 排骨炖豆角今天教会你"
+        },
+        {
+          "source": "recipe_card",
+          "url": "http://i0.hdslb.com/bfs/new_dyn/118a22ae83e1ec80cde66cb6f675b9f43546973504277413.jpg",
+          "quote": "排骨：2斤 油豆角：900g 土豆：2个 桂皮：1个 八角：3个 干辣椒：6个（不爱吃辣的可以不放） 葱30g、姜20g、蒜40g、料酒25g、米醋25g、酱油90g、盐5g、胡椒粉8g 糖2g。步骤：热锅凉油放入排骨；加入开水没过食材。",
+          "detail": "已逐项复核作者配方图；食用油和开水来自图中步骤。原图未标明排骨物种。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "排骨（品种待核）的具体品种或组成待核对"
+        "排骨的具体品种待核对",
+        "未逐一核对整段原视频是否另有补充",
+        "食用油用量未注明"
       ],
-      "notes": "",
+      "notes": "已收录作者配方卡明示的配料和步骤用料；干辣椒按原图保留为可选。排骨、油豆角列为主料，土豆列为配菜；主辅角色为编辑整理。",
       "recipeComplete": false,
       "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
         "description": true,
-        "pinnedComments": true
-      }
+        "pinnedComments": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已收录作者配方卡中明示的食材；不等于已逐一核对整段视频的完整配方。"
     },
     "BV1iwN16TEQJ": {
       "main": [],
@@ -525,28 +569,67 @@
     },
     "BV1eKgY6CEEH": {
       "main": [
-        "牛肉"
+        "牛腱子"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "水",
+        "八角",
+        "香叶",
+        "花椒",
+        "陈皮",
+        "白芷",
+        "小茴香",
+        "肉蔻",
+        "草果",
+        "桂皮",
+        "山楂干",
+        "卤肉料包（香料替代）",
+        "黄酱",
+        "料酒",
+        "酱油",
+        "老抽",
+        "盐",
+        "冰糖",
+        "胡椒粉",
+        "糖色（可选）",
+        "食用油（可选糖色用）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1eKgY6CEEH/",
           "quote": "简单两步，鲍师傅教会你好吃的酱牛肉"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://i0.hdslb.com/bfs/new_dyn/e897c9c7f8202e34dcbd45af12df20b83546973504277413.jpg",
+          "quote": "配料：牛腱子2斤、水：4升、八角：1个、香叶：3片、花椒：5g、陈皮：5g、白芷：1个 小茴香：3g 肉蔻：1个、草果：1个 桂皮：5g 山楂干：3g（可用料包代替）。黄酱：80g、料酒：30g、酱油：100g 老抽：30g。盐：3勺、冰糖：5块、胡椒粉：一勺。糖色部分：冰糖90g、水：30g、油：20g；顺着锅边加入热水。",
+          "detail": "已逐项复核作者配方图；勺、块不换算为克。糖色用油为可选步骤用料。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://i0.hdslb.com/bfs/new_dyn/3070a6f1b32e6451cfdf5eefe0391f443546973504277413.jpg",
+          "quote": "将糖色炒好备用，也可不炒糖色直接，放入牛肉、加水浸过牛肉，加入酱油、老抽、放入卤肉包、放入盐、冰糖、胡椒粉。炖煮过程中水过少，可添开水。",
+          "detail": "原图说明糖色可省略，香料也可使用卤肉料包替代。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "腌料分配和黄酱的具体使用时点待核对",
+        "未逐一核对整段原视频是否另有补充",
+        "勺、块容量及热水用量未注明"
       ],
-      "notes": "",
+      "notes": "已收录作者两张配方卡明示的用料，并恢复牛腱子部位搜索。香料可用卤肉料包替代，糖色及其食用油为可选；腌料分配、黄酱使用时点仍待核。主辅角色为编辑整理。",
       "recipeComplete": false,
       "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已收录作者配方卡中明示的食材；不等于已逐一核对整段视频的完整配方。"
     },
     "BV1dyGw6PEy6": {
       "main": [],
@@ -4477,7 +4560,8 @@
         "盐",
         "老抽",
         "红椒",
-        "淀粉"
+        "淀粉",
+        "水"
       ],
       "evidence": [
         {
@@ -4494,7 +4578,7 @@
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未逐一核对整段原视频是否另有补充"
       ],
       "notes": "原投稿作者置顶评论列出食材。尚未逐一观看原片核对全部配方。",
       "recipeComplete": false,
@@ -4504,6 +4588,75 @@
         "fullVideo": false,
         "description": true,
         "pinnedComments": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者明列的食材清单；不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "pinned_comment",
+        "url": "https://www.bilibili.com/video/BV1qd2tYwE7A/#reply244500949457",
+        "sourceQuote": "葱烧腐竹食材：\n大葱丝78g，大葱段80g，葱油200g，干腐竹120g，大料1个，海米20g，蚝油15g，\n水500g，味精1g，白糖5g，盐2g，老抽5g，红椒20g，淀粉5g",
+        "sourceNames": [
+          "大葱丝",
+          "大葱段",
+          "葱油",
+          "干腐竹",
+          "大料",
+          "海米",
+          "蚝油",
+          "水",
+          "味精",
+          "白糖",
+          "盐",
+          "老抽",
+          "红椒",
+          "淀粉"
+        ],
+        "nameNormalizations": [
+          {
+            "sourceName": "大葱丝",
+            "indexedNames": [
+              "大葱"
+            ],
+            "basis": "切法归并，原始形态与用量保留在 sourceQuote。"
+          },
+          {
+            "sourceName": "大葱段",
+            "indexedNames": [
+              "大葱"
+            ],
+            "basis": "切法归并，原始形态与用量保留在 sourceQuote。"
+          },
+          {
+            "sourceName": "干腐竹",
+            "indexedNames": [
+              "腐竹"
+            ],
+            "basis": "干品形态归并，原始形态与用量保留在 sourceQuote。"
+          }
+        ],
+        "indexedNames": [
+          "大葱",
+          "葱油",
+          "腐竹",
+          "大料",
+          "海米",
+          "蚝油",
+          "水",
+          "味精",
+          "白糖",
+          "盐",
+          "老抽",
+          "红椒",
+          "淀粉"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_explicit_list",
+        "scopeNote": "添加水后，仅表示此段作者明列食材已逐项收录，未确认完整视频配方或过敏原。",
+        "reviewNotes": [
+          "目前唯一未入索引的清单项是水，原文为水500g。不得在补入水之前标记 sourceListTranscribed。",
+          "葱油作为原作者列出的复合食材保留，不扩充其成分；大葱丝和大葱段均映射大葱，未丢失原始形式。",
+          "已核对同条置顶的步骤文字，未发现超出此清单的具体食材名称；步骤中的油为泛指，不能推断不同油种。"
+        ]
       }
     },
     "BV1wq2GYFEsP": {
@@ -8840,7 +8993,7 @@
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未逐一核对整段原视频是否另有补充"
       ],
       "notes": "原视频简介提供食材证据；未完整观看原片，完整配方和辅料尚待核对。",
       "recipeComplete": false,
@@ -8849,6 +9002,54 @@
         "title": true,
         "fullVideo": false,
         "description": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者明列的食材清单；不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "description",
+        "url": "https://www.bilibili.com/video/BV14K4y177Qv/",
+        "sourceQuote": "本期食材：棒子面、红皮萝卜、胡萝卜、木耳、蛋皮、干粉丝、葱、姜、香油、味精、白胡椒粉、盐、香菜、大料、油",
+        "sourceNames": [
+          "棒子面",
+          "红皮萝卜",
+          "胡萝卜",
+          "木耳",
+          "蛋皮",
+          "干粉丝",
+          "葱",
+          "姜",
+          "香油",
+          "味精",
+          "白胡椒粉",
+          "盐",
+          "香菜",
+          "大料",
+          "油"
+        ],
+        "nameNormalizations": [],
+        "indexedNames": [
+          "棒子面",
+          "红皮萝卜",
+          "胡萝卜",
+          "木耳",
+          "蛋皮",
+          "干粉丝",
+          "葱",
+          "姜",
+          "香油",
+          "味精",
+          "白胡椒粉",
+          "盐",
+          "香菜",
+          "大料",
+          "油"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_explicit_list",
+        "scopeNote": "仅表示此段作者明列食材已逐项收录，未确认完整视频配方或过敏原。",
+        "reviewNotes": [
+          "棒子面、蛋皮、干粉丝、大料、油均保留原词；未扩充其原材料或具体品种。"
+        ]
       }
     },
     "BV1Er4y1c7Sc": {
@@ -9129,7 +9330,7 @@
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未逐一核对整段原视频是否另有补充"
       ],
       "notes": "原视频简介提供食材证据；未完整观看原片，完整配方和辅料尚待核对。",
       "recipeComplete": false,
@@ -9138,6 +9339,32 @@
         "title": true,
         "fullVideo": false,
         "description": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者明列的食材清单；不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "description",
+        "url": "https://www.bilibili.com/video/BV1Ca411c7hG/",
+        "sourceQuote": "本期食材：\n去皮花生米、奶、冰糖、水淀粉",
+        "sourceNames": [
+          "去皮花生米",
+          "奶",
+          "冰糖",
+          "水淀粉"
+        ],
+        "nameNormalizations": [],
+        "indexedNames": [
+          "去皮花生米",
+          "奶",
+          "冰糖",
+          "水淀粉"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_explicit_list",
+        "scopeNote": "仅表示此段作者明列食材已逐项收录，未确认完整视频配方或过敏原。",
+        "reviewNotes": [
+          "奶保留原词，未推断牛奶；水淀粉作为原作者列出的复合食材保留，不另行拆成水与淀粉。"
+        ]
       }
     },
     "BV1Tf4y1q7gW": {
@@ -9171,7 +9398,7 @@
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未逐一核对整段原视频是否另有补充"
       ],
       "notes": "原视频简介提供食材证据；未完整观看原片，完整配方和辅料尚待核对。",
       "recipeComplete": false,
@@ -9180,6 +9407,56 @@
         "title": true,
         "fullVideo": false,
         "description": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者明列的食材清单；不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "description",
+        "url": "https://www.bilibili.com/video/BV1Tf4y1q7gW/",
+        "sourceQuote": "本期食材：\n五花肉、香叶、桂皮、八角、花椒、葱姜、花雕酒、绵白糖、盐、胡椒粉、酱油",
+        "sourceNames": [
+          "五花肉",
+          "香叶",
+          "桂皮",
+          "八角",
+          "花椒",
+          "葱姜",
+          "花雕酒",
+          "绵白糖",
+          "盐",
+          "胡椒粉",
+          "酱油"
+        ],
+        "nameNormalizations": [
+          {
+            "sourceName": "葱姜",
+            "indexedNames": [
+              "葱",
+              "姜"
+            ],
+            "basis": "明确并列组合拆为两项，未增加原文外食材。"
+          }
+        ],
+        "indexedNames": [
+          "五花肉",
+          "香叶",
+          "桂皮",
+          "八角",
+          "花椒",
+          "葱",
+          "姜",
+          "花雕酒",
+          "绵白糖",
+          "盐",
+          "胡椒粉",
+          "酱油"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_explicit_list",
+        "scopeNote": "仅表示此段作者明列食材已逐项收录，未确认完整视频配方或过敏原。",
+        "reviewNotes": [
+          "五花肉、花雕酒、绵白糖保留原词；本清单未额外列水或食用油，不应凭做法常识补入。"
+        ]
       }
     },
     "BV1Zt4y1e7z5": {
@@ -9214,7 +9491,7 @@
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未逐一核对整段原视频是否另有补充"
       ],
       "notes": "原视频简介提供食材证据；未完整观看原片，完整配方和辅料尚待核对。",
       "recipeComplete": false,
@@ -9223,6 +9500,50 @@
         "title": true,
         "fullVideo": false,
         "description": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者明列的食材清单；不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "description",
+        "url": "https://www.bilibili.com/video/BV1Zt4y1e7z5/",
+        "sourceQuote": "本期食材：\n鸡翅、青椒、胡萝卜、花生、鸡蛋、酱油、盐、糖、黄酒、米醋、淀粉、辣椒、花生油",
+        "sourceNames": [
+          "鸡翅",
+          "青椒",
+          "胡萝卜",
+          "花生",
+          "鸡蛋",
+          "酱油",
+          "盐",
+          "糖",
+          "黄酒",
+          "米醋",
+          "淀粉",
+          "辣椒",
+          "花生油"
+        ],
+        "nameNormalizations": [],
+        "indexedNames": [
+          "鸡翅",
+          "青椒",
+          "胡萝卜",
+          "花生",
+          "鸡蛋",
+          "酱油",
+          "盐",
+          "糖",
+          "黄酒",
+          "米醋",
+          "淀粉",
+          "辣椒",
+          "花生油"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_explicit_list",
+        "scopeNote": "仅表示此段作者明列食材已逐项收录，未确认完整视频配方或过敏原。",
+        "reviewNotes": [
+          "花生与花生油分别收录；辣椒保留原词，未推断为干辣椒；鸡蛋与配菜在辅料中的角色属于编辑分类。"
+        ]
       }
     },
     "BV13f4y1v7Gq": {
@@ -15719,7 +16040,9 @@
       "main": [
         "鸡翅"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "蔬菜（品种待核）"
+      ],
       "evidence": [
         {
           "source": "title",
@@ -15729,7 +16052,8 @@
       ],
       "status": "title_only",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "完整配方和辅料尚待核对",
+        "蔬菜（品种待核）的具体组成尚待核对"
       ],
       "notes": "完整配方和辅料尚待核对。",
       "recipeComplete": false,
@@ -16725,7 +17049,8 @@
         "排骨（品种待核）"
       ],
       "auxiliary": [
-        "蒜"
+        "蒜",
+        "蔬菜汁（品种待核）"
       ],
       "evidence": [
         {
@@ -16737,7 +17062,8 @@
       "status": "title_only",
       "unresolved": [
         "完整配方和辅料尚待核对",
-        "排骨（品种待核）的具体品种尚待核对"
+        "排骨（品种待核）的具体品种尚待核对",
+        "蔬菜汁（品种待核）的具体组成尚待核对"
       ],
       "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
       "recipeComplete": false,
@@ -18026,7 +18352,7 @@
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未逐一核对整段原视频是否另有补充"
       ],
       "notes": "标题与原视频简介共同支持部分食材；未逐帧观看或核验完整配方。",
       "recipeComplete": false,
@@ -18035,6 +18361,54 @@
         "title": true,
         "fullVideo": false,
         "description": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者明列的食材清单；不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "description",
+        "url": "https://www.bilibili.com/video/BV1qz4y1C7gJ/",
+        "sourceQuote": "本期所用食材：\n猪蹄、芸豆、当归、红枣、桂皮、八角、小茴香、葱、姜、白蔻、黄酒、冰糖老抽、酱油、盐、生粉",
+        "sourceNames": [
+          "猪蹄",
+          "芸豆",
+          "当归",
+          "红枣",
+          "桂皮",
+          "八角",
+          "小茴香",
+          "葱",
+          "姜",
+          "白蔻",
+          "黄酒",
+          "冰糖老抽",
+          "酱油",
+          "盐",
+          "生粉"
+        ],
+        "nameNormalizations": [],
+        "indexedNames": [
+          "猪蹄",
+          "芸豆",
+          "当归",
+          "红枣",
+          "桂皮",
+          "八角",
+          "小茴香",
+          "葱",
+          "姜",
+          "白蔻",
+          "黄酒",
+          "冰糖老抽",
+          "酱油",
+          "盐",
+          "生粉"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_explicit_list",
+        "scopeNote": "仅表示此段作者明列食材已逐项收录，未确认完整视频配方或过敏原。",
+        "reviewNotes": [
+          "冰糖老抽在原文没有顿号，整体保留为一个源条目；无法仅凭描述确定是产品名还是漏标点，不能擅自拆成冰糖、老抽。白蔻、生粉均保留原词。"
+        ]
       }
     },
     "BV1f541157fj": {
@@ -18074,8 +18448,8 @@
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "酥肉（品种待核）的具体品种尚待核对"
+        "酥肉（品种待核）的具体品种尚待核对",
+        "未逐一核对整段原视频是否另有补充"
       ],
       "notes": "标题与原视频简介共同支持部分食材；未逐帧观看或核验完整配方。 原简介称素东坡，但食材清单确实列出酥肉，照录为品种待核，不擅自判定为素肉或猪肉；「耗油」规范为「蚝油」。",
       "recipeComplete": false,
@@ -18084,6 +18458,82 @@
         "title": true,
         "fullVideo": false,
         "description": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者明列的食材清单；不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "description",
+        "url": "https://www.bilibili.com/video/BV1f541157fj/",
+        "sourceQuote": "本期食材：冬瓜、猴头菇、酥肉、鸡蛋、香菇、菜心、盐、食用油、胡椒粉、淀粉、老抽、葱姜、八角、料酒、酱油、糖、耗油",
+        "sourceNames": [
+          "冬瓜",
+          "猴头菇",
+          "酥肉",
+          "鸡蛋",
+          "香菇",
+          "菜心",
+          "盐",
+          "食用油",
+          "胡椒粉",
+          "淀粉",
+          "老抽",
+          "葱姜",
+          "八角",
+          "料酒",
+          "酱油",
+          "糖",
+          "耗油"
+        ],
+        "nameNormalizations": [
+          {
+            "sourceName": "酥肉",
+            "indexedNames": [
+              "酥肉（品种待核）"
+            ],
+            "basis": "保留原名，加注品种未核；不推断猪肉或其他具体组成。"
+          },
+          {
+            "sourceName": "葱姜",
+            "indexedNames": [
+              "葱",
+              "姜"
+            ],
+            "basis": "明确并列组合拆为两项，未增加原文外食材。"
+          },
+          {
+            "sourceName": "耗油",
+            "indexedNames": [
+              "蚝油"
+            ],
+            "basis": "按常见食材名称纠正原文同音错字，原始拼写保留在 sourceQuote 和 sourceNames。"
+          }
+        ],
+        "indexedNames": [
+          "冬瓜",
+          "猴头菇",
+          "酥肉（品种待核）",
+          "鸡蛋",
+          "香菇",
+          "菜心",
+          "盐",
+          "食用油",
+          "胡椒粉",
+          "淀粉",
+          "老抽",
+          "葱",
+          "姜",
+          "八角",
+          "料酒",
+          "酱油",
+          "糖",
+          "蚝油"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_explicit_list",
+        "scopeNote": "仅表示此段作者明列食材已逐项收录，未确认完整视频配方或过敏原。",
+        "reviewNotes": [
+          "标题称素东坡但清单写酥肉，不据此判断为猪肉或素肉；完整保留原作者字面清单。"
+        ]
       }
     },
     "BV1yp4y1k75M": {
@@ -18116,7 +18566,7 @@
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未逐一核对整段原视频是否另有补充"
       ],
       "notes": "标题与原视频简介共同支持部分食材；未逐帧观看或核验完整配方。 简介明确为牛肉末，菜名「肉松」不另列为预制肉松。",
       "recipeComplete": false,
@@ -18125,6 +18575,46 @@
         "title": true,
         "fullVideo": false,
         "description": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者明列的食材清单；不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "description",
+        "url": "https://www.bilibili.com/video/BV1yp4y1k75M/",
+        "sourceQuote": "本期食材：\n茄子 青豆 洋葱 牛肉末  番茄酱 喼汁 酱油 黑胡椒粉 玉米淀粉 黄酒 糖",
+        "sourceNames": [
+          "茄子",
+          "青豆",
+          "洋葱",
+          "牛肉末",
+          "番茄酱",
+          "喼汁",
+          "酱油",
+          "黑胡椒粉",
+          "玉米淀粉",
+          "黄酒",
+          "糖"
+        ],
+        "nameNormalizations": [],
+        "indexedNames": [
+          "茄子",
+          "青豆",
+          "洋葱",
+          "牛肉末",
+          "番茄酱",
+          "喼汁",
+          "酱油",
+          "黑胡椒粉",
+          "玉米淀粉",
+          "黄酒",
+          "糖"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_explicit_list",
+        "scopeNote": "仅表示此段作者明列食材已逐项收录，未确认完整视频配方或过敏原。",
+        "reviewNotes": [
+          "喼汁保留原词，不扩充其成分；菜名肉松未另加肉松，明确清单写的是牛肉末。"
+        ]
       }
     },
     "BV1LZ4y1M7cQ": {
