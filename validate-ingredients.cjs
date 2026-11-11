@@ -20,6 +20,9 @@ assert(dataset.recipes.BV1eKgY6CEEH.auxiliary.includes('食用油（可选糖色
 assert(recovered('BV1cPjc6EEyM','虾 葱',true));assert(!recovered('BV1cPjc6EEyM','葱'));
 assert(recovered('BV1GoMw6HEDP','豆角'));assert(recovered('BV1GoMw6HEDP','油豆角'));assert(recovered('BV1GoMw6HEDP','土豆',true));assert(!recovered('BV1GoMw6HEDP','猪肉'));
 assert(dataset.recipes.BV1GoMw6HEDP.auxiliary.includes('干辣椒（可选）'));
+assert(recovered('BV1GoMw6HEDP','干辣椒（可选）',true));
+assert(recovered('BV1GoMw6HEDP','排骨（品种待核）'));
+assert(recovered('BV1eKgY6CEEH','食用油（可选糖色用）',true));
 assert(recovered('BV1qd2tYwE7A','水',true));
 assert(recovered('BV1JY411K7PJ','蔬菜汁',true));assert(recovered('BV1eV4y1h7P9','蔬菜',true));assert(!recovered('BV1eV4y1h7P9','可乐',true));
 assert.equal(Object.values(dataset.recipes).filter(e=>e.ingredientListCoverage==='source_list_transcribed').length,11);

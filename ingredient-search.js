@@ -32,7 +32,7 @@
   }
   const terms=query=>String(query||'').trim().split(/[\s,，、;+；＋+]+/).filter(Boolean);
   function matchesName(name,term){
-    const q=canonical(term);if(!q)return false;
+    const q=canonical(String(term||'').replace(/[（(][^）)]*[）)]/g,''));if(!q)return false;
     const raw=String(name),base=raw.replace(/[（(][^）)]*[）)]/g,'');
     const n=canonical(base),variants=[n];
     if(q==='猪肉'&&/品种待核|品种未确认/.test(raw)&&!base.includes('猪'))return false;
