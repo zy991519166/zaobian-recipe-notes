@@ -35,7 +35,7 @@ assert.equal(dataset.stats.withAuxiliary,Object.values(dataset.recipes).filter(e
 assert.equal(dataset.stats.authorIngredientListsTranscribed,11);
 // Six historical description gaps now have sampled original-video evidence, not complete inventories.
 const gapIds=['BV1M34y1D7hb','BV17g4y1f7bU','BV1ab4y1s7wk','BV1RC411p79s','BV1gr4y1n7uv','BV15P411V7YS'];
-for(const bv of gapIds){const e=dataset.recipes[bv];assert.equal(e.status,'verified_partial');assert.equal(e.recipeComplete,false);assert.equal(e.sourceReview.fullVideo,false);assert.equal(e.sourceReview.videoFrames,true);assert.equal(e.ingredientListCoverage,'partial_video_evidence');assert(e.evidence.some(x=>x.source==='video_frame'));assert(e.ingredientListNote.includes('不等于'));}
+for(const bv of gapIds){const e=dataset.recipes[bv];assert.equal(e.status,'verified_partial');assert.equal(e.recipeComplete,false);assert.equal(e.sourceReview.fullVideo,false);assert.equal(e.sourceReview.videoFrames,true);assert(!e.notes.includes('仅据原视频标题'));assert.equal(e.ingredientListCoverage,'partial_video_evidence');assert(e.evidence.some(x=>x.source==='video_frame'));assert(e.ingredientListNote.includes('不等于'));}
 assert(recovered('BV1M34y1D7hb','米饭 芹菜',true));assert(!recovered('BV1M34y1D7hb','芹菜'));
 assert(recovered('BV17g4y1f7bU','排骨 话梅',true));assert(!recovered('BV17g4y1f7bU','话梅'));assert(!recovered('BV17g4y1f7bU','猪肉'));
 assert(recovered('BV1ab4y1s7wk','鸡蛋 黄酒 淀粉',true));assert(!recovered('BV1ab4y1s7wk','咸蛋黄',true));assert(!recovered('BV1ab4y1s7wk','鱼',true));assert(!recovered('BV1ab4y1s7wk','蚝油',true));
