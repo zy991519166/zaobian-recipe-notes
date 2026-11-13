@@ -119,8 +119,11 @@ const ingredientEntries=recipes.map(r=>ingredientIndex.get(r));
 const indexedIngredientCount=ingredientEntries.filter(x=>x.main.length).length;
 const auxiliaryIngredientCount=ingredientEntries.filter(x=>x.auxiliary.length).length;
 const authorIngredientListCount=ingredientEntries.filter(x=>x.ingredientListCoverage==='source_list_transcribed').length;
+const unknownIngredientRecipes=recipes.filter(r=>{const e=ingredientIndex.get(r);return !e.main.length&&!e.auxiliary.length});
+const unknownCandidateCount=unknownIngredientRecipes.filter(ambiguous).length;
+const unknownTutorialCount=unknownIngredientRecipes.length-unknownCandidateCount;
 $('#ingredient-coverage-summary').textContent=`食材整理范围 · ${indexedIngredientCount} / ${recipes.length} 条有主料记录`;
-$('#ingredient-coverage-note').textContent=`已为 ${indexedIngredientCount} 条记录整理主料，${auxiliaryIngredientCount} 条列出辅料；其余 ${recipes.length-indexedIngredientCount} 条主料待核对。其中 ${authorIngredientListCount} 条已逐项收录作者明列的食材清单，不等于已核对整段视频的完整配方。其余条目主要依标题或菜名识别部分食材，详情保留依据。`;
+$('#ingredient-coverage-note').textContent=`已为 ${indexedIngredientCount} 条记录整理主料，${auxiliaryIngredientCount} 条列出辅料；其余 ${recipes.length-indexedIngredientCount} 条主料待核对。完全未识别食材的 ${unknownIngredientRecipes.length} 条中，${unknownTutorialCount} 条属主目录教学条目，${unknownCandidateCount} 条为待核候选；目录分类不等于完整观看核验。其中 ${authorIngredientListCount} 条已逐项收录作者明列的食材清单，不等于已核对整段视频的完整配方。其余条目主要依标题或菜名识别部分食材，详情保留依据。`;
 $('#updated-at').textContent=`整理于 ${([collection.updatedAt,ingredientIndex.data.updatedAt].filter(Boolean).sort().at(-1)||'2026-11-06').replaceAll('-','.')}`;
 renderNav();renderCards();renderHero();scheduleDailyHero();
 if(location.hash.startsWith('#recipe=')){try{openRecipe(decodeURIComponent(location.hash.slice(8)))}catch{}}

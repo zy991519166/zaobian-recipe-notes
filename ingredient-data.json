@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "scope": "945条现有视频目录（含27条待核候选）",
   "coverageNote": "标题与明确菜名的食材索引；有作者清单、配方图或原片抽查依据时补充。没有逐一看完原视频，空白不代表不用该食材，不是完整配方或过敏原清单。",
   "roleNote": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
@@ -66,25 +66,42 @@
       ],
       "result": "这些历史简介缺口的原BV页面可在登录浏览器查看对应原片；已抽查视频画面及已加载评论。节目包装页的通用简介不当作菜谱简介，原简介没有恢复。"
     },
-    "videoFrameSampling": "仅对本轮列出的原片抽查画面和字幕，没有完整观看；不得据此声称清单完整。"
+    "videoFrameSampling": "仅对本轮列出的原片抽查画面和字幕，没有完整观看；不得据此声称清单完整。",
+    "beefExamplesBrowserReview": {
+      "date": "2026-11-13",
+      "recipeIds": [
+        "BV1KDdSBZEVw",
+        "BV1WU4y1n7Xr",
+        "BV14P4y1X77X"
+      ],
+      "coverage": "鲍智德原片末尾作者配方卡逐项收录；两条老饭骨小炒牛肉分别抽查原片画面／字幕。未完整观看；不采用观众笔记补全，也不将替代牛肉部位列为实际用料。"
+    }
   },
   "stats": {
     "withMain": 835,
-    "withAuxiliary": 242,
+    "withAuxiliary": 245,
     "total": 945,
     "withAnyIngredient": 846,
     "status": {
-      "title_only": 805,
-      "verified_partial": 41,
+      "title_only": 802,
+      "verified_partial": 44,
       "unknown": 99
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
     "descriptionPagesReviewed": 939,
     "pinnedCommentPagesRead": 88,
-    "authorIngredientListsTranscribed": 11,
+    "authorIngredientListsTranscribed": 12,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 6
+    "sampledVideoRecipes": 9,
+    "unknownByClassification": {
+      "tutorial": 89,
+      "ambiguous": 10
+    },
+    "mainUnknownByClassification": {
+      "tutorial": 100,
+      "ambiguous": 10
+    }
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -253,25 +270,152 @@
         "牛腩",
         "番茄"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "盐",
+        "胡椒粉",
+        "冰糖",
+        "番茄酱",
+        "番茄沙司（可替代番茄酱）",
+        "料包（组成未注明）",
+        "胡萝卜",
+        "洋葱",
+        "香芹",
+        "香菜（可不放）",
+        "葱",
+        "姜",
+        "蒜",
+        "料酒",
+        "黄油",
+        "食用油（种类未注明）",
+        "水"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1KDdSBZEVw/",
           "quote": "香翻整个办公室的番茄牛腩怎么做今天鲍师傅教会你"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1KDdSBZEVw/",
+          "quote": "原片末尾约08:04作者配方卡：西红柿3个、盐1.5勺、胡椒粉1勺、冰糖10粒、番茄酱90g、料包1个、胡萝卜1个、洋葱半个、香芹10根、香菜5根（可不放）、葱80g、姜20g、蒜4个、料酒40g、黄油10g。卡片步骤另提油、水，并说明番茄沙司也可使用。",
+          "detail": "原作者片尾配方卡逐项核对；没有牛腩用量，蒜4个保留原卡单位，勺不换算成克。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1KDdSBZEVw/",
+          "quote": "原片约01:04明确称为牛腩。",
+          "detail": "具体部位依据本条原片，未套用其他厨师的同名菜。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "牛腩用量、料包组成、油和水的用量未注明",
+        "未逐一核对整段原视频是否另有补充"
       ],
-      "notes": "",
+      "notes": "已收录本条原片作者片尾配方卡及其中步骤明写的用料。香菜可不放，番茄沙司可替代番茄酱；料包组成与食用油种类未注明，均不展开。牛腩依据本片约01:04说明，未标出用量；西红柿按同义词归为番茄。",
       "recipeComplete": false,
       "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "recipeCard": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者片尾配方卡和其中步骤明示的食材，不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "recipe_card",
+        "url": "https://www.bilibili.com/video/BV1KDdSBZEVw/",
+        "sourceQuote": "原片末尾约08:04作者配方卡：西红柿3个、盐1.5勺、胡椒粉1勺、冰糖10粒、番茄酱90g、料包1个、胡萝卜1个、洋葱半个、香芹10根、香菜5根（可不放）、葱80g、姜20g、蒜4个、料酒40g、黄油10g。卡片步骤另提油、水，并说明番茄沙司也可使用。",
+        "sourceNames": [
+          "西红柿",
+          "盐",
+          "胡椒粉",
+          "冰糖",
+          "番茄酱",
+          "料包",
+          "胡萝卜",
+          "洋葱",
+          "香芹",
+          "香菜",
+          "葱",
+          "姜",
+          "蒜",
+          "料酒",
+          "黄油",
+          "番茄沙司",
+          "油",
+          "水"
+        ],
+        "indexedNames": [
+          "番茄",
+          "盐",
+          "胡椒粉",
+          "冰糖",
+          "番茄酱",
+          "番茄沙司（可替代番茄酱）",
+          "料包（组成未注明）",
+          "胡萝卜",
+          "洋葱",
+          "香芹",
+          "香菜（可不放）",
+          "葱",
+          "姜",
+          "蒜",
+          "料酒",
+          "黄油",
+          "食用油（种类未注明）",
+          "水"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_end_card_and_its_steps",
+        "scopeNote": "仅说明原作者卡片明示的清单及卡片步骤用料已收录，不代表完整观看。",
+        "nameNormalizations": [
+          {
+            "sourceName": "西红柿",
+            "indexedNames": [
+              "番茄"
+            ],
+            "basis": "同义词归并。"
+          },
+          {
+            "sourceName": "油",
+            "indexedNames": [
+              "食用油（种类未注明）"
+            ],
+            "basis": "保留种类未知，不推断油品。"
+          },
+          {
+            "sourceName": "料包",
+            "indexedNames": [
+              "料包（组成未注明）"
+            ],
+            "basis": "复合用料保留原称，不展开香料。"
+          },
+          {
+            "sourceName": "香菜",
+            "indexedNames": [
+              "香菜（可不放）"
+            ],
+            "basis": "保留原卡的可选条件。"
+          },
+          {
+            "sourceName": "番茄沙司",
+            "indexedNames": [
+              "番茄沙司（可替代番茄酱）"
+            ],
+            "basis": "保留原卡步骤所述替代关系。"
+          }
+        ]
+      },
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-13",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1KDdSBZEVw/",
+        "identity": "特厨鲍智德原片，原标题「香翻整个办公室的番茄牛腩怎么做今天鲍师傅教会你」。",
+        "coverage": "逐项核对片尾作者配方卡，抽查牛腩部位说明；未完整观看。"
       }
     },
     "BV1MvZcBhEwZ": {
@@ -11715,27 +11859,45 @@
     },
     "BV14P4y1X77X": {
       "main": [
-        "黄牛肉"
+        "牛外脊（黄牛肉）"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "泡辣椒（红）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV14P4y1X77X/",
           "quote": "“C位下饭神器”！酸辣咸鲜，米饭三碗都不够~丨小炒黄牛肉"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV14P4y1X77X/",
+          "quote": "原片约00:56确认红色泡辣椒，约02:22明确本次用牛外脊。",
+          "detail": "黄牛肉身份保留原标题依据；片中提到的其他部位属于替代选择，不当作本次实际用料。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "完整主辅料、用量和步骤尚未逐一核对"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "本片为2022年12月8日侯玉瑞的小炒黄牛肉；牛外脊部位和泡辣椒来自原片直接确认。片中其他牛肉部位仅为替代建议，未列为实际用料；观众笔记不用于补齐作者配方。",
       "recipeComplete": false,
       "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅收录本次原片抽查能确认的食材，不等于完整食材清单；没有完整观看整段视频。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-13",
+        "resolvedUrl": "https://www.bilibili.com/video/BV14P4y1X77X/",
+        "identity": "老饭骨官方牛肉的100种做法与侯玉瑞大师合集既有条目，原标题「“C位下饭神器”！酸辣咸鲜，米饭三碗都不够~丨小炒黄牛肉」。",
+        "coverage": "抽查原视频，未完整观看；未采纳观众的详细配方笔记。"
       }
     },
     "BV1p841187oB": {
@@ -12079,25 +12241,51 @@
       "main": [
         "牛肉"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "生抽",
+        "胡椒",
+        "青椒",
+        "红椒",
+        "蒜",
+        "香菜"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1WU4y1n7Xr/",
           "quote": "下饭神器【小炒牛肉】，鲜香滑嫩，配米饭三碗起！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1WU4y1n7Xr/",
+          "quote": "原片抽查：约02:22配料画面可见蒜片与香菜；约02:30字幕明示生抽，约02:35明示胡椒，约02:50明示青辣椒、红辣椒。",
+          "detail": "青辣椒、红辣椒分别归为青椒、红椒；不据未确认的外观推断芹菜、黄椒或牛肉部位。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "牛肉具体部位未取得直接确认",
+        "完整主辅料、用量和步骤尚未逐一核对"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "这是2021年7月17日、时长8分57秒的老饭骨小炒牛肉，来源为已收录的官方牛肉合集。仅记录原片抽查能确认的用料，未取得牛肉部位证据；与侯玉瑞的小炒黄牛肉分别保留，不混用配方。",
       "recipeComplete": false,
       "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "browserCommentsPreview": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅收录原片抽查可确认的食材，不等于完整食材清单；没有完整观看整段视频。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-13",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1WU4y1n7Xr/",
+        "identity": "老饭骨，2021-07-17，8:57，原标题「下饭神器【小炒牛肉】，鲜香滑嫩，配米饭三碗起！」，官方牛肉的100种做法合集既有条目。",
+        "commentPreview": "作者置顶未列食材清单。",
+        "coverage": "仅抽查原片画面、字幕及已加载作者置顶；未完整观看。"
       }
     },
     "BV1do4y197CL": {
