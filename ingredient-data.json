@@ -80,20 +80,22 @@
       "date": "2026-11-13",
       "recipeIds": [
         "BV1MM4m1R7iD",
-        "BV1Uv4y1m7ve"
+        "BV1Uv4y1m7ve",
+        "BV1BxpMeqE5F",
+        "BV1Zu4y1U7pL"
       ],
-      "coverage": "结合官方同片简介、可见进度预览及B站原片抽查；不按标题套用，不使用观众配方。未计入B站简介恢复或完整观看。YouTube正片缓冲，预览和作者说明可读。"
+      "coverage": "结合官方同片简介、可见画面／进度预览及B站原片抽查；不按标题套用，不使用观众配方。未计入B站简介恢复或完整观看。YouTube播放出现缓冲，所见画面、预览和作者说明可核对。"
     }
   },
   "stats": {
-    "withMain": 837,
-    "withAuxiliary": 247,
+    "withMain": 839,
+    "withAuxiliary": 249,
     "total": 945,
-    "withAnyIngredient": 848,
+    "withAnyIngredient": 850,
     "status": {
       "title_only": 802,
-      "verified_partial": 46,
-      "unknown": 97
+      "verified_partial": 48,
+      "unknown": 95
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -101,16 +103,16 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 12,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 11,
+    "sampledVideoRecipes": 13,
     "unknownByClassification": {
-      "tutorial": 87,
+      "tutorial": 85,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 98,
+      "tutorial": 96,
       "ambiguous": 10
     },
-    "officialCrosspostDescriptionsReviewed": 2
+    "officialCrosspostDescriptionsReviewed": 4
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -25526,51 +25528,140 @@
       }
     },
     "BV1BxpMeqE5F": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "花生",
+        "扁桃仁",
+        "腰果",
+        "核桃仁",
+        "白芝麻",
+        "低筋面粉"
+      ],
+      "auxiliary": [
+        "白糖",
+        "黄油",
+        "熟粉（种类待核）",
+        "糖粉",
+        "鸡蛋液",
+        "吉士粉",
+        "盐",
+        "泡打粉",
+        "面粉（脱模用）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1BxpMeqE5F/",
           "quote": "五仁月饼不好吃？不存在！请北京面点大工匠来做，包好吃包满意~"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=OquXNtrQd9E",
+          "quote": "官方同片说明的食材事实整理：馅心五种果仁为花生、扁桃仁、腰果、核桃仁、白芝麻，合计约500克；另用白糖100克、黄油120克、熟粉50克。饼皮用黄油140克、糖粉100克、鸡蛋液约40克（1颗鸡蛋打散）、吉士粉5克、盐1.5克、低筋粉250克、泡打粉2克。脱模另用面粉，烤制中另刷蛋液，这两项未注明用量。每个成品按馅55克、皮30克分配，不把份量当作额外原料用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1BxpMeqE5F/",
+          "quote": "原片约00:35的五碗备料画面逐项标出白芝麻、花生、核桃仁、腰果、扁桃仁；约05:54字幕明确馅55克，旁边称皮的电子秤显示30.0，与官方说明的馅55克／皮30克相符。约06:03字幕及操作说明入模时用面干。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=OquXNtrQd9E",
+          "quote": "同片核对：B站老饭骨与已验证YouTube老饭骨频道均标2024-09-05，时长分别11:12与11:11。B站约00:23与YouTube约00:24可见相同灰衣主讲厨师、黑衣旁观厨师及厨房；B站00:35与YouTube00:36–00:37是同一五碗果仁俯拍构图及食材字幕。馅55克／皮30克的独特分配也与原片相符。YouTube出现缓冲，使用可见画面和预览，不声称双端完整观看。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "熟粉的具体种类尚未核对",
+        "脱模面粉和刷面蛋液用量未注明",
+        "未逐一核对整段原片是否另有补充"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "按已匹配的官方同片说明和原片抽查整理。五仁以本片明确列出的五种为准，不按常见配方替换；熟粉保留原称，未猜成糯米粉或小麦粉。脱模面粉与饼皮低筋粉分开记录。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片叙述步骤明示的食材，并抽查原片；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-13",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1BxpMeqE5F/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=OquXNtrQd9E",
+        "identity": "同片核对：B站老饭骨与已验证YouTube老饭骨频道均标2024-09-05，时长分别11:12与11:11。B站约00:23与YouTube约00:24可见相同灰衣主讲厨师、黑衣旁观厨师及厨房；B站00:35与YouTube00:36–00:37是同一五碗果仁俯拍构图及食材字幕。馅55克／皮30克的独特分配也与原片相符。YouTube出现缓冲，使用可见画面和预览，不声称双端完整观看。",
+        "coverage": "B站原片抽查；YouTube读取已验证老饭骨频道的官方说明，并核对可见画面／进度预览。播放缓冲，不声称完整观看。"
       }
     },
     "BV1Zu4y1U7pL": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "中筋面粉",
+        "低筋面粉",
+        "胡萝卜"
+      ],
+      "auxiliary": [
+        "大油",
+        "南瓜汁",
+        "火龙果汁",
+        "水",
+        "蛋液",
+        "芝麻",
+        "食用油（炸制用，种类待核）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1Zu4y1U7pL/",
           "quote": "炸 出 花 儿 ！丨荷花酥"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=QLU_5El4uXw",
+          "quote": "官方同片说明的分组食材事实：黄皮为中筋粉125克、大油20克、南瓜汁50克及水；粉皮为中筋粉125克、大油20克、火龙果汁40克及水。油芯为低筋粉125克、大油75克，作者另注一共做两个，保留分组原量，不在此推算双份总量。另用蛋液、芝麻和炸制用油，未注明用量。说明只称馅料，胡萝卜成分另据B站原片确认。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Zu4y1U7pL/",
+          "quote": "原片约00:39，厨师展示黄色馅球，字幕明确说明用胡萝卜炒的黄色馅；只确认含胡萝卜，不代表完整馅料组成。约00:57字幕点明大油和南瓜汁，约03:26明确低筋粉；约12:02–12:10在粉色面团划三刀，13:26–13:27可见黄内层、粉外层的酥皮在油中开花，与官方说明相符。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=QLU_5El4uXw",
+          "quote": "同片核对：两页均标2023-07-13，B站15:12、YouTube15:11。YouTube约00:38可见进度预览与B站00:39同一灰衣厨师举黄色馅球、黄碗、旁观厨师、吊挂相机及水龙头构图匹配；两色面皮、三刀切口和炸制开花步骤也吻合。YouTube正片缓冲，同片视觉核对使用可见预览，未声称双端完整观看。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "胡萝卜馅的其他组成及用量尚未核对",
+        "水、蛋液、芝麻、炸油用量未注明",
+        "大油保留来源原称，炸油种类未知",
+        "油芯按作者分组原量记录，未推算双份总量",
+        "未逐一核对整段原片是否另有补充"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "这是仿荷花造型的酥点，不把荷花当食材。原片直接确认馅料含胡萝卜，其余馅料组成未知；不猜成莲蓉或豆沙。大油保留原称，炸油种类另待核对。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片叙述步骤明示的食材，并抽查原片；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-13",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Zu4y1U7pL/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=QLU_5El4uXw",
+        "identity": "同片核对：两页均标2023-07-13，B站15:12、YouTube15:11。YouTube约00:38可见进度预览与B站00:39同一灰衣厨师举黄色馅球、黄碗、旁观厨师、吊挂相机及水龙头构图匹配；两色面皮、三刀切口和炸制开花步骤也吻合。YouTube正片缓冲，同片视觉核对使用可见预览，未声称双端完整观看。",
+        "coverage": "B站原片抽查；YouTube读取已验证老饭骨频道的官方说明，并核对可见画面／进度预览。播放缓冲，不声称完整观看。"
       }
     },
     "BV17y4y1F7wM": {
