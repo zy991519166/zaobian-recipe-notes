@@ -24,7 +24,7 @@ const recordLabel=r=>r.creator==='老程本味'?'教程／制作展示':'做菜�
 const complete=r=>r.ingredients?.length>0&&r.steps?.length>0;
 const displayName=r=>r.displayName||r.dishName||r.title;
 const facetValues=(r,key)=>r.facets?.[key]?.length?r.facets[key]:['未确认'];
-const evidenceLabel=b=>({original_description:'原视频简介',original_title:'视频原标题',verified_dish_name:'已核实菜名',author_recipe_card:'作者配方卡',video_frame:'原视频画面／字幕（抽查）',official_tags:'原视频标签',official_tag:'原视频标签',original_tags:'原视频标签',video_cover:'原视频封面',public_recipe_reference:'常见做法参考',video_search_metadata:'原视频检索',editorial_inference:'编辑建议'})[b]||'来源记录';
+const evidenceLabel=b=>({original_description:'原视频简介',official_crosspost_description:'官方同片简介（跨平台）',crosspost_match:'跨平台同片核对记录',original_title:'视频原标题',verified_dish_name:'已核实菜名',author_recipe_card:'作者配方卡',video_frame:'原视频画面／字幕（抽查）',official_tags:'原视频标签',official_tag:'原视频标签',original_tags:'原视频标签',video_cover:'原视频封面',public_recipe_reference:'常见做法参考',video_search_metadata:'原视频检索',editorial_inference:'编辑建议'})[b]||'来源记录';
 const referenceBases=['public_recipe_reference','editorial_inference'];
 const primaryBases=['original_description','original_title','verified_dish_name','author_recipe_card','official_tags','official_tag','original_tags','video_search_metadata','video_cover'];
 const tagBasis=(r,key,value)=>{const evidence=(r.tagEvidence||[]).filter(t=>t.facet===key&&t.value===value);return evidence.some(t=>primaryBases.includes(t.basis))?'primary':evidence.some(t=>t.basis==='public_recipe_reference')?'reference':'editorial';};

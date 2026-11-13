@@ -2,7 +2,7 @@
   "version": 1,
   "updatedAt": "2026-11-13",
   "scope": "945条现有视频目录（含27条待核候选）",
-  "coverageNote": "标题与明确菜名的食材索引；有作者清单、配方图或原片抽查依据时补充。没有逐一看完原视频，空白不代表不用该食材，不是完整配方或过敏原清单。",
+  "coverageNote": "标题与明确菜名的食材索引；有作者清单、配方图、原片抽查或已匹配官方同片简介依据时补充。没有逐一看完原视频，空白不代表不用该食材，不是完整配方或过敏原清单。",
   "roleNote": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
   "synonyms": {
     "番茄": [
@@ -75,17 +75,25 @@
         "BV14P4y1X77X"
       ],
       "coverage": "鲍智德原片末尾作者配方卡逐项收录；两条老饭骨小炒牛肉分别抽查原片画面／字幕。未完整观看；不采用观众笔记补全，也不将替代牛肉部位列为实际用料。"
+    },
+    "officialCrosspostReview": {
+      "date": "2026-11-13",
+      "recipeIds": [
+        "BV1MM4m1R7iD",
+        "BV1Uv4y1m7ve"
+      ],
+      "coverage": "结合官方同片简介、可见进度预览及B站原片抽查；不按标题套用，不使用观众配方。未计入B站简介恢复或完整观看。YouTube正片缓冲，预览和作者说明可读。"
     }
   },
   "stats": {
-    "withMain": 835,
-    "withAuxiliary": 245,
+    "withMain": 837,
+    "withAuxiliary": 247,
     "total": 945,
-    "withAnyIngredient": 846,
+    "withAnyIngredient": 848,
     "status": {
       "title_only": 802,
-      "verified_partial": 44,
-      "unknown": 99
+      "verified_partial": 46,
+      "unknown": 97
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -93,15 +101,16 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 12,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 9,
+    "sampledVideoRecipes": 11,
     "unknownByClassification": {
-      "tutorial": 89,
+      "tutorial": 87,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 100,
+      "tutorial": 98,
       "ambiguous": 10
-    }
+    },
+    "officialCrosspostDescriptionsReviewed": 2
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -25001,27 +25010,70 @@
       }
     },
     "BV1MM4m1R7iD": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "老母鸡（含鸡头、鸡爪）",
+        "肘子（品种待核）",
+        "鸡胸肉"
+      ],
+      "auxiliary": [
+        "姜",
+        "大葱",
+        "黄酒",
+        "水",
+        "胡椒粉",
+        "盐",
+        "糖"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1MM4m1R7iD/",
           "quote": "一口高汤40年的功夫，从此茶汤色有了定义，硬菜也不再为惧~丨国宴吊汤"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=6hXLeH6_L-Y",
+          "quote": "官方同片简介的食材事实整理：三年老母鸡（鸡头、鸡爪分切）、肘子、鸡胸肉；姜、大葱、黄酒、水、胡椒粉、盐、糖。肘子的物种和各项用量未明写。",
+          "detail": "已展开阅读已验证老饭骨频道的作者说明；不是观众评论，也不是其他同名菜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1MM4m1R7iD/",
+          "quote": "原片抽查：约01:08字幕点名肘子；约04:56处理鸡肉；约11:01把鸡肉浆倒入汤中搅散；约12:17讲解继续吸附杂质。",
+          "detail": "定位可能有缓冲，时间仅用于寻找所见片段。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=6hXLeH6_L-Y",
+          "quote": "同片核对：官方两页均标2024-03-26；YouTube约01:01可见进度预览与B站约00:59–01:08同一黑衣厨师、持麦同伴、厨房机位及整鸡/肘子备料画面相符。B站后段鸡肉浆入汤搅散、吸附杂质的工序也与官方简介吻合。YouTube正片缓冲，未声称双端完整观看。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "肘子物种未由本轮所读文字明确确认",
+        "各项用量未明写",
+        "未逐一核对整段原片是否另有补充"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "依据已匹配的老饭骨官方同片简介补录，另抽查B站原片。老母鸡包含分切的鸡头、鸡爪；肘子保留品种待核，不擅自归为猪肉。简介中的汤、回用油脂和肉渣来自这些原料，不新增成另购高汤或食用油。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片叙述步骤明示的食材，并抽查原片；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-13",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1MM4m1R7iD/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=6hXLeH6_L-Y",
+        "identity": "老饭骨国宴吊汤，同日发布；根据可见预览画面及原片独特工序匹配，不单凭标题。",
+        "coverage": "B站抽查原片，YouTube读取官方简介并比对可见预览；YouTube正片持续缓冲。"
       }
     },
     "BV1nx4y1v75Z": {
@@ -25642,27 +25694,68 @@
       }
     },
     "BV1Uv4y1m7ve": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "粘米粉",
+        "糯米粉",
+        "澄面",
+        "山药"
+      ],
+      "auxiliary": [
+        "糖粉",
+        "大油",
+        "牛奶",
+        "菠菜汁",
+        "黄瓜汁",
+        "可可粉"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1Uv4y1m7ve/",
           "quote": "我愿称之为“巧夺天工”！刚出土的翡翠白菜，真不舍得吃~丨面果白菜"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=gi1MSGDJpR0",
+          "quote": "官方同片说明的食材事实整理：粘米粉40克、糯米粉30克、澄面50克、糖粉30克、大油10克、牛奶150克；另用菠菜汁、山药、黄瓜汁和可可粉，未注明这些原料用量。8克是炒好的馅心份量，不是生山药用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Uv4y1m7ve/",
+          "quote": "原片字幕抽查：约00:43粘米粉40克、00:45–00:47糖粉30克、00:57糯米粉、01:10大油10克、01:14牛奶，约06:56明确说明山药去皮、黄瓜榨汁。绿汁半开、模具制叶、拼成白菜及根部刷棕色等步骤与官方同片说明相符。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=gi1MSGDJpR0",
+          "quote": "同片核对：两页均标2022-11-15。YouTube约00:44可见进度预览与B站约00:45–00:47是同一俯拍构图：六颗绿馅球、浓绿汁碗、竹盖罐、蓝白碗，金色小碗向钢盘加粉。原片用量字幕和山药黄瓜馅、白色叶脉、仿土根部等独特工序吻合作者说明。YouTube正片缓冲，未声称双端完整观看。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "山药、菠菜汁、黄瓜汁、可可粉的原料用量未注明",
+        "大油保留原称，未另行确定物种",
+        "未逐一核对整段原片是否另有补充"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。 标题含仿形、否定或替代语义，不按名称推断羊肉、猪肉、豆腐、鳝鱼或面果所仿食材。",
+      "notes": "这是仿形点心，不把菜名里的白菜当作实际食材。按已匹配的官方同片说明整理，原片另抽查部分字幕和步骤；白面／白面团指制好的白色面团，不另加小麦面粉。大油保留来源原称，不擅自改为猪油。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片叙述步骤明示的食材，并抽查原片；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-13",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Uv4y1m7ve/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=gi1MSGDJpR0",
+        "identity": "老饭骨面果白菜；同日发布、同一俯拍备料画面及独特仿形步骤匹配。",
+        "coverage": "B站抽查原片，YouTube读取官方简介并比对可见预览；YouTube正片持续缓冲。"
       }
     },
     "BV1uV4y1W7rZ": {
