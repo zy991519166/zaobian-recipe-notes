@@ -85,20 +85,23 @@
         "BV1Zu4y1U7pL",
         "BV1Rj41177bg",
         "BV1FT4y1P7Ca",
-        "BV1Q5411J7PE"
+        "BV1Q5411J7PE",
+        "BV1zD4y117Bf",
+        "BV1uV4y1W7rZ",
+        "BV1a24y1b7aW"
       ],
       "coverage": "结合官方同片简介、可见画面／进度预览及B站原片抽查；酸辣汤为合辑中的同一段落，另按原片硬字幕与跨平台多句字幕和独特步骤核对，不声称YouTube画面已加载。转写来源未明时只作线索，不单独据此补料。不按标题套用，不使用观众配方，未计入B站简介恢复或完整观看。"
     }
   },
   "stats": {
-    "withMain": 842,
-    "withAuxiliary": 252,
+    "withMain": 845,
+    "withAuxiliary": 255,
     "total": 945,
-    "withAnyIngredient": 853,
+    "withAnyIngredient": 856,
     "status": {
       "title_only": 802,
-      "verified_partial": 51,
-      "unknown": 92
+      "verified_partial": 54,
+      "unknown": 89
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -106,16 +109,20 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 12,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 16,
+    "sampledVideoRecipes": 19,
     "unknownByClassification": {
-      "tutorial": 82,
+      "tutorial": 79,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 93,
+      "tutorial": 90,
       "ambiguous": 10
     },
-    "officialCrosspostDescriptionsReviewed": 7
+    "officialCrosspostDescriptionsReviewed": 10,
+    "auxiliaryOnlyByClassification": {
+      "tutorial": 11,
+      "ambiguous": 0
+    }
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -25869,27 +25876,67 @@
       }
     },
     "BV1a24y1b7aW": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "低筋面粉",
+        "中筋面粉"
+      ],
+      "auxiliary": [
+        "猪油",
+        "水",
+        "蛋清",
+        "可可粉（花蒂可选）",
+        "食用油（炸制用，种类待核）",
+        "白糖（炒馅用）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1a24y1b7aW/",
           "quote": "我承认：花开的那一刹，我心动了！丨玉兰花"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=h39opPVlGKo",
+          "quote": "官方同片第九十七回说明的分组事实：油心为低筋粉125克、猪油65克；皮面为中筋粉125克、猪油30克、水80至90克。收口抹蛋清，边角料可蘸可可粉做十字花蒂；另需炸制用油，种类与量未明。简介只称馅，没有明确馅料基底；不从花名或颜色猜原料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1a24y1b7aW/",
+          "quote": "原片约00:04硬字幕明确中筋粉125克，00:17明确大油即猪油65克。约04:34–04:36手持浅色馅球，字幕说明蒸熟以后加白糖炒，只确认白糖，不足以确定馅料基底。06:46–06:47见层叠花瓣状点心在油中打开，被漏勺托起。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=h39opPVlGKo",
+          "quote": "同片核对：两页均为官方老饭骨、2023-03-09，B站08:09、已验证YouTube频道08:05。B站00:11与YouTube00:10可见进度预览为同一三厨师片头：赵会连居中托黑盘，左右厨师竖拇指，红色竖幅与红穗相同；B站00:21与YouTube00:18相同钢碗揉油心俯拍，左侧两白碗及深木板吻合；两端06:47同一油中花瓣微距，右侧两根深色筷子及前景漏勺边缘一致。第九十七回由官方简介确认，未声称在片头看清集数。YouTube主画面缓冲，核对用已加载进度预览，未完整观看。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "馅料基底及完整组成、配比尚未确认，只补原片明示的炒馅白糖",
+        "炸油种类和用量未知，不能把和面猪油当成炸油",
+        "蛋清、可可粉和炒馅白糖用量未核",
+        "未逐一核对全片是否另有用料"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。 标题含仿形、否定或替代语义，不按名称推断羊肉、猪肉、豆腐、鳝鱼或面果所仿食材。",
+      "notes": "玉兰花指点心造型，不把花朵或未知盘饰当作食材。和面用猪油已有作者说明及原片文字明确证据；炸制油另保留未知。可可粉为花蒂可选用料，浅色馅料不猜莲蓉、豆沙或山药。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片说明及原片抽查明示的部分食材；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1a24y1b7aW/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=h39opPVlGKo",
+        "identity": "同片核对：两页均为官方老饭骨、2023-03-09，B站08:09、已验证YouTube频道08:05。B站00:11与YouTube00:10可见进度预览为同一三厨师片头：赵会连居中托黑盘，左右厨师竖拇指，红色竖幅与红穗相同；B站00:21与YouTube00:18相同钢碗揉油心俯拍，左侧两白碗及深木板吻合；两端06:47同一油中花瓣微距，右侧两根深色筷子及前景漏勺边缘一致。第九十七回由官方简介确认，未声称在片头看清集数。YouTube主画面缓冲，核对用已加载进度预览，未完整观看。",
+        "coverage": "原片画面／硬字幕抽查及匹配官方简介；不使用转写独有食材、观众配方或标题推断，未完整观看。"
       }
     },
     "BV14Y411U7yh": {
@@ -25982,51 +26029,138 @@
       }
     },
     "BV1uV4y1W7rZ": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "中筋面粉",
+        "红枣（大枣制枣泥馅）"
+      ],
+      "auxiliary": [
+        "白糖（面团用）",
+        "泡打粉",
+        "酵母",
+        "水",
+        "红曲粉",
+        "可可粉（枣蒂用）",
+        "黑芝麻（可选装饰）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1uV4y1W7rZ/",
           "quote": "冬奥会上展示过的面果大枣！锡纸制外衣，比真的还要真~"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=AV6HVcfPTbQ",
+          "quote": "官方同片说明：面团用中筋面粉125克、白糖5克、泡打粉2克、酵母2克、水65克、红曲粉4克；65克水中留少量化红曲粉，不另加一份推测水量。大枣蒸熟、过箩、炒制成红枣馅；每个皮面剂10克，包8克馅，原料大枣总量未写。少许可可粉用于枣蒂，底部黑芝麻每个可用一粒装饰。锡纸与牙签是塑形工具，不作食材。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1uV4y1W7rZ/",
+          "quote": "原片约02:05主厨展示棕色馅球，硬字幕明确说明自己炒制的枣泥馅；约04:35从白碟取黑芝麻并说明是装饰，04:35–04:42连续画面将单粒芝麻点在红色面果底部。约06:35讲外部纹路，06:41打开皱锡纸展示面果表面。实际馅料身份由原片与作者说明支持，不根据大枣外形推断。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=AV6HVcfPTbQ",
+          "quote": "同片核对：两端老饭骨均标2022-08-23，B站08:39、已验证YouTube频道08:33。B站06:35与YouTube06:29是相同灰褐厨服主厨、背后摄影师、罩下摄像机、窗帘和右侧方形补光灯；B站06:41与YouTube06:34是相同木盖调料罐、绿盖瓶、红色面果及皱锡纸塑形机位，B站打开锡纸后展示皱皮。另有捏红色面团的手部构图匹配。YouTube时有缓冲，只比较已显示的有限画面，不声称全片逐帧相同。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "枣泥馅除红枣外是否另加食材尚未核对，不猜油或额外糖",
+        "原料大枣总量、可可粉用量和酵母具体种类未明",
+        "10克皮与8克馅是每个剂子重量，不是原料总量",
+        "未逐一核对全片是否另有用料"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。 标题含仿形、否定或替代语义，不按名称推断羊肉、猪肉、豆腐、鳝鱼或面果所仿食材。",
+      "notes": "本片既仿大枣外形，也确实使用红枣制成的枣泥馅。白糖5克明确属于面团，不把它搬到馅料；黑芝麻虽实际示范点入，作者仍说可以用，保留可选装饰。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片说明及原片抽查明示的部分食材；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1uV4y1W7rZ/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=AV6HVcfPTbQ",
+        "identity": "同片核对：两端老饭骨均标2022-08-23，B站08:39、已验证YouTube频道08:33。B站06:35与YouTube06:29是相同灰褐厨服主厨、背后摄影师、罩下摄像机、窗帘和右侧方形补光灯；B站06:41与YouTube06:34是相同木盖调料罐、绿盖瓶、红色面果及皱锡纸塑形机位，B站打开锡纸后展示皱皮。另有捏红色面团的手部构图匹配。YouTube时有缓冲，只比较已显示的有限画面，不声称全片逐帧相同。",
+        "coverage": "原片画面／硬字幕抽查及匹配官方简介；不使用转写独有食材、观众配方或标题推断，未完整观看。"
       }
     },
     "BV1zD4y117Bf": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "低筋面粉",
+        "核桃仁",
+        "花生米",
+        "腰果",
+        "瓜子仁",
+        "扁桃仁",
+        "五仁馅（完整组成待核）"
+      ],
+      "auxiliary": [
+        "黄油",
+        "绵白糖（面皮用）",
+        "鸡蛋",
+        "可可粉",
+        "熟面粉",
+        "白糖（馅料用）",
+        "食用油（馅料用，种类待核）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1zD4y117Bf/",
           "quote": "这真的不是魔法！2年盘出一道面果核桃，比真的还要真~"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=LhuV2UfUNmE",
+          "quote": "官方同片说明的分组食材事实：面皮用黄油100克、绵白糖75克、鸡蛋1个、可可粉15克、低筋面粉210克；馅部分明列核桃仁、花生米、腰果、瓜子仁、扁桃仁、五仁馅，再加油、熟面粉与白糖。每个成形馅剂18克、皮剂12克，均为混合后的剂子重量，不是各原料份量。坚果和馅料辅料总量未给出，五仁馅完整组成与油种未展开。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1zD4y117Bf/",
+          "quote": "原片抽查：约00:46俯拍黄油糊与小碗，可见字幕列绵白糖、可可粉、鸡蛋和低筋粉；另见白盘中的混合坚果馅球、旁侧钢盆中的棕色面团，以及明确讲皮面12克的字幕。也抽查到熟粉为焙熟面粉的说明。后两处跳转显示时点不可靠，不标精确时间；18克馅剂量以匹配官方简介为依据，不冒称原片称重已核验。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=LhuV2UfUNmE",
+          "quote": "同片核对：两页均为老饭骨、2022-09-27，YouTube账号已验证，原片10:00、跨平台9:19，未声称剪辑长度相同。YouTube约00:45可见低清画面与B站00:46同一钢盆黄油糊、左侧白碗、下方纹路成品及木盖罐俯拍构图相符；YouTube约02:46白盘馅球及旁侧钢盆棕色面团也与B站已见镜头相符。两端有同一四齿薄金属夹工具特写。YouTube持续缓冲，使用已显示画面／进度预览，未完整连续观看。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "五仁馅的完整组成及各坚果、馅料辅料用量尚待核对",
+        "瓜子仁具体品种和馅料油种未知",
+        "18克馅与12克皮是成形剂子量，不是每种原料量",
+        "未逐一核对整段原片是否另有用料"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。 标题含仿形、否定或替代语义，不按名称推断羊肉、猪肉、豆腐、鳝鱼或面果所仿食材。",
+      "notes": "核桃是造型，也确有官方说明明列的核桃仁，不单凭标题添加。五仁馅保留复合用料原称，不由椒盐风味名称再推断花椒或盐；瓜子仁不猜成葵花籽或南瓜籽。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片说明及原片抽查明示的部分食材；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1zD4y117Bf/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=LhuV2UfUNmE",
+        "identity": "同片核对：两页均为老饭骨、2022-09-27，YouTube账号已验证，原片10:00、跨平台9:19，未声称剪辑长度相同。YouTube约00:45可见低清画面与B站00:46同一钢盆黄油糊、左侧白碗、下方纹路成品及木盖罐俯拍构图相符；YouTube约02:46白盘馅球及旁侧钢盆棕色面团也与B站已见镜头相符。两端有同一四齿薄金属夹工具特写。YouTube持续缓冲，使用已显示画面／进度预览，未完整连续观看。",
+        "coverage": "原片画面／硬字幕抽查及匹配官方简介；不使用转写独有食材、观众配方或标题推断，未完整观看。"
       }
     },
     "BV1CW4y1U7hx": {
