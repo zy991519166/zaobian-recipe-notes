@@ -100,31 +100,40 @@
         "BV1rV411A7fE"
       ],
       "coverage": "三条仅依据B站原片画面和硬字幕抽查补料。AcFun三页仅元数据吻合且播放器空白，未确认同片；赛螃蟹YouTube抽查画面吻合但上传者归属未确认，两站均未作为食材证据。未增加官方同片简介、原简介或置顶评论核对计数。"
+    },
+    "soupBrineJellyReview": {
+      "date": "2026-11-14",
+      "recipeIds": [
+        "BV1Bw411m7Gg",
+        "BV1Fa4y1z7kG",
+        "BV1jC4y1e7TK"
+      ],
+      "coverage": "原片实际烹调画面／硬字幕及作者片尾卡。火锅实做、替代汤底和配饭分清；卤水、清单卤物及另提建议分清；重复列料与不明单位保留，不擅自加总。不代表全片完整观看。"
     }
   },
   "stats": {
-    "withMain": 847,
-    "withAuxiliary": 257,
+    "withMain": 849,
+    "withAuxiliary": 259,
     "total": 945,
-    "withAnyIngredient": 857,
+    "withAnyIngredient": 859,
     "status": {
       "title_only": 800,
-      "verified_partial": 57,
-      "unknown": 88
+      "verified_partial": 59,
+      "unknown": 86
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
     "descriptionPagesReviewed": 939,
     "pinnedCommentPagesRead": 88,
-    "authorIngredientListsTranscribed": 12,
+    "authorIngredientListsTranscribed": 14,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 22,
+    "sampledVideoRecipes": 25,
     "unknownByClassification": {
-      "tutorial": 78,
+      "tutorial": 76,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 88,
+      "tutorial": 86,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -6370,27 +6379,501 @@
       }
     },
     "BV1jC4y1e7TK": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "鸡爪",
+        "鸡心",
+        "鸭头",
+        "鸭脖",
+        "鸡腿",
+        "鸭胗",
+        "莲藕（藕片）",
+        "海带（海带结）",
+        "豆腐（炸豆腐）"
+      ],
+      "auxiliary": [
+        "辣椒（朝天椒）",
+        "肉蔻",
+        "草蔻",
+        "白蔻",
+        "桂皮",
+        "甘草",
+        "砂仁",
+        "草果",
+        "白芷",
+        "陈皮",
+        "八角",
+        "丁香",
+        "小茴香",
+        "花椒",
+        "食用油（种类未注明）",
+        "大葱",
+        "姜",
+        "洋葱",
+        "香菜",
+        "豆瓣酱",
+        "鸡汤（可不放）",
+        "冰糖",
+        "盐",
+        "味精",
+        "酱油",
+        "麻椒",
+        "花雕酒"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1jC4y1e7TK/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做|特厨秘方！香到你心尖——万能辣卤！"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1jC4y1e7TK/",
+          "quote": "原片05:45作者片尾「卤味食材」卡逐行转录：1.朝天椒300g；2.肉蔻25g；3.草寇50g；4.白寇30g；5.桂皮10g；6.甘草14g；7.砂仁14g；8.草果15g；9.白芷15g；10.陈皮3g；11.八角30g；12.丁香15g；13.小茴香12g；14.花椒100g；15.油750g；16.大葱200g；17.姜100g；18.洋葱400g；19.香菜50g；20.豆瓣酱300g；21.鸡汤5kg（可不放）；22.冰糖50g；23.盐80g；24.味精20g；25.丁香10g；26.白芷20g；27.酱油50g；28.麻椒50g；29.花雕酒50；30.鸡爪8个；31.鸡心500g；32.鸭头4个；33.鸭脖6个；34.鸡腿6个；35.鸭胗500g；36.藕片250g；37.海带结250g；38.炸豆腐6片。原卡没有分组小标题，下列主辅归类为编辑整理。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1jC4y1e7TK/",
+          "quote": "原卡第12项丁香15g与第25项丁香10g重复；第9项白芷15g与第26项白芷20g重复。各自来源原样保留，未判定哪项正确，也不相加。第21项鸡汤5kg标可不放，未核实实际加入；第29项花雕酒50未写单位，不自行补成克或毫升。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1jC4y1e7TK/",
+          "quote": "原片03:42抽查：焯禽肉时字幕明确加花雕酒，画面可辨鸭头；不凭其他肉块形状猜品种。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1jC4y1e7TK/",
+          "quote": "原片04:15抽查：卤锅可见炸豆腐，配合作者片尾清单核对；泛指素菜可自选，不额外猜菜名。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1jC4y1e7TK/",
+          "quote": "原片04:25抽查：卤锅可见鸡爪和炸豆腐，对应作者清单。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "丁香15g/10g、白芷15g/20g的重复列料含义仍待作者进一步说明，不可据此自行求和",
+        "花雕酒原卡为50且无单位，不能补写g或ml",
+        "鸡汤可不放，是否实际使用未确认；汤、水等完整液体用量未逐段核对",
+        "油种、酱油种类及复合豆瓣酱组成未明；未逐一核对全片是否另有补充"
       ],
-      "notes": "",
+      "notes": "主料列原作者食材卡所列9项卤物，辅料列卤水及焯制调料，共36种去重食材。鸭头、鸡爪、炸豆腐另经实际烹调画面抽查；其余卤物有作者清单依据，但本轮未逐一确认入锅画面。鸡汤明确可不放，未声称本次实际加入。开头剩菜及任意素菜建议不扩成额外主料。丁香与白芷各重复列两种克数，保留原文不自行相加或择一。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者片尾38行食材卡（去重36种），不等于已逐一核对整段视频的全部用料、实际入锅情况或完整配方。",
+      "sourceIngredientList": {
+        "source": "recipe_card",
+        "url": "https://www.bilibili.com/video/BV1jC4y1e7TK/",
+        "sourceQuote": "原片05:45作者片尾「卤味食材」卡逐行转录：1.朝天椒300g；2.肉蔻25g；3.草寇50g；4.白寇30g；5.桂皮10g；6.甘草14g；7.砂仁14g；8.草果15g；9.白芷15g；10.陈皮3g；11.八角30g；12.丁香15g；13.小茴香12g；14.花椒100g；15.油750g；16.大葱200g；17.姜100g；18.洋葱400g；19.香菜50g；20.豆瓣酱300g；21.鸡汤5kg（可不放）；22.冰糖50g；23.盐80g；24.味精20g；25.丁香10g；26.白芷20g；27.酱油50g；28.麻椒50g；29.花雕酒50；30.鸡爪8个；31.鸡心500g；32.鸭头4个；33.鸭脖6个；34.鸡腿6个；35.鸭胗500g；36.藕片250g；37.海带结250g；38.炸豆腐6片。原卡没有分组小标题，下列主辅归类为编辑整理。",
+        "sourceNames": [
+          "朝天椒",
+          "肉蔻",
+          "草寇",
+          "白寇",
+          "桂皮",
+          "甘草",
+          "砂仁",
+          "草果",
+          "白芷",
+          "陈皮",
+          "八角",
+          "丁香",
+          "小茴香",
+          "花椒",
+          "油",
+          "大葱",
+          "姜",
+          "洋葱",
+          "香菜",
+          "豆瓣酱",
+          "鸡汤",
+          "冰糖",
+          "盐",
+          "味精",
+          "酱油",
+          "麻椒",
+          "花雕酒",
+          "鸡爪",
+          "鸡心",
+          "鸭头",
+          "鸭脖",
+          "鸡腿",
+          "鸭胗",
+          "藕片",
+          "海带结",
+          "炸豆腐"
+        ],
+        "indexedNames": [
+          "鸡爪",
+          "鸡心",
+          "鸭头",
+          "鸭脖",
+          "鸡腿",
+          "鸭胗",
+          "莲藕（藕片）",
+          "海带（海带结）",
+          "豆腐（炸豆腐）",
+          "辣椒（朝天椒）",
+          "肉蔻",
+          "草蔻",
+          "白蔻",
+          "桂皮",
+          "甘草",
+          "砂仁",
+          "草果",
+          "白芷",
+          "陈皮",
+          "八角",
+          "丁香",
+          "小茴香",
+          "花椒",
+          "食用油（种类未注明）",
+          "大葱",
+          "姜",
+          "洋葱",
+          "香菜",
+          "豆瓣酱",
+          "鸡汤（可不放）",
+          "冰糖",
+          "盐",
+          "味精",
+          "酱油",
+          "麻椒",
+          "花雕酒"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_end_card",
+        "scopeNote": "仅说明片尾作者清单逐项收录；主辅分组为编辑整理。重复用量与缺失单位不擅自修正，不声称全片完整观看。",
+        "numberedRowCount": 38,
+        "quantities": [
+          {
+            "number": 1,
+            "name": "朝天椒",
+            "amount": "300g",
+            "raw": "1.朝天椒300g"
+          },
+          {
+            "number": 2,
+            "name": "肉蔻",
+            "amount": "25g",
+            "raw": "2.肉蔻25g"
+          },
+          {
+            "number": 3,
+            "name": "草寇",
+            "amount": "50g",
+            "raw": "3.草寇50g"
+          },
+          {
+            "number": 4,
+            "name": "白寇",
+            "amount": "30g",
+            "raw": "4.白寇30g"
+          },
+          {
+            "number": 5,
+            "name": "桂皮",
+            "amount": "10g",
+            "raw": "5.桂皮10g"
+          },
+          {
+            "number": 6,
+            "name": "甘草",
+            "amount": "14g",
+            "raw": "6.甘草14g"
+          },
+          {
+            "number": 7,
+            "name": "砂仁",
+            "amount": "14g",
+            "raw": "7.砂仁14g"
+          },
+          {
+            "number": 8,
+            "name": "草果",
+            "amount": "15g",
+            "raw": "8.草果15g"
+          },
+          {
+            "number": 9,
+            "name": "白芷",
+            "amount": "15g",
+            "raw": "9.白芷15g"
+          },
+          {
+            "number": 10,
+            "name": "陈皮",
+            "amount": "3g",
+            "raw": "10.陈皮3g"
+          },
+          {
+            "number": 11,
+            "name": "八角",
+            "amount": "30g",
+            "raw": "11.八角30g"
+          },
+          {
+            "number": 12,
+            "name": "丁香",
+            "amount": "15g",
+            "raw": "12.丁香15g"
+          },
+          {
+            "number": 13,
+            "name": "小茴香",
+            "amount": "12g",
+            "raw": "13.小茴香12g"
+          },
+          {
+            "number": 14,
+            "name": "花椒",
+            "amount": "100g",
+            "raw": "14.花椒100g"
+          },
+          {
+            "number": 15,
+            "name": "油",
+            "amount": "750g",
+            "raw": "15.油750g"
+          },
+          {
+            "number": 16,
+            "name": "大葱",
+            "amount": "200g",
+            "raw": "16.大葱200g"
+          },
+          {
+            "number": 17,
+            "name": "姜",
+            "amount": "100g",
+            "raw": "17.姜100g"
+          },
+          {
+            "number": 18,
+            "name": "洋葱",
+            "amount": "400g",
+            "raw": "18.洋葱400g"
+          },
+          {
+            "number": 19,
+            "name": "香菜",
+            "amount": "50g",
+            "raw": "19.香菜50g"
+          },
+          {
+            "number": 20,
+            "name": "豆瓣酱",
+            "amount": "300g",
+            "raw": "20.豆瓣酱300g"
+          },
+          {
+            "number": 21,
+            "name": "鸡汤",
+            "amount": "5kg（可不放）",
+            "raw": "21.鸡汤5kg（可不放）"
+          },
+          {
+            "number": 22,
+            "name": "冰糖",
+            "amount": "50g",
+            "raw": "22.冰糖50g"
+          },
+          {
+            "number": 23,
+            "name": "盐",
+            "amount": "80g",
+            "raw": "23.盐80g"
+          },
+          {
+            "number": 24,
+            "name": "味精",
+            "amount": "20g",
+            "raw": "24.味精20g"
+          },
+          {
+            "number": 25,
+            "name": "丁香",
+            "amount": "10g",
+            "raw": "25.丁香10g"
+          },
+          {
+            "number": 26,
+            "name": "白芷",
+            "amount": "20g",
+            "raw": "26.白芷20g"
+          },
+          {
+            "number": 27,
+            "name": "酱油",
+            "amount": "50g",
+            "raw": "27.酱油50g"
+          },
+          {
+            "number": 28,
+            "name": "麻椒",
+            "amount": "50g",
+            "raw": "28.麻椒50g"
+          },
+          {
+            "number": 29,
+            "name": "花雕酒",
+            "amount": "50",
+            "raw": "29.花雕酒50"
+          },
+          {
+            "number": 30,
+            "name": "鸡爪",
+            "amount": "8个",
+            "raw": "30.鸡爪8个"
+          },
+          {
+            "number": 31,
+            "name": "鸡心",
+            "amount": "500g",
+            "raw": "31.鸡心500g"
+          },
+          {
+            "number": 32,
+            "name": "鸭头",
+            "amount": "4个",
+            "raw": "32.鸭头4个"
+          },
+          {
+            "number": 33,
+            "name": "鸭脖",
+            "amount": "6个",
+            "raw": "33.鸭脖6个"
+          },
+          {
+            "number": 34,
+            "name": "鸡腿",
+            "amount": "6个",
+            "raw": "34.鸡腿6个"
+          },
+          {
+            "number": 35,
+            "name": "鸭胗",
+            "amount": "500g",
+            "raw": "35.鸭胗500g"
+          },
+          {
+            "number": 36,
+            "name": "藕片",
+            "amount": "250g",
+            "raw": "36.藕片250g"
+          },
+          {
+            "number": 37,
+            "name": "海带结",
+            "amount": "250g",
+            "raw": "37.海带结250g"
+          },
+          {
+            "number": 38,
+            "name": "炸豆腐",
+            "amount": "6片",
+            "raw": "38.炸豆腐6片"
+          }
+        ],
+        "duplicateQuantityWarnings": [
+          {
+            "name": "丁香",
+            "rows": [
+              12,
+              25
+            ],
+            "raw": [
+              "12.丁香15g",
+              "25.丁香10g"
+            ],
+            "resolution": "unresolved; do not sum or select"
+          },
+          {
+            "name": "白芷",
+            "rows": [
+              9,
+              26
+            ],
+            "raw": [
+              "9.白芷15g",
+              "26.白芷20g"
+            ],
+            "resolution": "unresolved; do not sum or select"
+          }
+        ],
+        "nameNormalizations": [
+          {
+            "sourceName": "草寇",
+            "indexedNames": [
+              "草蔻"
+            ],
+            "basis": "原卡字样保留；检索名称规范为香料草蔻。"
+          },
+          {
+            "sourceName": "白寇",
+            "indexedNames": [
+              "白蔻"
+            ],
+            "basis": "原卡字样保留；检索名称规范为香料白蔻。"
+          },
+          {
+            "sourceName": "藕片",
+            "indexedNames": [
+              "莲藕（藕片）"
+            ],
+            "basis": "保留原清单的部位、加工形态或可选条件；通用食材名用于检索，不推测品种。"
+          },
+          {
+            "sourceName": "海带结",
+            "indexedNames": [
+              "海带（海带结）"
+            ],
+            "basis": "保留原清单的部位、加工形态或可选条件；通用食材名用于检索，不推测品种。"
+          },
+          {
+            "sourceName": "炸豆腐",
+            "indexedNames": [
+              "豆腐（炸豆腐）"
+            ],
+            "basis": "保留原清单的部位、加工形态或可选条件；通用食材名用于检索，不推测品种。"
+          },
+          {
+            "sourceName": "朝天椒",
+            "indexedNames": [
+              "辣椒（朝天椒）"
+            ],
+            "basis": "保留原清单的部位、加工形态或可选条件；通用食材名用于检索，不推测品种。"
+          },
+          {
+            "sourceName": "油",
+            "indexedNames": [
+              "食用油（种类未注明）"
+            ],
+            "basis": "保留原清单的部位、加工形态或可选条件；通用食材名用于检索，不推测品种。"
+          },
+          {
+            "sourceName": "鸡汤",
+            "indexedNames": [
+              "鸡汤（可不放）"
+            ],
+            "basis": "保留原清单的部位、加工形态或可选条件；通用食材名用于检索，不推测品种。"
+          }
+        ]
+      },
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1jC4y1e7TK/",
+        "coverage": "原片画面／字幕或作者片尾卡核对；卡片转录与全片完整配方核验分开，未使用观众配方或第三方转写补料。"
       }
     },
     "BV1et4y1Z7CQ": {
@@ -6424,7 +6907,20 @@
         "海蜇头"
       ],
       "auxiliary": [
-        "香菜"
+        "老抽",
+        "盐",
+        "胡椒粉",
+        "味精",
+        "醋",
+        "香油",
+        "料酒",
+        "食用油",
+        "葱",
+        "姜",
+        "蒜",
+        "红椒（红尖椒丝）",
+        "香菜杆",
+        "水"
       ],
       "evidence": [
         {
@@ -6441,19 +6937,157 @@
           "source": "description",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1Fa4y1z7kG/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "和油爆双脆齐名！特级厨师教你怎么做—芫爆蛰头"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1Fa4y1z7kG/",
+          "quote": "原片04:49作者片尾食材卡：海蜇头500克、老抽20克、盐1克、胡椒粉3克、味精1克、醋25克、香油5克、料酒5克、食用油50克、葱10克、姜5克、蒜5克、红尖椒丝10克、香菜杆100克。卡片步骤另明写清水冲洗、浸泡及焯水，水量未注明。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1Fa4y1z7kG/",
+          "quote": "卡片列00:54处理蜇头并用清水浸泡；01:28老抽上色；01:37焯水；02:03兑碗汁；02:15起锅烧油，下葱姜丝、蒜和红尖椒丝，再加香菜杆、海蜇头和碗汁。步骤时间是作者卡片标注，未逐一回看所有原片对应帧。"
         }
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "食用油、胡椒粉、醋等细分品种未写",
+        "清洗、浸泡、焯水用水量未写",
+        "未逐一核对全片是否另有补充用料"
       ],
-      "notes": "菜名补充依据原索引保存的原视频页面检索摘录，未逐帧观看。",
+      "notes": "作者片尾卡列14种食材，并在步骤中明写清水；共15个去重食材项进入索引。香菜具体为香菜杆，红尖椒丝归为红椒并保留原称。所有克数按原卡保留，不把胡椒粉猜成白胡椒，也不自行修改老抽20克等原卡用量。卡片时间码是作者标注，并不表示已回看完整对应步骤。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录原作者片尾食材卡及卡片步骤明示的用料，不等于已逐一核对整段视频的完整配方。",
+      "sourceIngredientList": {
+        "source": "recipe_card",
+        "url": "https://www.bilibili.com/video/BV1Fa4y1z7kG/",
+        "sourceQuote": "原片04:49作者片尾食材卡：海蜇头500克、老抽20克、盐1克、胡椒粉3克、味精1克、醋25克、香油5克、料酒5克、食用油50克、葱10克、姜5克、蒜5克、红尖椒丝10克、香菜杆100克。卡片步骤另明写清水冲洗、浸泡及焯水，水量未注明。",
+        "sourceNames": [
+          "海蜇头",
+          "老抽",
+          "盐",
+          "胡椒粉",
+          "味精",
+          "醋",
+          "香油",
+          "料酒",
+          "食用油",
+          "葱",
+          "姜",
+          "蒜",
+          "红尖椒丝",
+          "香菜杆",
+          "清水"
+        ],
+        "indexedNames": [
+          "海蜇头",
+          "老抽",
+          "盐",
+          "胡椒粉",
+          "味精",
+          "醋",
+          "香油",
+          "料酒",
+          "食用油",
+          "葱",
+          "姜",
+          "蒜",
+          "红椒（红尖椒丝）",
+          "香菜杆",
+          "水"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_end_card_and_its_steps",
+        "scopeNote": "仅说明原作者卡片明示用料已逐项收录；未完整观看。",
+        "quantities": [
+          {
+            "name": "海蜇头",
+            "amount": "500克"
+          },
+          {
+            "name": "老抽",
+            "amount": "20克"
+          },
+          {
+            "name": "盐",
+            "amount": "1克"
+          },
+          {
+            "name": "胡椒粉",
+            "amount": "3克"
+          },
+          {
+            "name": "味精",
+            "amount": "1克"
+          },
+          {
+            "name": "醋",
+            "amount": "25克"
+          },
+          {
+            "name": "香油",
+            "amount": "5克"
+          },
+          {
+            "name": "料酒",
+            "amount": "5克"
+          },
+          {
+            "name": "食用油",
+            "amount": "50克"
+          },
+          {
+            "name": "葱",
+            "amount": "10克"
+          },
+          {
+            "name": "姜",
+            "amount": "5克"
+          },
+          {
+            "name": "蒜",
+            "amount": "5克"
+          },
+          {
+            "name": "红尖椒丝",
+            "amount": "10克"
+          },
+          {
+            "name": "香菜杆",
+            "amount": "100克"
+          }
+        ],
+        "nameNormalizations": [
+          {
+            "sourceName": "红尖椒丝",
+            "indexedNames": [
+              "红椒（红尖椒丝）"
+            ],
+            "basis": "保留原料形态，同时可按红椒／辣椒搜索，不猜更细品种。"
+          },
+          {
+            "sourceName": "清水／焯水",
+            "indexedNames": [
+              "水"
+            ],
+            "basis": "作者步骤明写，用量未知。"
+          }
+        ]
+      },
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Fa4y1z7kG/",
+        "coverage": "原片画面／字幕或作者片尾卡核对；卡片转录与全片完整配方核验分开，未使用观众配方或第三方转写补料。"
       }
     },
     "BV1Kc41117dh": {
@@ -7089,27 +7723,154 @@
       }
     },
     "BV1Bw411m7Gg": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "冻豆腐",
+        "肉丸子（肉种及组成待核）",
+        "猪蹄",
+        "猪板筋",
+        "腐竹",
+        "粉条（原料种类待核）",
+        "方便面"
+      ],
+      "auxiliary": [
+        "西红柿",
+        "酸汤（底料组成待核）",
+        "水",
+        "食用油（种类待核）",
+        "姜",
+        "蒜",
+        "味精",
+        "盐",
+        "鸡汁（组成待核）",
+        "芹菜",
+        "葱",
+        "香菜",
+        "木姜子油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1Bw411m7Gg/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |一勺汤就是一碗饭，贵州酸汤火锅是世界上最下饭的火锅！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:16：淡黄色油倒入空炒锅；品种未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:18：然后把姜蒜倒进去。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:27–01:28：锅中翻炒可辨识的鲜番茄切块。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:31：然后加酸汤。红色酸汤随后舀入炒锅；品牌/配方未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:37：就是一勺酸汤三勺水。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:49：放味精。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:50：盐。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:57：就放点鸡汁。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:05：把芹菜放进去。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:07：放点葱放点香菜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:10：还有木姜子油。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:32：我们用点冻豆腐。02:35方豆腐块入锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:36：汆点肉丸子。02:46再提到把丸子煮定型。丸子的肉种及配方未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:39：菜市场买的猪蹄。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:44：猪板筋。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:47：我爱吃腐竹。02:49–02:50放入锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片02:54：粉条放进去。02:59可见半透明宽粉条；原料种类未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片03:01：我最喜欢吃的方便面。手持面饼将其放入锅，03:11仍可见面饼。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+          "quote": "原片01:52–01:56建议家里可用鸡汤代替水，但随后明确本次没有鸡汤，01:57实际放鸡汁。02:29–02:32说米豆腐不好买，改用冻豆腐。03:20的米饭在另碗搭配食用，不是锅内材料。替代和搭配建议不混作本次实际主料。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "除酸汤与水1:3勺数比例外，多数用料用量尚未核对",
+        "肉丸子的肉种及配料、粉条原料、食用油品种、复合酸汤和鸡汁组成仍未知",
+        "未逐一核对全片，也未取得完整作者用量清单"
       ],
-      "notes": "",
+      "notes": "主料列本次实际入锅的七类火锅食材；西红柿、酸汤等作为汤底辅料。原片实际用冻豆腐而不是米豆腐，用水和鸡汁而不是鸡汤。鸡汤只是可替代水的家庭做法建议，米饭是另碗搭配，均未混入本次实际用料索引。观众转写与通用酸汤配方不作为依据。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理本次原片抽查明确实际入锅的部分食材，不等于已核全完整食材清单或配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Bw411m7Gg/",
+        "coverage": "原片画面／字幕或作者片尾卡核对；卡片转录与全片完整配方核验分开，未使用观众配方或第三方转写补料。"
       }
     },
     "BV1rV411A7fE": {
