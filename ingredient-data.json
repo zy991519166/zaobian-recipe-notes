@@ -91,17 +91,26 @@
         "BV1a24y1b7aW"
       ],
       "coverage": "结合官方同片简介、可见画面／进度预览及B站原片抽查；酸辣汤为合辑中的同一段落，另按原片硬字幕与跨平台多句字幕和独特步骤核对，不声称YouTube画面已加载。转写来源未明时只作线索，不单独据此补料。不按标题套用，不使用观众配方，未计入B站简介恢复或完整观看。"
+    },
+    "suipoOriginalFrameReview": {
+      "date": "2026-11-14",
+      "recipeIds": [
+        "BV1ow411k7qt",
+        "BV1RN4y1r7dt",
+        "BV1rV411A7fE"
+      ],
+      "coverage": "三条仅依据B站原片画面和硬字幕抽查补料。AcFun三页仅元数据吻合且播放器空白，未确认同片；赛螃蟹YouTube抽查画面吻合但上传者归属未确认，两站均未作为食材证据。未增加官方同片简介、原简介或置顶评论核对计数。"
     }
   },
   "stats": {
-    "withMain": 845,
-    "withAuxiliary": 255,
+    "withMain": 847,
+    "withAuxiliary": 257,
     "total": 945,
-    "withAnyIngredient": 856,
+    "withAnyIngredient": 857,
     "status": {
-      "title_only": 802,
-      "verified_partial": 54,
-      "unknown": 89
+      "title_only": 800,
+      "verified_partial": 57,
+      "unknown": 88
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -109,18 +118,18 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 12,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 19,
+    "sampledVideoRecipes": 22,
     "unknownByClassification": {
-      "tutorial": 79,
+      "tutorial": 78,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 90,
+      "tutorial": 88,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
     "auxiliaryOnlyByClassification": {
-      "tutorial": 11,
+      "tutorial": 10,
       "ambiguous": 0
     }
   },
@@ -6788,28 +6797,104 @@
     },
     "BV1RN4y1r7dt": {
       "main": [
-        "牛腩",
+        "牛腩（牛肋腩）",
         "番茄"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "色拉油",
+        "葱",
+        "蒜",
+        "番茄酱",
+        "盐",
+        "味精",
+        "糖",
+        "香菜"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1RN4y1r7dt/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |怎么又简单又好吃啊！有手就行版本的番茄炖牛腩！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "牛肋腩。原片抽查 00:14：这个牛肉呢 一定要选这个叫牛肋腩；00:25：直接切块就行了。未核出可靠用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "番茄。原片抽查 00:46：吃着它有西红柿的香；01:57：Distinct fresh chopped tomato chunks in wok, separate from the thick red tomato sauce/paste added.。未核出可靠用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "色拉油。原片抽查 01:40：很干净的色拉油就可以。未核出可靠用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "葱。原片抽查 01:43：然后倒入葱。未核出可靠用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "蒜。原片抽查 01:45：蒜片。未核出可靠用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "番茄酱。原片抽查 01:57：就要搁点番茄酱。未核出可靠用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "盐。原片抽查 02:15：里边放盐。未核出可靠用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "味精。原片抽查 02:16：味精一克。用量：1克"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "糖。原片抽查 02:17：糖；02:20–02:21：所以呢糖会把那个酸柔和一些。未核出可靠用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+          "quote": "香菜。原片抽查 02:40：这个香菜也很好吃啊；02:43：Chopped coriander leaves being stirred into stew following addition from small bowl.。未核出可靠用量。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "除原片明示味精1克外，其余用料用量与完整配方仍待核对",
+        "色拉油细分品种、番茄酱具体类型未知",
+        "焯煮和炖制液体未核出可靠命名，不猜清水或高汤；未逐一核对全片其他用料"
       ],
-      "notes": "",
+      "notes": "本条为隋坡版本，不是鲍师傅BV1KDdSBZEVw。原片明确牛肋腩，保留牛腩上位名以便按牛肉和牛腩搜索；鲜番茄与番茄酱分列。葱、蒜已有原片命名，不凭未命名黄色块状物另补姜，也不移用另一厨师的配方。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理原片画面／字幕抽查中明确的部分食材；不等于完整食材清单或完整配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1RN4y1r7dt/",
+        "coverage": "仅以本条B站原片可见画面和字幕作为本轮食材依据；未完整观看，不使用观众食谱或通用菜谱推断。",
+        "crosspostCheck": {
+          "url": "https://www.acfun.cn/v/ac42742250",
+          "status": "unverified_footage",
+          "usedForIngredients": false,
+          "observation": "作者、标题和2023-10-25日期吻合，播放器空白、简介无食材清单；同片未确认。"
+        }
       }
     },
     "BV1iN4y1r7Vj": {
@@ -6919,9 +7004,16 @@
       }
     },
     "BV1ow411k7qt": {
-      "main": [],
+      "main": [
+        "青椒（原片称辣椒，品种待核）"
+      ],
       "auxiliary": [
-        "黑椒"
+        "蒜",
+        "生抽",
+        "糖",
+        "醋",
+        "香菜",
+        "食用油（种类待核）"
       ],
       "evidence": [
         {
@@ -6930,23 +7022,44 @@
           "quote": "隋卞一做 |建议收藏！超好吃的万能小菜方子！"
         },
         {
-          "source": "cover",
-          "url": "https://i0.hdslb.com/bfs/archive/69020432732aadd4103bdedbc6b9502e59ce3b59.jpg",
-          "quote": "黑椒；一道自制小菜"
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1ow411k7qt/",
+          "quote": "原片01:50字幕称其为辣椒，并将整根绿色椒下锅炸；00:12–00:14为绿色长椒特写。按画面和称呼记录青椒，不推断螺丝椒等具体品种。02:46成菜片头显示黑椒，这里是菜名，不能单独证明用了黑胡椒调味料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1ow411k7qt/",
+          "quote": "原片前段可见在油中煸蒜的字幕和画面（此段不标精确时间）；00:46将生抽加热；00:53明确加入糖；01:16讲醋的味道；01:27锅中见香菜，字幕说明辣味和香菜味进入汤汁；01:46倒入炸椒用油。只收录本轮明确看见或字幕点名的用料，食用油种类及各项用量未核。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "青椒具体品种、油种、各用料配比尚未核实",
+        "原片末尾另示范可浸泡的配料，完整选择和组成仍待逐项核对",
+        "未逐一核对全片，不据菜名推断黑胡椒调料"
       ],
-      "notes": "黑椒来自原索引封面识别，具体主料未知。",
+      "notes": "黑椒是原片成菜名称，原索引仅据封面将黑椒当作辅料，现撤下该无独立依据的食材项。厨师在本轮核对字幕中称整根绿色椒为辣椒；主料按画面归为青椒，品种未知。目录菜名和原视频入口不变。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理原片画面／字幕抽查中明确的部分食材；不等于完整食材清单或完整配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1ow411k7qt/",
+        "coverage": "仅以本条B站原片可见画面和字幕作为本轮食材依据；未完整观看，不使用观众食谱或通用菜谱推断。",
+        "crosspostCheck": {
+          "url": "https://www.acfun.cn/v/ac42615008",
+          "status": "unverified_footage",
+          "usedForIngredients": false,
+          "observation": "页面作者特厨做饭、标题及2023-10-11日期吻合，但播放器空白；简介仅重复标题，不能确认同片或借此补料。"
+        }
       }
     },
     "BV1ju411u7tV": {
@@ -7000,27 +7113,109 @@
       }
     },
     "BV1rV411A7fE": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "黄鱼",
+        "咸鸭蛋黄",
+        "鸡蛋清"
+      ],
+      "auxiliary": [
+        "姜",
+        "淀粉",
+        "醋",
+        "酱油",
+        "香油",
+        "食用油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1rV411A7fE/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 | 加了xxx之后的赛螃蟹也太像了！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片00:23：只有黄鱼的口感是最像的。取黄鱼鱼肉；约01:24至01:27蒸鱼、02:22选取鱼肉。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片02:42：咸鸭蛋黄呢是模拟蟹黄的口感。钢碗内是橙色咸鸭蛋黄；02:53左右碾碎。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片02:56：鸡蛋清。钢碗内盛鸡蛋清，约03:00至03:02搅拌。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片02:18：把上面姜捡出来。拣出蒸鱼时铺的姜；02:45至02:49咸鸭蛋黄制作步骤也提到姜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片02:58：淀粉。蛋清预处理步骤提示少放一点；淀粉种类和用量未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片03:06：姜醋汁。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片03:10：少许酱油。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片03:11：香油。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1rV411A7fE/",
+          "quote": "原片03:25–03:32：油得是纯净油。锅内用油炒制；食用油品种、用量未核。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "完整用料和配比未核对",
+        "黄鱼品种及姜、醋、酱油、淀粉、食用油的用量或细分种类尚未明确"
       ],
-      "notes": "赛螃蟹为菜名，未据此添加蟹肉。",
+      "notes": "本条为隋坡版赛螃蟹，与另条老饭骨BV1ab4y1s7wk不是同片。黄鱼、咸鸭蛋黄和鸡蛋清是本片明确用料，不由赛螃蟹菜名添加蟹肉或蟹黄。另用鱼头鱼骨煮汤只是旁述建议，不混入这道菜。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理原片画面／字幕抽查中明确的部分食材；不等于完整食材清单或完整配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1rV411A7fE/",
+        "coverage": "仅以本条B站原片可见画面和字幕作为本轮食材依据；未完整观看，不使用观众食谱或通用菜谱推断。",
+        "crosspostCheck": [
+          {
+            "url": "https://www.acfun.cn/v/ac42430562",
+            "publisher": "特厨做饭",
+            "date": "2023-09-23",
+            "status": "unverified_footage",
+            "observation": "可见标题、品牌头像和简介一致；播放器空白，画面未核验，简介不提供食材。"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=elnmsltnHfY",
+            "publisher": "隋卞做 (@ChefSuiCooking)",
+            "date": "2023-10-22",
+            "duration": "05:09",
+            "status": "matching_footage_publisher_ownership_unconfirmed",
+            "observation": "约00:24精确浏览的缩略图里，相同黑衣厨师、木质上柜、黑色挡板、水龙头、右侧蒸锅和带树皮边的圆砧板切黄鱼画面，对应B站约00:23–00:40。标题与简介另标注 @ChefSui，未确认此上传账号为作者自有。简介无可用食材；未用作食材证据。"
+          }
+        ]
       }
     },
     "BV1934y1K74f": {
