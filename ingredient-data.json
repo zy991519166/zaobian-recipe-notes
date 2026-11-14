@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "scope": "945条现有视频目录（含27条待核候选）",
   "coverageNote": "标题与明确菜名的食材索引；有作者清单、配方图、原片抽查或已匹配官方同片简介依据时补充。没有逐一看完原视频，空白不代表不用该食材，不是完整配方或过敏原清单。",
   "roleNote": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
@@ -77,25 +77,28 @@
       "coverage": "鲍智德原片末尾作者配方卡逐项收录；两条老饭骨小炒牛肉分别抽查原片画面／字幕。未完整观看；不采用观众笔记补全，也不将替代牛肉部位列为实际用料。"
     },
     "officialCrosspostReview": {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "recipeIds": [
         "BV1MM4m1R7iD",
         "BV1Uv4y1m7ve",
         "BV1BxpMeqE5F",
-        "BV1Zu4y1U7pL"
+        "BV1Zu4y1U7pL",
+        "BV1Rj41177bg",
+        "BV1FT4y1P7Ca",
+        "BV1Q5411J7PE"
       ],
-      "coverage": "结合官方同片简介、可见画面／进度预览及B站原片抽查；不按标题套用，不使用观众配方。未计入B站简介恢复或完整观看。YouTube播放出现缓冲，所见画面、预览和作者说明可核对。"
+      "coverage": "结合官方同片简介、可见画面／进度预览及B站原片抽查；酸辣汤为合辑中的同一段落，另按原片硬字幕与跨平台多句字幕和独特步骤核对，不声称YouTube画面已加载。转写来源未明时只作线索，不单独据此补料。不按标题套用，不使用观众配方，未计入B站简介恢复或完整观看。"
     }
   },
   "stats": {
-    "withMain": 839,
-    "withAuxiliary": 249,
+    "withMain": 842,
+    "withAuxiliary": 252,
     "total": 945,
-    "withAnyIngredient": 850,
+    "withAnyIngredient": 853,
     "status": {
       "title_only": 802,
-      "verified_partial": 48,
-      "unknown": 95
+      "verified_partial": 51,
+      "unknown": 92
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -103,16 +106,16 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 12,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 13,
+    "sampledVideoRecipes": 16,
     "unknownByClassification": {
-      "tutorial": 85,
+      "tutorial": 82,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 96,
+      "tutorial": 93,
       "ambiguous": 10
     },
-    "officialCrosspostDescriptionsReviewed": 4
+    "officialCrosspostDescriptionsReviewed": 7
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -8916,28 +8919,72 @@
       }
     },
     "BV1FT4y1P7Ca": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "老豆腐",
+        "木耳",
+        "鸡蛋"
+      ],
+      "auxiliary": [
+        "小葱",
+        "香菜",
+        "胡椒粉",
+        "香油",
+        "醋",
+        "盐",
+        "酱油",
+        "食用油（种类待核）",
+        "水淀粉（勾芡，种类待核）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1FT4y1P7Ca/",
           "quote": "家庭版【酸辣汤】酸辣适口，冬天来一碗，热乎~"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=e2592QD24pg",
+          "quote": "老饭骨官方同片说明的酸辣汤段落明确提到木耳、豆腐和醋，描述先调咸味、勾芡托起用料、再加入醋的次序。该页面还收录另一道腊八蒜，不将其材料并入酸辣汤。简介不是逐项食材清单。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1FT4y1P7Ca/",
+          "quote": "B站原片抽查：约00:18明确老豆腐；00:47小葱花，00:56往葱锅加油，油种未明；01:07香菜末置于碗底，01:12加香油，01:19碗底醋20克；01:20提到胡椒粉。约01:26–01:30先后确认酱油及汤中盐约10克；01:43直接说明鸡蛋2个。01:56分两至三次勾芡，约02:07可见木耳与豆腐浮起，02:09往锅里另加醋20克。仅保留原片明示的用量，不推算完整汤量。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=e2592QD24pg",
+          "quote": "核对范围是同一酸辣汤段落，不是整支视频：B站2021-01-23、03:41；官方YouTube2021-01-25、06:32，后者另含腊八蒜。B站原片开头喝汤、切老豆腐、碗底胡椒、酱油及分次勾芡等多句硬字幕和独特次序，对应YouTube约00:10、01:17、01:26、01:48的页面转写及播放器可见字幕。YouTube正片持续缓冲，未以其厨师画面作匹配证明；转写上传方／自动生成状态未核实，不当作者清单。入库食材另由B站原片直接确认或官方简介支持。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料尚待原片核对",
-        "完整配方和辅料尚待核对"
+        "汤底来源与完整用量尚未核对",
+        "醋、胡椒、酱油、淀粉及烹制用油具体种类未知",
+        "没有逐一核对全段原片，未声称完整清单"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "只整理酸辣汤，不把合并发布的腊八蒜或口头提到的搭配小肉、火烧计为汤中用料。鸡蛋2个、汤中盐约10克、碗底及锅中各20克醋来自原片字幕；不据菜名添加辣椒，不猜汤底。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
         "description": true,
-        "pinnedComments": true
+        "pinnedComments": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true,
+        "crosspostMatchScope": "soup_segment"
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片说明及原片抽查明示的部分食材；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1FT4y1P7Ca/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=e2592QD24pg",
+        "identity": "核对范围是同一酸辣汤段落，不是整支视频：B站2021-01-23、03:41；官方YouTube2021-01-25、06:32，后者另含腊八蒜。B站原片开头喝汤、切老豆腐、碗底胡椒、酱油及分次勾芡等多句硬字幕和独特次序，对应YouTube约00:10、01:17、01:26、01:48的页面转写及播放器可见字幕。YouTube正片持续缓冲，未以其厨师画面作匹配证明；转写上传方／自动生成状态未核实，不当作者清单。入库食材另由B站原片直接确认或官方简介支持。",
+        "coverage": "原片画面／硬字幕抽查及匹配官方简介；未使用观众配方，未完整观看。"
       }
     },
     "BV1Gv4y1Z7K3": {
@@ -8967,27 +9014,70 @@
       }
     },
     "BV1Q5411J7PE": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "胡萝卜",
+        "香菜",
+        "粉丝"
+      ],
+      "auxiliary": [
+        "姜",
+        "玉米淀粉",
+        "面粉",
+        "五香粉",
+        "盐",
+        "鸡蛋",
+        "小苏打",
+        "食用油（炸粉丝用，种类待核）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1Q5411J7PE/",
           "quote": "年夜饭 | 【炸素丸子】金黄酥脆，满口留香，想吃丸子却不想吃肉的有福咯~"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=TkgjiVqnwaw",
+          "quote": "老饭骨官方同片说明将胡萝卜丝、香菜末和粉丝列为这次实际采用的主料，并描述先油炸粉丝再捏碎的处理方式。这里只提取明示食材，不把说明视为全料清单。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Q5411J7PE/",
+          "quote": "原片抽查：约01:09讲香菜提香，01:17见粉丝下油炸；02:23字幕明确玉米淀粉，02:37面粉一勺，02:49加入五香粉并说十三香可替代，03:03鸡蛋一个，03:18小苏打约两克。另直接见姜米加入及盐一小勺约五克的字幕与操作；这两处跳转显示时点不可靠，因此不标具体时间。未将淀粉最初六勺当最终总量，也未采纳转写独有用料。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=TkgjiVqnwaw",
+          "quote": "同片核对：官方老饭骨B站2021-02-08、07:46与已验证YouTube频道2021-02-10、07:41。两端约01:09已显示画面是相同新厨房、黑衣主厨及后方同伴、右侧白衣徒弟、抽油烟机摄像头、窗帘与红挂饰，香菜提香字幕相同；炸后手捏粉丝的独特操作也吻合。不是较早的青菜豆腐丸子。YouTube时有缓冲，仅抽查有限可见画面，不声称全片逐帧相同或完整观看。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料尚待原片核对",
-        "完整配方和辅料尚待核对"
+        "葱、花雕酒、胡椒、生抽、老抽、香油目前仅有同片页面转写线索，字幕来源未核实，暂不纳入索引",
+        "粉丝原料品种、面粉筋度、炸油种类与多数用量尚待核对",
+        "玉米淀粉后续有追加线索，未确认最终总量",
+        "没有逐一核对全段原片，未声称完整清单"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "本片实际主料为胡萝卜、香菜和粉丝；不混入另一版青菜豆腐丸子，也不把口头举例的豆腐、馒头、土豆、山药、藕丁、马蹄当实际用料。十三香为五香粉的替代建议，本批只索引实际明确加入的五香粉。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片说明及原片抽查明示的部分食材；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Q5411J7PE/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=TkgjiVqnwaw",
+        "identity": "同片核对：官方老饭骨B站2021-02-08、07:46与已验证YouTube频道2021-02-10、07:41。两端约01:09已显示画面是相同新厨房、黑衣主厨及后方同伴、右侧白衣徒弟、抽油烟机摄像头、窗帘与红挂饰，香菜提香字幕相同；炸后手捏粉丝的独特操作也吻合。不是较早的青菜豆腐丸子。YouTube时有缓冲，仅抽查有限可见画面，不声称全片逐帧相同或完整观看。",
+        "coverage": "原片画面／硬字幕抽查及匹配官方简介；未使用观众配方，未完整观看。"
       }
     },
     "BV1zK4y1Q7Qg": {
@@ -25154,27 +25244,69 @@
       }
     },
     "BV1Rj41177bg": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "瘦肉（品种待核）",
+        "肥肉（品种待核）"
+      ],
+      "auxiliary": [
+        "黄酱",
+        "姜",
+        "水淀粉（种类待核）",
+        "花椒",
+        "盐",
+        "味精（菜松可选调味）",
+        "油菜叶（菜松配菜）",
+        "食用油（炸制用，种类待核）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1Rj41177bg/",
           "quote": "听声音都觉得酥脆无比！跟着鲁菜大师学，5分钟就轻松搞定~丨干炸丸子"
+        },
+        {
+          "source": "official_crosspost_description",
+          "url": "https://www.youtube.com/watch?v=HLl4UraRiUA",
+          "quote": "官方同片说明的食材事实整理：肉馅用瘦肉一斤、肥肉三两，另加少许黄酱、姜末、水淀粉四两。配制花椒盐使用花椒和盐，说明写盐5勺，花椒量未注明。配菜菜松使用油菜叶，炸后可撒盐或味精；丸子与菜松均需炸油，油种和用量未注明。肉类物种和淀粉种类在这份说明中没有写明，保留待核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Rj41177bg/",
+          "quote": "原片抽查：约00:54俯拍往蓝边白盆肉馅中加入肥肉，字幕说约三两；约01:48明确讲姜末与酱搭配；约01:52–02:13可见粉与肉混合。没有把观众笔记中的红薯淀粉或根据外观猜测的肉类物种补入。"
+        },
+        {
+          "source": "crosspost_match",
+          "url": "https://www.youtube.com/watch?v=HLl4UraRiUA",
+          "quote": "同片核对：两页均为老饭骨，YouTube频道显示已验证，均标2023-11-23，时长均06:30。YouTube约00:53可见画面与B站约00:54是相同蓝边白盆、肉馅、左侧花椒碗、树皮边木板及竹盖罐的俯拍镜头；另可见相同黑衣厨师与厨房，原片刘建民厨服署名。已核对肉馅调制镜头与官方说明的对应，花椒盐和菜松用料来自作者说明。YouTube播放缓冲，只用已显示的画面／预览和作者说明，未声称完整观看。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "瘦肉和肥肉的物种未取得明确文字依据",
+        "淀粉及炸油具体种类尚未核对",
+        "部分辅料用量未注明；盐的勺大小未注明",
+        "未逐一核对整段原片是否另有补充"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "只按已匹配的官方同片说明和原片抽查整理。菜松与花椒盐作为本片配菜／蘸料区分记录；菜松的味精为可选调味，不当作肉馅必需成分。不使用观众笔记补全，不从外观推断肉类或淀粉种类。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "officialCrosspostDescription": true,
+        "crosspostMatched": true
+      },
+      "ingredientListCoverage": "partial_crosspost_evidence",
+      "ingredientListNote": "已整理官方同片说明及原片抽查明示的部分食材；不等于完整视频的食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-14",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Rj41177bg/",
+        "crosspostUrl": "https://www.youtube.com/watch?v=HLl4UraRiUA",
+        "identity": "同片核对：两页均为老饭骨，YouTube频道显示已验证，均标2023-11-23，时长均06:30。YouTube约00:53可见画面与B站约00:54是相同蓝边白盆、肉馅、左侧花椒碗、树皮边木板及竹盖罐的俯拍镜头；另可见相同黑衣厨师与厨房，原片刘建民厨服署名。已核对肉馅调制镜头与官方说明的对应，花椒盐和菜松用料来自作者说明。YouTube播放缓冲，只用已显示的画面／预览和作者说明，未声称完整观看。",
+        "coverage": "原片画面／硬字幕抽查及匹配官方简介；未使用观众配方，未完整观看。"
       }
     },
     "BV1kd4y1L7Q2": {
