@@ -128,17 +128,25 @@
         "BV1pb4y1u7y4"
       ],
       "coverage": "准确原片卡片／硬字幕／画面：猪肚头与鸡胗、猪通脊、开水熬虾汤。保留腌拌与碗芡用量范围、不明淀粉／油品种、未明汤底建议，不以观众笔记或YouTube线索补料。"
+    },
+    "wrappedFishCoolCakeReview": {
+      "date": "2026-11-15",
+      "recipeIds": [
+        "BV1XyAne5Emr",
+        "BV12b4y1D7wd"
+      ],
+      "coverage": "纸包鲜鱼鱼种及辅料、夏日凉糕实际米浆基底与配料，仅依据准确B站原片的画面及硬字幕；替代和不明材料不补成实际用料。保留目录名和原入口，不冒称全片或完整配方。"
     }
   },
   "stats": {
-    "withMain": 852,
-    "withAuxiliary": 265,
+    "withMain": 853,
+    "withAuxiliary": 267,
     "total": 945,
-    "withAnyIngredient": 862,
+    "withAnyIngredient": 863,
     "status": {
-      "title_only": 797,
-      "verified_partial": 65,
-      "unknown": 83
+      "title_only": 796,
+      "verified_partial": 67,
+      "unknown": 82
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -146,13 +154,13 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 17,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 31,
+    "sampledVideoRecipes": 33,
     "unknownByClassification": {
-      "tutorial": 73,
+      "tutorial": 72,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 83,
+      "tutorial": 82,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -20301,27 +20309,132 @@
       }
     },
     "BV12b4y1D7wd": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "大米",
+        "醪糟"
+      ],
+      "auxiliary": [
+        "水",
+        "酵母",
+        "泡打粉",
+        "白糖",
+        "葡萄干",
+        "柑橘片",
+        "白酒（作者指示，可换其他酒）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
           "quote": "什么是【夏日凉糕】？如果你想知道，二伯带你去寻找~"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片00:08–00:09；00:13：大米泡一小时，随后打成米浆；未读到米重，不指定为糯米。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片00:11明确少加点水，至八分满，用于打米浆；未给体积。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片00:17左右：酵母10克，原片同句说两袋，不外推每袋净重。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片00:19左右：泡打粉2克。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片00:26：字幕明确白糖80克；约00:30称可按个人口味调整。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片00:34左右；00:35–00:37：字幕明确称醪糟150克，秤显示150g，随后将醪糟放入米浆。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片00:05–00:07；01:00；01:20：成品糕面有与开头配料碗一致的葡萄干，糕底摆带皮、有放射状果瓣的柑橘横切片。只作摆盘辅料，不声称掺入米浆；不辨橙或橘。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片约00:32–00:35：紧接醪糟150克称重，是另加少量酒的指示，白酒可换其他酒；未认出倒入液体的具体酒种，秤变化不能用于反推用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+          "quote": "原片约00:32–00:35明确指示“少来点白酒，什么酒都行”，不是替换醪糟；不把泛指其他酒扩成黄酒、朗姆酒等具体品种。00:51–00:54遮盖模具避免水滴到糕上，记录为蒸制线索；没有修改既有做法筛选标签。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "米重、加水量与所加酒的确切品种/用量未确认。",
+        "红色装饰及试吃时浇上的酱和配料未稳定辨明，未纳入索引。",
+        "没有找到作者完整配方卡。",
+        "柑橘具体品种、蒸制时间及成品装饰完整组成未核，不能用未列出推断不用。"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "原片约00:15也称糟香米糕，目录仍保留夏日凉糕。主料按大米与加入米浆的醪糟整理；酵母、泡打粉、白糖、水为辅料。葡萄干及带皮柑橘横切片按成品画面记为摆盘辅料，不声称混入米浆，不把柑橘细化为橙或橘。作者在醪糟称重后明确指示少来点白酒，允许换其他酒；白酒按作者指示记录，不声称已确认实际酒种或品牌，不从秤上150变151推算用量。主辅角色为编辑整理。没有用微博线索或一般凉糕配方补料。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片字幕与画面明确的部分用料，不等于完整食材清单、完整观看或全配方核验。",
+      "sourceStepQuantities": [
+        {
+          "name": "酵母",
+          "quantity": "10克",
+          "note": "作者同时说两袋，不推算每袋净重",
+          "time": "00:17左右"
+        },
+        {
+          "name": "泡打粉",
+          "quantity": "2克",
+          "time": "00:19左右"
+        },
+        {
+          "name": "白糖",
+          "quantity": "80克",
+          "note": "作者说明可按个人口味调整",
+          "time": "00:26"
+        },
+        {
+          "name": "醪糟",
+          "quantity": "150克",
+          "time": "00:34–00:37"
+        }
+      ],
+      "alternativesNotIndexed": [
+        {
+          "ingredient": "其他酒（种类不限）",
+          "time": "约00:32–00:35",
+          "observation": "允许替换所述白酒，不是替换醪糟；不扩充为多个具体酒种。"
+        }
+      ],
+      "methodEvidence": [
+        {
+          "tag": "蒸",
+          "time": "00:51–00:54",
+          "observation": "封住模具后解释防止“蒸馏水”滴到糕上，结合模具处理和成品可作蒸制标签；未确认蒸制时长。"
+        }
+      ],
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV12b4y1D7wd/",
+        "coverage": "准确B站原片画面与字幕抽查；未使用一般同名配方、观众笔记或未核实的跨站线索补料。"
       }
     },
     "BV1Wp4y1b7V4": {
@@ -23892,28 +24005,99 @@
     },
     "BV1XyAne5Emr": {
       "main": [
-        "鱼（品种待核）"
+        "鳜鱼"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "葱",
+        "姜",
+        "蒜",
+        "食用油",
+        "黄酒",
+        "盐",
+        "沙姜粉"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1XyAne5Emr/",
           "quote": "5分钟学会国宴菜纸包鲜鱼！无骨无刺，老少皆宜~"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XyAne5Emr/",
+          "quote": "原片00:14明确本次用鳜鱼；00:15–00:16提三文鱼或其他鱼为替换建议，不是实际另用的主料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XyAne5Emr/",
+          "quote": "原片01:35、02:32及02:40–02:41腌鱼盆可见葱段姜片；03:05作者说明葱姜不包入，属于腌制用料而非从食材中排除。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XyAne5Emr/",
+          "quote": "原片01:43顶部步骤指示将蒜拍碎切末后油炸约2分半；01:50–01:51蒜末在油中炸制，03:15鱼肉与金黄蒜末分份包制。油种、蒜和油的用量未核，2分半是时长。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XyAne5Emr/",
+          "quote": "原片02:24–02:25点名黄酒并加入鱼盆；02:27–02:28加盐，02:32附近提醒盐不能放多，不是否认用盐。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XyAne5Emr/",
+          "quote": "原片02:35烧录字幕点名沙姜粉，画面将浅色粉末加入鱼盆；不是凭颜色推测的淀粉或胡椒粉。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "鱼（品种待核）的具体品种尚待核对"
+        "未核全片其他用料、完整配比与配方卡；全部食材用量待核。",
+        "未完整核对去刺细节；不保证成品绝对无刺。",
+        "包装材料作者命名及成菜后续烹调条件未核，不能用未列出推断不用。"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "保留目录名纸包鲜鱼。原片明确本次使用鳜鱼；三文鱼只作可替换建议，不列实际主料。葱姜用于腌鱼，但包制时不装入；蒜切末油炸后配鱼。食用油不推定具体油种，黄酒不细化为花雕酒，沙姜粉不误写为淀粉或胡椒粉。全部用量未核，主辅角色为编辑整理；包装材料是工具，不列食材。未借用未匹配的抖音版本或一般纸包鱼配方补料。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片字幕与画面明确的部分用料，不等于完整食材清单、完整观看或全配方核验。",
+      "alternativesNotIndexed": [
+        {
+          "name": "三文鱼及其他鱼",
+          "reason": "00:15–00:16仅替换建议；实际用鳜鱼。"
+        }
+      ],
+      "methodEvidence": [
+        {
+          "name": "鱼肉取片/分块",
+          "time": "00:29; 00:55附近; 01:15–01:16",
+          "evidence": "沿背下刀，分离侧面鱼肉，后续分块腌制。00:55附近末次稳定画面字幕仅为「这就行了」，不据此宣称完整去骨过程已核完。"
+        },
+        {
+          "name": "蒜末油炸",
+          "time": "01:43",
+          "quote": "将蒜拍一下切成蒜末后下锅炸2分半左右"
+        },
+        {
+          "name": "腌制葱姜不入包",
+          "time": "03:05",
+          "quote": "除了这个里面的葱姜不放"
+        },
+        {
+          "name": "分份包制",
+          "time": "03:05–03:15",
+          "evidence": "鱼肉与金黄蒜末放上独立银色包装片，手工折包。包装材质看似铝箔，原片命名未核；仅记包装材料/工具，不列食材。"
+        }
+      ],
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1XyAne5Emr/",
+        "coverage": "准确B站原片画面与字幕抽查；未使用一般同名配方、观众笔记或未核实的跨站线索补料。"
       }
     },
     "BV1SJq8YwEjv": {
