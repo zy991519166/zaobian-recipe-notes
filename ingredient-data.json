@@ -119,31 +119,40 @@
       ],
       "coverage": "四道凉菜单独分菜匹配，团圆十锦同一砂锅部分实作用料，翠珠鱼花作者食材及步骤卡；完整视频仍未核全。",
       "groupingSemantics": "有dishes字段的记录，main/auxiliary为覆盖并集，所有食材AND必须在同一dishes元素内满足。"
+    },
+    "crispPorkShrimpReview": {
+      "date": "2026-11-15",
+      "recipeIds": [
+        "BV1XT411i7RV",
+        "BV1SD4y1P7TE",
+        "BV1pb4y1u7y4"
+      ],
+      "coverage": "准确原片卡片／硬字幕／画面：猪肚头与鸡胗、猪通脊、开水熬虾汤。保留腌拌与碗芡用量范围、不明淀粉／油品种、未明汤底建议，不以观众笔记或YouTube线索补料。"
     }
   },
   "stats": {
-    "withMain": 851,
-    "withAuxiliary": 262,
+    "withMain": 852,
+    "withAuxiliary": 265,
     "total": 945,
-    "withAnyIngredient": 861,
+    "withAnyIngredient": 862,
     "status": {
-      "title_only": 799,
-      "verified_partial": 62,
-      "unknown": 84
+      "title_only": 797,
+      "verified_partial": 65,
+      "unknown": 83
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
     "descriptionPagesReviewed": 939,
     "pinnedCommentPagesRead": 88,
-    "authorIngredientListsTranscribed": 16,
+    "authorIngredientListsTranscribed": 17,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 28,
+    "sampledVideoRecipes": 31,
     "unknownByClassification": {
-      "tutorial": 74,
+      "tutorial": 73,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 84,
+      "tutorial": 83,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -7954,26 +7963,80 @@
         "大虾",
         "白菜"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "葱",
+        "姜",
+        "水",
+        "食用油",
+        "白糖"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1pb4y1u7y4/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |白菜吸满虾汤，超级好吃的！大虾烧白菜"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1pb4y1u7y4/",
+          "quote": "原片00:23–00:39；03:01：剪开带壳大虾，分出虾头；虾头熬汤，虾身另炒。虾种未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1pb4y1u7y4/",
+          "quote": "原片00:58；02:36；03:16：黄绿白菜叶和白色菜帮可见，白菜炒过后与虾同烧。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1pb4y1u7y4/",
+          "quote": "原片01:22–01:36：虾头在有油的炒锅煸炒；用油品种、量未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1pb4y1u7y4/",
+          "quote": "原片01:38–01:42；03:07：熬汤的虾头锅加入粗白葱段和薄姜片；虾身锅又见葱段。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1pb4y1u7y4/",
+          "quote": "原片01:46–01:49；01:54–02:00：加点开水，倒入煸好的虾头，沸煮形成虾汤；并非以另备高汤作为实做原料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1pb4y1u7y4/",
+          "quote": "原片03:33–03:38：复核调味近景，明确字幕“白糖”伴白色颗粒调味料舀入；后续字幕“糖是中和这个”“盐味和鲜味的啊”。因此确认白糖，但不凭后一句反推另加盐。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "盐、其他调味品及用量没有足够直接证据；仅有“盐味”说法不能证明另外加盐。",
+        "未找到作者配方卡，虾种、油种及多数用量未核。"
       ],
-      "notes": "",
+      "notes": "只参考特厨做饭_此05:21原片；未采用观众笔记，未混用老饭骨同名版。 实做是开水与煸炒虾头熬成虾汤，不把另备高汤或替代汤底混为实际用料。 原片01:49高汤仅为可选建议，不列入本次实做索引。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理原片抽查明确实际入锅的部分食材，不等于完整清单或配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1pb4y1u7y4/",
+        "coverage": "准确原片画面、硬字幕或作者片尾卡。仅部分抽查，不以观众笔记或同名跨站视频替代证据，不冒称完整配方。"
+      },
+      "alternativesNotIndexed": [
+        {
+          "ingredient": "高汤",
+          "time": "01:49",
+          "quote": "（想更）好吃的话可以加点高汤",
+          "reason": "原片实做加入开水煮虾头；高汤是可选建议，不纳入实作用料索引。"
+        }
+      ]
     },
     "BV1Kw411n74A": {
       "main": [
@@ -9733,54 +9796,368 @@
       }
     },
     "BV1XT411i7RV": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "猪肚头",
+        "鸡胗"
+      ],
+      "auxiliary": [
+        "葱",
+        "姜",
+        "蒜",
+        "花椒",
+        "玉米淀粉",
+        "水淀粉",
+        "盐",
+        "胡椒粉",
+        "味精",
+        "香油",
+        "花椒油",
+        "料酒",
+        "食用油",
+        "水"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1XT411i7RV/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |中国火候菜的代表—油爆双脆"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1XT411i7RV/",
+          "quote": "原片08:39作者食材卡：三个猪肚，葱姜蒜花椒，淀粉，盐；胡椒粉，香油，花椒油，料酒"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1XT411i7RV/",
+          "quote": "原片08:41作者备菜卡：卡内00:21：将肚头切下，劈开，把里面的油全部取干净；卡内00:40：取干净之后的肚片，把猪肚表面老皮片掉，将四周零碎切干净"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1XT411i7RV/",
+          "quote": "原片08:42作者备菜卡：卡内01:14：改刀将肉片打渔网花刀；卡内03:08：将鸡胗去表面老皮，四周的白边切干；卡内03:39：切好的鸡胗改刀十字花刀"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1XT411i7RV/",
+          "quote": "原片08:44作者备菜卡：卡内04:41：把打过花刀的猪肚，鸡胗放入过滤的葱姜花椒水泡5分钟，泡好之后分别装碗；卡内04:47：装碗的猪肚鸡胗放入盐，胡椒粉，玉米淀粉，抓匀，再放入少量油抓一下，便于下锅滑散。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1XT411i7RV/",
+          "quote": "原片08:45作者制作卡：卡内05:44：起锅烧油，适量多些，兑个碗芡，葱姜蒜米，加1g盐，0.5g味精，0.5g胡椒粉，加水淀粉5g，水10g搅匀，放入香油花椒油1g，；卡内05:55：油烧到6成热，先放入鸡胗，2秒钟后再放入猪肚，边做边搅动避免粘连，原料变白就倒出控油。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1XT411i7RV/",
+          "quote": "原片08:46作者制作卡：卡内06:27：锅中留少量底油，所有原料回锅，烹料酒，倒入碗芡，大火迅速翻炒均匀出锅"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "食材栏“三个猪肚”是处理前数量，实做只取肚头；肚头净重、鸡胗用量未给",
+        "盐1g、胡椒粉0.5g为碗芡用量，腌料另有盐和胡椒粉；不能当作全菜总量",
+        "水淀粉5g不是干玉米淀粉5g；碗芡另加水10g不含浸泡水或水淀粉中的水",
+        "原卡“香油花椒油1g”共用一个量，未说明各自用量，不拆成各1g",
+        "油种、胡椒粉细分及多数用量未知，未完整观看原视频"
       ],
-      "notes": "",
+      "notes": "作者卡明确猪肚头、鸡胗为两种主体，不是鸭胗。食材总栏遗漏的鸡胗、味精、水、食用油由其后步骤卡直接补入，共16项；主辅角色为编辑整理。葱姜花椒水为处理用料，水淀粉与腌拌玉米淀粉分开记录。卡内时间为作者步骤标注，不声称每一段都独立回看。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者片尾食材及步骤卡明写用料，不等于整段视频全部用料、完整配方或全菜总用量已核验。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1XT411i7RV/",
+        "coverage": "准确原片画面、硬字幕或作者片尾卡。仅部分抽查，不以观众笔记或同名跨站视频替代证据，不冒称完整配方。"
+      },
+      "sourceIngredientList": {
+        "source": "recipe_card",
+        "url": "https://www.bilibili.com/video/BV1XT411i7RV/",
+        "sourceQuote": "三个猪肚，葱姜蒜花椒，淀粉，盐；胡椒粉，香油，花椒油，料酒",
+        "sourceNames": [
+          "猪肚头",
+          "鸡胗",
+          "葱",
+          "姜",
+          "蒜",
+          "花椒",
+          "玉米淀粉",
+          "水淀粉",
+          "盐",
+          "胡椒粉",
+          "味精",
+          "香油",
+          "花椒油",
+          "料酒",
+          "食用油",
+          "水"
+        ],
+        "indexedNames": [
+          "猪肚头",
+          "鸡胗",
+          "葱",
+          "姜",
+          "蒜",
+          "花椒",
+          "玉米淀粉",
+          "水淀粉",
+          "盐",
+          "胡椒粉",
+          "味精",
+          "香油",
+          "花椒油",
+          "料酒",
+          "食用油",
+          "水"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_end_card_and_its_steps",
+        "scopeNote": "原食材栏和步骤1–10的明确用料；不是完整视频核验。",
+        "quantities": [
+          {
+            "name": "猪肚头",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": "食材栏是三个完整猪肚的原料数量；步骤只取肚头并去油修整。未给肚头净重，不写成三整个猪肚全部入菜。"
+          },
+          {
+            "name": "鸡胗",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": "数量及净重未给。物种由原片作者步骤卡明确为鸡；不得替换为鸭胗。"
+          },
+          {
+            "name": "葱",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": "未限定葱品种。"
+          },
+          {
+            "name": "姜",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": ""
+          },
+          {
+            "name": "蒜",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": ""
+          },
+          {
+            "name": "花椒",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": "不推断红花椒、青花椒或麻椒。"
+          },
+          {
+            "name": "玉米淀粉",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": "腌拌用干淀粉量未知；不能套用另处水淀粉5g。"
+          },
+          {
+            "name": "水淀粉",
+            "quantity": "5g",
+            "stageAmounts": [],
+            "note": "5g指水淀粉，不是干淀粉净重；该行未再注明淀粉来源。"
+          },
+          {
+            "name": "盐",
+            "quantity": null,
+            "stageAmounts": [
+              {
+                "stage": "碗芡",
+                "amount": "1g"
+              },
+              {
+                "stage": "猪肚头、鸡胗腌拌",
+                "amount": null
+              }
+            ],
+            "note": "全菜用盐总量未知，1g仅碗芡。"
+          },
+          {
+            "name": "胡椒粉",
+            "quantity": null,
+            "stageAmounts": [
+              {
+                "stage": "碗芡",
+                "amount": "0.5g"
+              },
+              {
+                "stage": "猪肚头、鸡胗腌拌",
+                "amount": null
+              }
+            ],
+            "note": "全菜总量未知；未注明黑/白胡椒。"
+          },
+          {
+            "name": "味精",
+            "quantity": "0.5g",
+            "stageAmounts": [],
+            "note": ""
+          },
+          {
+            "name": "香油",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": ""
+          },
+          {
+            "name": "花椒油",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": ""
+          },
+          {
+            "name": "料酒",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": "未细化为花雕酒等品种。"
+          },
+          {
+            "name": "食用油",
+            "quantity": null,
+            "stageAmounts": [],
+            "note": "没有克数；油种未明确，不把修净的猪肚油脂当作烹调猪油。"
+          },
+          {
+            "name": "水",
+            "quantity": null,
+            "stageAmounts": [
+              {
+                "stage": "碗芡另加水",
+                "amount": "10g"
+              },
+              {
+                "stage": "葱姜花椒浸泡水",
+                "amount": null
+              }
+            ],
+            "note": "10g是碗芡另加水，不包含水淀粉自身水分或浸泡水。"
+          }
+        ],
+        "quantityAmbiguities": [
+          {
+            "id": "oils-1g",
+            "raw": "放入香油花椒油1g",
+            "source": "card-0845:步骤8",
+            "note": "One 1g label follows both oil names without a separating 各 or separate values. Do not assign each oil 1g or infer a split; both names are confirmed, individual amounts unresolved."
+          }
+        ],
+        "rawInputQuantity": {
+          "猪肚": "三个，步骤仅取肚头"
+        }
       }
     },
     "BV1SD4y1P7TE": {
       "main": [
-        "肉（品种待核）"
+        "猪通脊"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "葱",
+        "姜",
+        "蒜",
+        "番茄酱",
+        "白糖",
+        "白醋",
+        "盐",
+        "淀粉（原料种类待核）",
+        "食用油（种类待核）",
+        "水"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1SD4y1P7TE/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |分…分子锅包肉？"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1SD4y1P7TE/",
+          "quote": "原片00:21硬字幕：“需要准备的就是一块猪通脊”；主料部位由原片直接确认。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1SD4y1P7TE/",
+          "quote": "原片07:06作者备菜卡：卡内00:31将猪肉切片，放入葱姜水中腌制10分钟；00:52纸吸干水分，两面均匀粘淀粉；01:05反复砸至薄片；03:05改切小片。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1SD4y1P7TE/",
+          "quote": "原片01:01字幕“两面均匀的蘸上干淀粉”，未在本次读到的作者字幕中明确淀粉原料品种。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1SD4y1P7TE/",
+          "quote": "原片07:07作者制作卡（卡内03:28）：起一锅油，放葱姜蒜小料煸香；放120g番茄酱、80g白糖、40g白醋、1g盐，炒成糖醋汁后倒出，过滤葱姜蒜。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1SD4y1P7TE/",
+          "quote": "原片07:09作者制作卡：卡内03:59重新倒油炸肉片，04:25复油炸，04:43留底油炒糖醋汁，均匀淋在炸肉片上。油种和用量未写。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "肉（品种待核）的具体品种或组成待核对"
+        "猪通脊用量未给；淀粉原料品种、油种与用量尚未核明",
+        "番茄酱120g、白糖80g、白醋40g、盐1g是作者糖醋汁步骤量，不推算全菜其他用量",
+        "片头装盘花叶未辨认，不作具体食材索引；未完整观看原片"
       ],
-      "notes": "",
+      "notes": "准确07:10原片00:21直接命名猪通脊，替换先前品种待核的肉。原页面标签为灯影猪肉，但不改目录名称，也不拿普通锅包肉或同名YouTube配方补料。片尾备菜及制作卡明确葱姜水、干淀粉、糖醋汁和油；番茄酱不是鲜番茄。未确认玉米淀粉，仍只列原片明写的淀粉。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已按原片字幕与片尾步骤卡补入明确用料，不等于完整食材清单或配方已核全。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1SD4y1P7TE/",
+        "coverage": "准确原片画面、硬字幕或作者片尾卡。仅部分抽查，不以观众笔记或同名跨站视频替代证据，不冒称完整配方。"
+      },
+      "sourceStepQuantities": [
+        {
+          "name": "番茄酱",
+          "quantity": "120g",
+          "stage": "糖醋汁",
+          "sourceTime": "07:07（卡内03:28）"
+        },
+        {
+          "name": "白糖",
+          "quantity": "80g",
+          "stage": "糖醋汁",
+          "sourceTime": "07:07（卡内03:28）"
+        },
+        {
+          "name": "白醋",
+          "quantity": "40g",
+          "stage": "糖醋汁",
+          "sourceTime": "07:07（卡内03:28）"
+        },
+        {
+          "name": "盐",
+          "quantity": "1g",
+          "stage": "糖醋汁",
+          "sourceTime": "07:07（卡内03:28）"
+        }
+      ]
     },
     "BV1e8411u7uB": {
       "main": [
