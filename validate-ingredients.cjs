@@ -146,7 +146,7 @@ for(const term of ['松花蛋','皮蛋','黄瓜','秋葵','花生米'])assert(re
 for(const term of ['黄瓜 花生','松花蛋 黄瓜','黄瓜 姜','黄瓜 香叶','松花蛋 蒜','秋葵 香油'])for(const aux of [false,true])assert(!recovered('BV1Gw4m197fR',term,aux),'Cross-dish false positive: '+term);
 for(const term of ['黄瓜 麻酱','秋葵 盐','花生 香叶','松花蛋 姜']){assert(recovered('BV1Gw4m197fR',term,true));assert(!recovered('BV1Gw4m197fR',term));}
 assert.deepEqual(get(index.match({url:'https://www.bilibili.com/video/BV1Gw4m197fR/'},'黄瓜 麻酱',true).matchedDishNames),['拍黄瓜']);
-assert(cold.dishes[1].auxiliary.includes('麻酱（纯，可选）'));assert(cold.dishes[3].notes.includes('冲突'));
+assert(recovered('BV1Gw4m197fR','麻酱（纯，可选）',true));assert(recovered('BV13F4m1M7Y1','肉馅（肉种待核，制成丸子）'));assert.deepEqual(get(index.terms('麻酱（纯，可选） 黄瓜')),['麻酱','黄瓜']);assert(cold.dishes[1].auxiliary.includes('麻酱（纯，可选）'));assert(cold.dishes[3].notes.includes('冲突'));
 assert(cold.dishes[3].sourceIngredientList.quantities.find(x=>x.name==='香叶').conflictingAmounts.length===2);
 const coldHTML=run("detailIngredients({url:'https://www.bilibili.com/video/BV1Gw4m197fR/'})");assert(coldHTML.includes('视频中的菜品用料'));assert(coldHTML.includes('多食材搜索只匹配同一道菜'));for(const dish of cold.dishes)assert(coldHTML.includes(dish.name));
 // Exact 05:32 reunion source, with actual ingredients and unconfirmed species kept unknown.

@@ -36,7 +36,7 @@
     }
     cache.set(key,out);return out;
   }
-  const terms=query=>String(query||'').trim().split(/[\s,，、;+；＋+]+/).filter(Boolean);
+  const terms=query=>String(query||'').replace(/[（(][^）)]*[）)]/g,'').trim().split(/[\s,，、;+；＋+]+/).filter(Boolean);
   function matchesName(name,term){
     const q=canonical(String(term||'').replace(/[（(][^）)]*[）)]/g,''));if(!q)return false;
     const raw=String(name),base=raw.replace(/[（(][^）)]*[）)]/g,'');

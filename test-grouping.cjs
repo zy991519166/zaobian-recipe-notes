@@ -32,6 +32,7 @@ const recipe=bv=>({url:`https://www.bilibili.com/video/${bv}/`});
 const match=(bv,query,aux=false)=>index.match(recipe(bv),query,aux);
 const names=(bv,query,aux=false)=>copy(match(bv,query,aux).matchedDishNames);
 
+assert.deepEqual(copy(index.terms('洋葱（切丁，可选） 牛肉')),['洋葱','牛肉']);assert.equal(match('BVgrouped','洋葱（切丁，可选） 牛肉',true).matched,true);
 // Multi-ingredient AND is scoped to a single dish, never to video-level unions.
 for(const aux of [false,true])assert.equal(match('BVgrouped','牛肉 豆腐',aux).matched,false);
 assert.equal(match('BVgrouped','牛肉 辣椒',true).matched,false);
