@@ -136,31 +136,40 @@
         "BV12b4y1D7wd"
       ],
       "coverage": "纸包鲜鱼鱼种及辅料、夏日凉糕实际米浆基底与配料，仅依据准确B站原片的画面及硬字幕；替代和不明材料不补成实际用料。保留目录名和原入口，不冒称全片或完整配方。"
+    },
+    "shrimpBanquetBaoReview": {
+      "date": "2026-11-15",
+      "recipeIds": [
+        "BV1CQ4y1r75P",
+        "BV1T1bk6CEdv",
+        "BV1dyGw6PEy6"
+      ],
+      "coverage": "虾肉归入虾的单向搜索，家宴按实际菜品隔离匹配，两条鲍厨原片作者卡补录；仍不宣称全片观看或完整配方。"
     }
   },
   "stats": {
-    "withMain": 853,
-    "withAuxiliary": 267,
+    "withMain": 855,
+    "withAuxiliary": 269,
     "total": 945,
-    "withAnyIngredient": 863,
+    "withAnyIngredient": 865,
     "status": {
       "title_only": 796,
-      "verified_partial": 67,
-      "unknown": 82
+      "verified_partial": 69,
+      "unknown": 80
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
     "descriptionPagesReviewed": 939,
     "pinnedCommentPagesRead": 88,
-    "authorIngredientListsTranscribed": 17,
+    "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 33,
+    "sampledVideoRecipes": 36,
     "unknownByClassification": {
-      "tutorial": 72,
+      "tutorial": 70,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 82,
+      "tutorial": 80,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -168,7 +177,7 @@
       "tutorial": 10,
       "ambiguous": 0
     },
-    "groupedMultiDishVideos": 1
+    "groupedMultiDishVideos": 2
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -858,28 +867,125 @@
       "ingredientListNote": "已收录作者配方卡中明示的食材；不等于已逐一核对整段视频的完整配方。"
     },
     "BV1dyGw6PEy6": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "面粉",
+        "西红柿",
+        "鸡蛋"
+      ],
+      "auxiliary": [
+        "葱",
+        "酱油",
+        "盐",
+        "胡椒粉",
+        "猪油",
+        "水"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1dyGw6PEy6/",
           "quote": "比炝锅面还好吃？！疙瘩汤，看完后让您有手就会做！"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1dyGw6PEy6/",
+          "quote": "原片04:33：作者完整片尾食材栏列鸡蛋3个、西红柿2个、面粉250g、葱1个、酱油40g、盐2勺、胡椒粉1勺、猪油一勺。保留“葱1个”原单位；酱油不改记生抽。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1dyGw6PEy6/",
+          "quote": "原片04:33：附带步骤明确炒碎鸡蛋后放入开水，大火煮十分钟，后加入煸好的西红柿；水用量未列。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1dyGw6PEy6/",
+          "quote": "原片01:30：原片实际把清澈的热水倒入炒碎鸡蛋中煮汤。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "成品00:22及04:18见切碎绿叶装饰，未在作者食材栏点名，暂不索引。",
+        "卡片步骤写“吊好的鸡汤”，前文和画面实际演示用鸡蛋、猪油和开水煮汤，未另见鸡肉或外加鸡汤，故不作独立原料索引。",
+        "“热锅凉油”未具体命名猪油之外的油类；水量未确认。",
+        "原卡勺量不换算克数；未完整观看，未列出不代表不用。"
       ],
-      "notes": "",
+      "notes": "已抄录可见作者食材卡完整条目，辅料水来自同卡步骤。完整食谱仍不作核实声明。 主辅角色为编辑整理；不移用同名菜配方，原视频链接与目录分类保留。 鸡汤是作者对炒蛋加开水所成汤的称呼，不另列外加鸡汤或鸡肉；未明确命名的绿色装饰不补成香菜。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
         "description": true,
-        "pinnedComments": true
+        "pinnedComments": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已收录作者片尾卡明列食材和同卡步骤明确用料，不等于整段视频全部用料、完整观看或完整配方核验。",
+      "sourceIngredientList": {
+        "sourceListTranscribed": true,
+        "quantities": [
+          {
+            "name": "鸡蛋",
+            "amount": "3个",
+            "source": "作者片尾原料卡",
+            "role": "main"
+          },
+          {
+            "name": "西红柿",
+            "amount": "2个",
+            "source": "作者片尾原料卡",
+            "role": "main"
+          },
+          {
+            "name": "面粉",
+            "amount": "250g",
+            "source": "作者片尾原料卡",
+            "role": "main"
+          },
+          {
+            "name": "葱",
+            "amount": "1个",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "酱油",
+            "amount": "40g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "盐",
+            "amount": "2勺",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "胡椒粉",
+            "amount": "1勺",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "猪油",
+            "amount": "1勺",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "水",
+            "amount": null,
+            "source": "同卡步骤",
+            "role": "auxiliary"
+          }
+        ]
+      },
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1dyGw6PEy6/",
+        "coverage": "准确B站原片片尾作者卡及局部画面；未借用同名配方。"
       }
     },
     "BV1h5ub6ZE1R": {
@@ -909,27 +1015,167 @@
       }
     },
     "BV1T1bk6CEdv": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "茄子",
+        "土豆",
+        "柿子椒"
+      ],
+      "auxiliary": [
+        "葱",
+        "姜",
+        "蒜",
+        "酱油",
+        "盐",
+        "胡椒粉",
+        "糖",
+        "水",
+        "水淀粉",
+        "老抽",
+        "食用油",
+        "香油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1T1bk6CEdv/",
           "quote": "三分钟，鲍厨教你不用过油的地三鲜"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1T1bk6CEdv/",
+          "quote": "原片03:42：原料卡列茄子一根、土豆一个、柿子椒一个、葱10g、姜10g、蒜30g、酱油30g、盐3g、胡椒粉半勺、糖6g、水120g、水淀粉15g、老抽5g。酱油与老抽分别列出；水淀粉不可改记为干淀粉15g。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1T1bk6CEdv/",
+          "quote": "原片03:45：步骤卡明确热锅凉油煎土豆及茄子、翻匀放香油、出锅蒜、淡盐水浸茄子；未注明煎制用油的品种或克数，香油和泡用盐水未定量。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "煎制用食用油品种和两种油的用量、泡用盐水配比未标；水淀粉配比未标。",
+        "原卡勺量不换算克数；未完整观看，未列出不代表不用。",
+        "水120g与盐3g为原料卡用量，步骤另有泡茄子的淡盐水，不能认作全菜总水盐量。",
+        "水淀粉15g不是干淀粉15g；配比未注明。",
+        "香油、煎制用油和出锅蒜未给各自分量；不增加另一份30g蒜。"
       ],
-      "notes": "",
+      "notes": "作者完整原料卡已抄录；两项油来自同片步骤卡。不用过油指不做过油处理，不代表无油。 主辅角色为编辑整理；不移用同名菜配方，原视频链接与目录分类保留。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已收录作者片尾卡明列食材和同卡步骤明确用料，不等于整段视频全部用料、完整观看或完整配方核验。",
+      "sourceIngredientList": {
+        "sourceListTranscribed": true,
+        "quantities": [
+          {
+            "name": "茄子",
+            "amount": "1根",
+            "source": "作者片尾原料卡",
+            "role": "main"
+          },
+          {
+            "name": "土豆",
+            "amount": "1个",
+            "source": "作者片尾原料卡",
+            "role": "main"
+          },
+          {
+            "name": "柿子椒",
+            "amount": "1个",
+            "source": "作者片尾原料卡",
+            "role": "main"
+          },
+          {
+            "name": "葱",
+            "amount": "10g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "姜",
+            "amount": "10g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "蒜",
+            "amount": "30g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "酱油",
+            "amount": "30g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "盐",
+            "amount": "3g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "胡椒粉",
+            "amount": "半勺",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "糖",
+            "amount": "6g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "水",
+            "amount": "120g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "水淀粉",
+            "amount": "15g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "老抽",
+            "amount": "5g",
+            "source": "作者片尾原料卡",
+            "role": "auxiliary"
+          },
+          {
+            "name": "食用油",
+            "amount": null,
+            "source": "同卡步骤",
+            "role": "auxiliary"
+          },
+          {
+            "name": "香油",
+            "amount": null,
+            "source": "同卡步骤",
+            "role": "auxiliary"
+          }
+        ],
+        "quantityNotes": [
+          "水120g与盐3g为原料卡用量，步骤另有泡茄子的淡盐水，不能认作全菜总水盐量。",
+          "水淀粉15g不是干淀粉15g；配比未注明。",
+          "香油、煎制用油和出锅蒜未给各自分量；不增加另一份30g蒜。"
+        ]
+      },
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1T1bk6CEdv/",
+        "coverage": "准确B站原片片尾作者卡及局部画面；未借用同名配方。"
       }
     },
     "BV1pmbf6jEgf": {
@@ -28587,22 +28833,130 @@
           "source": "description",
           "url": "https://www.bilibili.com/video/BV1CQ4y1r75P/",
           "quote": "中秋家宴菜谱：全家福、茄辣牛肉、鲜果沙律虾球、饼叔炒油菜"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1CQ4y1r75P/",
+          "quote": "原片抽查00:44见切料，02:01说明事先泡软，03:13及06:18见砂锅备料烹制，07:59见厨师持勺在灶台指导；因此不将本片当纯聚餐吃播。仅核验存在烹调演示，不从这些局部画面猜全家福材料，原目录资格不变。"
         }
       ],
       "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "全家福具体食材尚待核对",
-        "茄辣所指具体配菜尚待核对",
-        "鲜果具体品种尚待核对"
+        "各菜完整用料及用量尚未核对；原作者菜单不是完整食材清单。",
+        "全家福具体食材、“茄辣”含义、鲜果品种暂留未知。",
+        "牛肉部位、虾种、虾球炸糊和沙律酱组成仍未知；聚餐旁支食品不作四道菜的配料。"
       ],
-      "notes": "原视频简介的家宴菜名支持牛肉、虾、油菜及鲜果；不推断全家福配方。",
+      "notes": "食贫道发布、老饭骨参演的中秋家宴合作视频；保留既有目录资格、作者和合集归属。主辅料总集合只作覆盖统计，搜索必须在同一道菜满足全部食材，不把牛肉与油菜跨菜拼成结果。主辅分类为编辑整理。 原片抽查确认有备料、烹制与指导镜头，不等于四菜全流程都已观看；食材分组主要依据作者菜单，鲜果虾球另有成品叠字印证。",
       "recipeComplete": false,
       "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "dishes": [
+        {
+          "name": "全家福",
+          "main": [],
+          "auxiliary": [],
+          "evidence": [
+            {
+              "source": "description",
+              "url": "https://www.bilibili.com/video/BV1CQ4y1r75P/",
+              "quote": "原作者简介的中秋家宴菜单单列“全家福”；仅据这道菜的名称整理已知食材，其他三道菜用料不并入。"
+            }
+          ],
+          "notes": "作者明确列菜，但本轮没有核准其具体食材组成。空组不是无食材或不使用任何食材。",
+          "status": "unknown",
+          "recipeComplete": false,
+          "unresolved": [
+            "全家福所有具体食材、主辅角色和用量",
+            "具体成形件的名称及组成"
+          ]
+        },
+        {
+          "name": "茄辣牛肉",
+          "main": [
+            "牛肉"
+          ],
+          "auxiliary": [],
+          "evidence": [
+            {
+              "source": "description",
+              "url": "https://www.bilibili.com/video/BV1CQ4y1r75P/",
+              "quote": "原作者简介的中秋家宴菜单单列“茄辣牛肉”；仅据这道菜的名称整理已知食材，其他三道菜用料不并入。"
+            }
+          ],
+          "notes": "本轮保留简介直接支持的牛肉，牛肉部位及‘茄辣’具体所指仍不猜测。未将其它菜油菜并入。",
+          "status": "verified_partial",
+          "recipeComplete": false,
+          "unresolved": [
+            "牛肉部位",
+            "茄辣具体配菜",
+            "调味料与用量"
+          ]
+        },
+        {
+          "name": "鲜果沙律虾球",
+          "main": [
+            "虾肉"
+          ],
+          "auxiliary": [
+            "鲜果（品种待核）"
+          ],
+          "evidence": [
+            {
+              "source": "description",
+              "url": "https://www.bilibili.com/video/BV1CQ4y1r75P/",
+              "quote": "原作者简介的中秋家宴菜单单列“鲜果沙律虾球”；仅据这道菜的名称整理已知食材，其他三道菜用料不并入。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1CQ4y1r75P/",
+              "quote": "原片约08:55成品特写有作者叠字“鲜果沙律虾球”，虾球与切块配料同盘，与作者简介的独立菜名对应；具体果种、白色酱料组成仍未核实。"
+            }
+          ],
+          "notes": "保留虾肉＋鲜果在同一菜组；具体虾种与鲜果品种未知。不从外观或桌上单独水果盘补入具体水果。白色沙律的配方也未核准。",
+          "status": "verified_partial",
+          "recipeComplete": false,
+          "unresolved": [
+            "虾种",
+            "鲜果具体品种",
+            "沙律酱与炸糊实际组成",
+            "所有用量"
+          ]
+        },
+        {
+          "name": "饼叔炒油菜",
+          "main": [
+            "油菜"
+          ],
+          "auxiliary": [],
+          "evidence": [
+            {
+              "source": "description",
+              "url": "https://www.bilibili.com/video/BV1CQ4y1r75P/",
+              "quote": "原作者简介的中秋家宴菜单单列“饼叔炒油菜”；仅据这道菜的名称整理已知食材，其他三道菜用料不并入。"
+            }
+          ],
+          "notes": "油菜属于独立炒菜；不与茄辣牛肉合并。此组具体教学细节没有逐段核完。",
+          "status": "verified_partial",
+          "recipeComplete": false,
+          "unresolved": [
+            "配料、调味料与用量"
+          ]
+        }
+      ],
+      "searchScope": "same_dish",
+      "ingredientAggregation": "coverage_only",
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "四道菜单已按菜品分开，只记录有原作者文字或抽查画面依据的部分用料，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1CQ4y1r75P/",
+        "coverage": "原作者菜单分组，结合准确原片部分备料烹制、指导及成品叠字核对；不等于全片或各菜完整用料核验。"
       }
     },
     "BV11Q4y1e7PM": {
