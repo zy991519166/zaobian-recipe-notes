@@ -21,13 +21,19 @@
     蘑菇:['香菇','口蘑','平菇','杏鲍菇','金针菇','茶树菇','蟹味菇','白玉菇']
   };
   const nameOf=x=>typeof x==='string'?x:x?.name||x?.ingredient||'';
-  const listOf=xs=>[...new Set((xs||[]).map(nameOf).filter(Boolean))];
+  const listOf=xs=>[...new Set((Array.isArray(xs)?xs:[]).map(nameOf).filter(Boolean))];
   const cache=new Map();
   const recipeKey=r=>(r.url||r.id||'').match(/BV[A-Za-z0-9]+/)?.[0]||r.id;
   function get(r){
     const key=recipeKey(r);if(cache.has(key))return cache.get(key);
     const entry=data.recipes?.[key]||data.recipes?.[r.id]||{};
     const out={...entry,main:listOf(entry.main),auxiliary:listOf(entry.auxiliary),evidence:entry.evidence||[],status:entry.status||'unresolved',unresolved:entry.unresolved||[],notes:entry.notes||''};
+    if(Array.isArray(entry.dishes)){
+      out.dishes=entry.dishes.map((dish,index)=>({...dish,name:dish?.name||`菜品 ${index+1}`,main:listOf(dish?.main),auxiliary:listOf(dish?.auxiliary),evidence:Array.isArray(dish?.evidence)?dish.evidence:[],notes:dish?.notes||''}));
+      // These unions describe coverage only. Searches must stay within one dish.
+      out.main=listOf(out.dishes.flatMap(dish=>dish.main));
+      out.auxiliary=listOf(out.dishes.flatMap(dish=>dish.auxiliary));
+    }
     cache.set(key,out);return out;
   }
   const terms=query=>String(query||'').trim().split(/[\s,，、;+；＋+]+/).filter(Boolean);
@@ -41,8 +47,8 @@
     if(families[q])return variants.some(v=>families[q].map(canonical).includes(v));
     return variants.some(v=>v.includes(q));
   }
-  function match(r,query,includeAuxiliary=false){
-    const tokens=terms(query),entry=get(r);if(!tokens.length)return {matched:true,rank:0,main:[],auxiliary:[]};
+  function matchIngredients(entry,tokens,includeAuxiliary){
+    if(!tokens.length)return {matched:true,rank:0,main:[],auxiliary:[]};
     const main=[],auxiliary=[];let hasAuxiliary=false;
     for(const term of tokens){
       const m=entry.main.filter(name=>matchesName(name,term));
@@ -52,6 +58,12 @@
       auxiliary.push(...a);hasAuxiliary=true;
     }
     return {matched:true,rank:hasAuxiliary?1:0,main:[...new Set(main)],auxiliary:[...new Set(auxiliary)]};
+  }
+  function match(r,query,includeAuxiliary=false){
+    const tokens=terms(query),entry=get(r);
+    if(!Array.isArray(entry.dishes))return matchIngredients(entry,tokens,includeAuxiliary);
+    const matchedDishes=entry.dishes.map((dish,index)=>({index,name:dish.name,...matchIngredients(dish,tokens,includeAuxiliary)})).filter(dish=>dish.matched).sort((a,b)=>a.rank-b.rank||a.index-b.index);
+    return {matched:!tokens.length||matchedDishes.length>0,rank:matchedDishes.length?matchedDishes[0].rank:tokens.length?Infinity:0,main:listOf(matchedDishes.flatMap(dish=>dish.main)),auxiliary:listOf(matchedDishes.flatMap(dish=>dish.auxiliary)),matchedDishNames:matchedDishes.map(dish=>dish.name),matchedDishes};
   }
   function statusLabel(entry){if(entry.ingredientListCoverage==='source_list_transcribed')return '作者食材清单已收录';return ({verified:'配方已核对',verified_partial:'部分食材已核对',title_only:'按标题／菜名识别',unresolved:'食材待核对',missing:'食材待核对',unknown:'食材待核对'})[entry.status]||'部分食材已整理';}
   root.IngredientSearch={data,get,recipeKey,terms,matchesName,match,statusLabel};

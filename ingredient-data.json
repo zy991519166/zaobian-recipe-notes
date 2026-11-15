@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "scope": "945条现有视频目录（含27条待核候选）",
   "coverageNote": "标题与明确菜名的食材索引；有作者清单、配方图、原片抽查或已匹配官方同片简介依据时补充。没有逐一看完原视频，空白不代表不用该食材，不是完整配方或过敏原清单。",
   "roleNote": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
@@ -109,38 +109,49 @@
         "BV1jC4y1e7TK"
       ],
       "coverage": "原片实际烹调画面／硬字幕及作者片尾卡。火锅实做、替代汤底和配饭分清；卤水、清单卤物及另提建议分清；重复列料与不明单位保留，不擅自加总。不代表全片完整观看。"
+    },
+    "multiDishFishReview": {
+      "date": "2026-11-15",
+      "recipeIds": [
+        "BV1Kw411n74A",
+        "BV13F4m1M7Y1",
+        "BV1Gw4m197fR"
+      ],
+      "coverage": "四道凉菜单独分菜匹配，团圆十锦同一砂锅部分实作用料，翠珠鱼花作者食材及步骤卡；完整视频仍未核全。",
+      "groupingSemantics": "有dishes字段的记录，main/auxiliary为覆盖并集，所有食材AND必须在同一dishes元素内满足。"
     }
   },
   "stats": {
-    "withMain": 849,
-    "withAuxiliary": 259,
+    "withMain": 851,
+    "withAuxiliary": 262,
     "total": 945,
-    "withAnyIngredient": 859,
+    "withAnyIngredient": 861,
     "status": {
-      "title_only": 800,
-      "verified_partial": 59,
-      "unknown": 86
+      "title_only": 799,
+      "verified_partial": 62,
+      "unknown": 84
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
     "descriptionPagesReviewed": 939,
     "pinnedCommentPagesRead": 88,
-    "authorIngredientListsTranscribed": 14,
+    "authorIngredientListsTranscribed": 16,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 25,
+    "sampledVideoRecipes": 28,
     "unknownByClassification": {
-      "tutorial": 76,
+      "tutorial": 74,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 86,
+      "tutorial": 84,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
     "auxiliaryOnlyByClassification": {
       "tutorial": 10,
       "ambiguous": 0
-    }
+    },
+    "groupedMultiDishVideos": 1
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -5707,28 +5718,613 @@
       }
     },
     "BV1Gw4m197fR": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "松花蛋（皮蛋）",
+        "黄瓜",
+        "秋葵",
+        "花生米"
+      ],
+      "auxiliary": [
+        "香菜",
+        "小米辣",
+        "姜",
+        "一品鲜酱油",
+        "米醋",
+        "香油",
+        "蒜",
+        "麻酱（纯，可选）",
+        "酱油",
+        "洋葱",
+        "白糖",
+        "纯净水",
+        "蚝油",
+        "食用油",
+        "盐",
+        "冰糖",
+        "大料（八角）",
+        "香叶",
+        "花椒",
+        "尖椒"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1Gw4m197fR/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |四个秘方，一遍学！凉菜陪你过夏天！"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1Gw4m197fR/",
+          "quote": "原片总长07:21，07:14、07:18、07:19三张作者片尾卡分别覆盖浇汁松花蛋、拍黄瓜、捞汁秋葵、老醋花生米。各菜原文与用量分别保存在对应菜品内，未跨菜合并成一份配方。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "拍黄瓜：纯麻酱30g可选，视口味决定是否放。",
+        "老醋花生米：香叶1片（食材栏）与两片（步骤）冲突。",
+        "不将花生米、黄瓜、秋葵未注明的主料量补成常见份量。",
+        "未完整观看全片，松花蛋的蛋种、酱油细分、油种和部分主料份量仍未知。"
       ],
-      "notes": "",
+      "notes": "此视频含四道独立凉菜；主料和辅料总集合仅作覆盖统计，搜索必须在同一道菜内满足全部条件。各卡配方与步骤明列41条菜品食材归属；重复出现的调料不代表四道菜都用。作者卡片有原始用量冲突和缺项，均保留。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
         "description": true,
-        "pinnedComments": true
+        "pinnedComments": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "recipeCard": true
+      },
+      "dishes": [
+        {
+          "name": "浇汁松花蛋",
+          "main": [
+            "松花蛋（皮蛋）"
+          ],
+          "auxiliary": [
+            "香菜",
+            "小米辣",
+            "姜",
+            "一品鲜酱油",
+            "米醋",
+            "香油"
+          ],
+          "evidence": [
+            {
+              "source": "recipe_card",
+              "url": "https://www.bilibili.com/video/BV1Gw4m197fR/",
+              "quote": "原片07:14作者卡「浇汁松花蛋」食材栏：4个松花蛋、5g香菜、3g小米辣、8g姜、60g一品鲜酱油、35g米醋、8g香油。同菜步骤：00:13 松花蛋一切六瓣，摆整齐；00:23 生姜去皮，切成1mm见方的丁；00:23 60g酱油、35g米醋、8g香油；00:49 将拌好的料汁撒在装有松花蛋的盘中。步骤时间是卡内标注，不是本轮逐段回看时间。"
+            }
+          ],
+          "notes": "未核查整个制作过程；不得从其他三道菜迁入盐、蒜或其他配料。 未指明所用蛋的物种；不扩展为鸭蛋或鸡蛋。",
+          "sourceIngredientList": {
+            "quantities": [
+              {
+                "name": "松花蛋",
+                "role": "main",
+                "amount": "4个",
+                "evidence": [
+                  "card-0714:食材",
+                  "card-0714:步骤00:13"
+                ],
+                "aliases": [
+                  "皮蛋"
+                ],
+                "note": "未指明所用蛋的物种；不扩展为鸭蛋或鸡蛋。"
+              },
+              {
+                "name": "香菜",
+                "role": "support",
+                "amount": "5g",
+                "evidence": [
+                  "card-0714:食材"
+                ]
+              },
+              {
+                "name": "小米辣",
+                "role": "support",
+                "amount": "3g",
+                "evidence": [
+                  "card-0714:食材"
+                ]
+              },
+              {
+                "name": "姜",
+                "role": "support",
+                "amount": "8g",
+                "evidence": [
+                  "card-0714:食材",
+                  "card-0714:步骤00:23"
+                ]
+              },
+              {
+                "name": "一品鲜酱油",
+                "role": "support",
+                "amount": "60g",
+                "evidence": [
+                  "card-0714:食材"
+                ],
+                "aliases": [
+                  "酱油"
+                ]
+              },
+              {
+                "name": "米醋",
+                "role": "support",
+                "amount": "35g",
+                "evidence": [
+                  "card-0714:食材"
+                ]
+              },
+              {
+                "name": "香油",
+                "role": "support",
+                "amount": "8g",
+                "evidence": [
+                  "card-0714:食材"
+                ]
+              }
+            ],
+            "sourceListTranscribed": true
+          },
+          "status": "verified_partial",
+          "recipeComplete": false
+        },
+        {
+          "name": "拍黄瓜",
+          "main": [
+            "黄瓜"
+          ],
+          "auxiliary": [
+            "蒜",
+            "麻酱（纯，可选）",
+            "酱油",
+            "米醋",
+            "香油",
+            "小米辣"
+          ],
+          "evidence": [
+            {
+              "source": "recipe_card",
+              "url": "https://www.bilibili.com/video/BV1Gw4m197fR/",
+              "quote": "原片07:14作者卡「拍黄瓜」食材栏：20g蒜、30g麻酱（纯）、40g酱油、15g米醋、5g香油、小米辣（点缀的量）。同菜步骤：00:59 黄瓜削皮，去两头，横着劈开；01:15 加入30g纯麻酱（视口味决定是否放）；01:43 装盘，撒上小米辣，做个点缀。步骤时间是卡内标注，不是本轮逐段回看时间。"
+            }
+          ],
+          "notes": "黄瓜数量未在所读卡中给出。 纯麻酱明确可选；未逐帧确认实际加入，不表述为必用。 未把其他菜的香菜、姜、糖或盐移入此菜。 原卡：麻酱（纯）；步骤：视口味决定是否放。",
+          "sourceIngredientList": {
+            "quantities": [
+              {
+                "name": "黄瓜",
+                "role": "main",
+                "amount": null,
+                "evidence": [
+                  "card-0714:步骤00:59"
+                ]
+              },
+              {
+                "name": "蒜",
+                "role": "support",
+                "amount": "20g",
+                "evidence": [
+                  "card-0714:食材"
+                ]
+              },
+              {
+                "name": "麻酱",
+                "role": "support",
+                "amount": "30g",
+                "evidence": [
+                  "card-0714:食材",
+                  "card-0714:步骤01:15"
+                ],
+                "optional": true,
+                "note": "原卡：麻酱（纯）；步骤：视口味决定是否放。"
+              },
+              {
+                "name": "酱油",
+                "role": "support",
+                "amount": "40g",
+                "evidence": [
+                  "card-0714:食材"
+                ]
+              },
+              {
+                "name": "米醋",
+                "role": "support",
+                "amount": "15g",
+                "evidence": [
+                  "card-0714:食材"
+                ]
+              },
+              {
+                "name": "香油",
+                "role": "support",
+                "amount": "5g",
+                "evidence": [
+                  "card-0714:食材"
+                ]
+              },
+              {
+                "name": "小米辣",
+                "role": "support",
+                "amount": "点缀的量",
+                "evidence": [
+                  "card-0714:食材",
+                  "card-0714:步骤01:43"
+                ]
+              }
+            ],
+            "sourceListTranscribed": true
+          },
+          "status": "verified_partial",
+          "recipeComplete": false
+        },
+        {
+          "name": "捞汁秋葵",
+          "main": [
+            "秋葵"
+          ],
+          "auxiliary": [
+            "洋葱",
+            "蒜",
+            "香菜",
+            "姜",
+            "米醋",
+            "一品鲜酱油",
+            "白糖",
+            "小米辣",
+            "纯净水",
+            "蚝油",
+            "食用油",
+            "盐"
+          ],
+          "evidence": [
+            {
+              "source": "recipe_card",
+              "url": "https://www.bilibili.com/video/BV1Gw4m197fR/",
+              "quote": "原片07:18作者卡「捞汁秋葵」食材栏：60g洋葱、60g蒜、20g香菜、50g姜、100g米醋、130g一品鲜酱油；20g白糖、25g小米辣、100g纯净水、20g耗油、20g食用油。同菜步骤：01:48 小米辣切碎，洋葱切碎，大蒜拍碎，香菜切碎，放入碗中；01:48 加入100g纯净水、100g米醋、130g鲜味酱油、20g耗油、20g白糖；02:17 秋葵去头去尾，切成段；02:33 水中加入一勺盐，20g食用油；02:56 秋葵放在盘中立着，浇上汁儿。步骤时间是卡内标注，不是本轮逐段回看时间。原卡“耗油”规范为“蚝油”，不扩写品种。"
+            }
+          ],
+          "notes": "秋葵用量未注明。 姜50g来自食材栏；未额外推断其处理方式。 不把别菜香油或花椒迁入。 ",
+          "sourceIngredientList": {
+            "quantities": [
+              {
+                "name": "秋葵",
+                "role": "main",
+                "amount": null,
+                "evidence": [
+                  "card-0718:步骤02:17",
+                  "card-0718:步骤02:56"
+                ]
+              },
+              {
+                "name": "洋葱",
+                "role": "support",
+                "amount": "60g",
+                "evidence": [
+                  "card-0718:食材"
+                ]
+              },
+              {
+                "name": "蒜",
+                "role": "support",
+                "amount": "60g",
+                "evidence": [
+                  "card-0718:食材"
+                ]
+              },
+              {
+                "name": "香菜",
+                "role": "support",
+                "amount": "20g",
+                "evidence": [
+                  "card-0718:食材"
+                ]
+              },
+              {
+                "name": "姜",
+                "role": "support",
+                "amount": "50g",
+                "evidence": [
+                  "card-0718:食材"
+                ]
+              },
+              {
+                "name": "米醋",
+                "role": "support",
+                "amount": "100g",
+                "evidence": [
+                  "card-0718:食材"
+                ]
+              },
+              {
+                "name": "一品鲜酱油",
+                "role": "support",
+                "amount": "130g",
+                "evidence": [
+                  "card-0718:食材"
+                ],
+                "aliases": [
+                  "酱油",
+                  "鲜味酱油"
+                ]
+              },
+              {
+                "name": "白糖",
+                "role": "support",
+                "amount": "20g",
+                "evidence": [
+                  "card-0718:食材"
+                ]
+              },
+              {
+                "name": "小米辣",
+                "role": "support",
+                "amount": "25g",
+                "evidence": [
+                  "card-0718:食材"
+                ]
+              },
+              {
+                "name": "纯净水",
+                "role": "support",
+                "amount": "100g",
+                "evidence": [
+                  "card-0718:食材",
+                  "card-0718:步骤01:48"
+                ],
+                "purpose": "兑汁用水；焯水用水的量未知。"
+              },
+              {
+                "name": "蚝油",
+                "role": "support",
+                "amount": "20g",
+                "evidence": [
+                  "card-0718:食材"
+                ],
+                "rawName": "耗油"
+              },
+              {
+                "name": "食用油",
+                "role": "support",
+                "amount": "20g",
+                "evidence": [
+                  "card-0718:食材",
+                  "card-0718:步骤02:33"
+                ],
+                "purpose": "焯秋葵时加入；油种未注明。"
+              },
+              {
+                "name": "盐",
+                "role": "support",
+                "amount": "一勺",
+                "evidence": [
+                  "card-0718:步骤02:33"
+                ],
+                "purpose": "焯秋葵时加入；勺容量未知，不换算克数。"
+              }
+            ],
+            "sourceListTranscribed": true
+          },
+          "status": "verified_partial",
+          "recipeComplete": false
+        },
+        {
+          "name": "老醋花生米",
+          "main": [
+            "花生米"
+          ],
+          "auxiliary": [
+            "米醋",
+            "冰糖",
+            "酱油",
+            "蚝油",
+            "香菜",
+            "大料（八角）",
+            "香叶",
+            "花椒",
+            "小米辣",
+            "尖椒",
+            "洋葱",
+            "食用油",
+            "香油"
+          ],
+          "evidence": [
+            {
+              "source": "recipe_card",
+              "url": "https://www.bilibili.com/video/BV1Gw4m197fR/",
+              "quote": "原片07:19作者卡「老醋花生米」食材栏：130g米醋、100g冰糖、40g酱油、35g耗油；15g香菜、1个大料、1片香叶、0.5g花椒、2个小米辣、20g尖椒、20g洋葱。同菜步骤：03:05 130g醋、100g冰糖、40g酱油、35g耗油、5g香菜、一个大料、两片香叶、0.5g花椒；03:54 炸花生米：开火，锅中放入底油，凉油倒入花生米；04:19 10g香菜切段，尖椒去头，从中间片开，去掉中间的籽，20g尖椒切丁；04:19 20g洋葱切丁，两个小米辣（点缀颜色）；04:19 调好的汁儿中倒入香油，搅拌均匀，浇在花生米上。步骤时间是卡内标注，不是本轮逐段回看时间。原卡“耗油”规范为“蚝油”，不扩写品种。"
+            }
+          ],
+          "notes": "花生米用量未注明。 底油和香油都由步骤明确，量未注明。 香叶用量相互矛盾，仍可收录名称但不显示唯一确定用量。 食材栏直接给15g；另保留步骤分项，不自行增加一份。 同一作者卡内部冲突；不择一、不合计。",
+          "sourceIngredientList": {
+            "quantities": [
+              {
+                "name": "花生米",
+                "role": "main",
+                "amount": null,
+                "evidence": [
+                  "card-0719:步骤03:54"
+                ]
+              },
+              {
+                "name": "米醋",
+                "role": "support",
+                "amount": "130g",
+                "evidence": [
+                  "card-0719:食材"
+                ]
+              },
+              {
+                "name": "冰糖",
+                "role": "support",
+                "amount": "100g",
+                "evidence": [
+                  "card-0719:食材"
+                ]
+              },
+              {
+                "name": "酱油",
+                "role": "support",
+                "amount": "40g",
+                "evidence": [
+                  "card-0719:食材"
+                ]
+              },
+              {
+                "name": "蚝油",
+                "role": "support",
+                "amount": "35g",
+                "evidence": [
+                  "card-0719:食材"
+                ],
+                "rawName": "耗油"
+              },
+              {
+                "name": "香菜",
+                "role": "support",
+                "amount": "15g",
+                "evidence": [
+                  "card-0719:食材"
+                ],
+                "stepAmounts": [
+                  "步骤03:05：5g香菜",
+                  "步骤04:19：10g香菜切段"
+                ],
+                "note": "食材栏直接给15g；另保留步骤分项，不自行增加一份。"
+              },
+              {
+                "name": "大料",
+                "role": "support",
+                "amount": "1个",
+                "evidence": [
+                  "card-0719:食材",
+                  "card-0719:步骤03:05"
+                ],
+                "aliases": [
+                  "八角"
+                ]
+              },
+              {
+                "name": "香叶",
+                "role": "support",
+                "amount": null,
+                "evidence": [
+                  "card-0719:食材",
+                  "card-0719:步骤03:05"
+                ],
+                "conflictingAmounts": [
+                  "食材栏：1片香叶",
+                  "步骤03:05：两片香叶"
+                ],
+                "note": "同一作者卡内部冲突；不择一、不合计。"
+              },
+              {
+                "name": "花椒",
+                "role": "support",
+                "amount": "0.5g",
+                "evidence": [
+                  "card-0719:食材"
+                ]
+              },
+              {
+                "name": "小米辣",
+                "role": "support",
+                "amount": "2个",
+                "evidence": [
+                  "card-0719:食材",
+                  "card-0719:步骤04:19"
+                ]
+              },
+              {
+                "name": "尖椒",
+                "role": "support",
+                "amount": "20g",
+                "evidence": [
+                  "card-0719:食材",
+                  "card-0719:步骤04:19"
+                ]
+              },
+              {
+                "name": "洋葱",
+                "role": "support",
+                "amount": "20g",
+                "evidence": [
+                  "card-0719:食材",
+                  "card-0719:步骤04:19"
+                ]
+              },
+              {
+                "name": "食用油",
+                "role": "support",
+                "amount": null,
+                "evidence": [
+                  "card-0719:步骤03:54"
+                ],
+                "rawName": "底油",
+                "purpose": "炸花生米；用量、油种未给出。"
+              },
+              {
+                "name": "香油",
+                "role": "support",
+                "amount": null,
+                "evidence": [
+                  "card-0719:步骤04:19"
+                ],
+                "purpose": "加入调好的汁中；用量未知。"
+              }
+            ],
+            "sourceListTranscribed": true
+          },
+          "status": "verified_partial",
+          "recipeComplete": false
+        }
+      ],
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录四道菜各自作者卡片及其步骤明示用料，不等于已核对整段视频全部实际用料或完整配方。统计按一个视频记录，不按四道菜膨胀。",
+      "ingredientAggregation": "coverage_only",
+      "searchScope": "same_dish",
+      "sourceIngredientList": {
+        "source": "recipe_card",
+        "url": "https://www.bilibili.com/video/BV1Gw4m197fR/",
+        "sourceListTranscribed": true,
+        "sourceListScope": "four_separate_dish_cards_and_steps",
+        "indexedNames": [
+          "松花蛋（皮蛋）",
+          "香菜",
+          "小米辣",
+          "姜",
+          "一品鲜酱油",
+          "米醋",
+          "香油",
+          "黄瓜",
+          "蒜",
+          "麻酱（纯，可选）",
+          "酱油",
+          "秋葵",
+          "洋葱",
+          "白糖",
+          "纯净水",
+          "蚝油",
+          "食用油",
+          "盐",
+          "花生米",
+          "冰糖",
+          "大料（八角）",
+          "香叶",
+          "花椒",
+          "尖椒"
+        ],
+        "dishCount": 4,
+        "ingredientAssignments": 41,
+        "scopeNote": "以每个菜品内的sourceIngredientList和evidence为准，不能跨菜套用。"
+      },
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Gw4m197fR/",
+        "coverage": "准确原片画面／硬字幕或作者片尾卡核对。仅部分抽查，不使用第三方转写补料，不冒称完整配方。"
       }
     },
     "BV1Mm41117uf": {
@@ -6136,27 +6732,132 @@
       }
     },
     "BV13F4m1M7Y1": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "火腿（品种待核）",
+        "胡萝卜",
+        "豆腐",
+        "干香菇",
+        "肉馅（肉种待核，制成丸子）",
+        "白菜",
+        "鸡腿（熟制）",
+        "莴笋（青笋）",
+        "冬笋",
+        "粉丝（原料种类待核）"
+      ],
+      "auxiliary": [
+        "鸡汤",
+        "葱",
+        "姜",
+        "味精",
+        "胡椒",
+        "鸡蛋",
+        "盐"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV13F4m1M7Y1/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |怎么样让乱炖的价格翻五倍？！-团圆十锦"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片00:29；03:33：原片称火腿，切成粉色肉片，再入砂锅；未细分品种。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片00:51；00:58：字幕明确为胡萝卜，随后切片。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片01:01：字幕说豆腐可以切厚一点，03:35附近白色豆腐片码入砂锅；未核品种。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片01:28；04:06：字幕明确说煮好的干香菇；后又选一块香菇放在中间。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片01:43；02:56；04:04：称肉馅，手工做丸子并码进砂锅；肉种未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片01:46；02:43；04:20：葱姜米加入肉馅，又见煮丸子相关步骤和调汤时用葱姜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片01:49；04:18：肉馅加味精1克，随后调汤时又加1克。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片01:50：肉馅加胡椒1克；颜色未核。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片01:52：肉馅打入鸡蛋1个；这不是对最后黄色配料的识别。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片03:22：砂锅底铺白菜，硬字幕与画面吻合。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片03:24–03:25：字幕称煮过的鸡腿，放在白菜上。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片03:38–03:39：青笋片（莴笋）和随后明确命名的冬笋依次入锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片04:01：半透明粉丝铺上，未核原料种类。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片04:12：提前煮好的鸡汤由筛网滤入锅，实际使用。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+          "quote": "原片04:16：鸡汤加盐调味，未看到明确克数。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "肉馅的肉种、豆腐品种和大部分配比未确认。",
+        "04:04黄色配料及02:15加入的白色粉末未达到可确认的程度，未纳入索引。",
+        "末段抽查见试吃/对话，未找到作者食材清单；不标为完整。",
+        "粉丝原料、火腿品种和鸡汤完整组成未核，不猜肉馅物种或粉类。"
       ],
-      "notes": "",
+      "notes": "仅据此05:32原版画面及硬字幕；与其他什锦砂锅或同菜名教程未混用。主料列实际组合在同一砂锅的10类固体食材，鸡汤、肉馅调料及鸡蛋归为辅料。作者标题写“团圆十锦”，原目录名称和分类不改。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "原片抽查确认部分实际用料，不等于已取得完整食材清单或完整配方；未知黄色配料和白色粉末未猜入。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV13F4m1M7Y1/",
+        "coverage": "准确原片画面／硬字幕或作者片尾卡核对。仅部分抽查，不使用第三方转写补料，不冒称完整配方。"
       }
     },
     "BV1eA4m1L7QY": {
@@ -7278,26 +7979,143 @@
       "main": [
         "鱼肉（品种待核）"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "莴笋",
+        "淀粉（原料种类待核）",
+        "番茄酱",
+        "白醋",
+        "盐",
+        "白糖",
+        "水",
+        "葱",
+        "姜",
+        "花椒",
+        "蒜",
+        "食用油（种类待核）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1Kw411n74A/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |临近失传？！手把手教你——名菜翠珠鱼花，超详细！"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1Kw411n74A/",
+          "quote": "原片11:09–11:10作者食材卡列：鱼1.2kg、莴笋、淀粉80g、番茄酱100g、白醋50g、盐5g、白糖130g、水200g。卡片未写鱼种、淀粉原料或莴笋用量。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1Kw411n74A/",
+          "quote": "原片11:12作者步骤卡：卡内03:05写打完花刀的鱼肉放在葱姜花椒盐水中浸泡去腥；03:14说明莴笋修成立方体并雕成玲珑球。葱、姜、花椒由此补入，未补写浸泡用量。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1Kw411n74A/",
+          "quote": "原片11:14作者步骤卡：卡内05:06鱼肉擦水、放淀粉水并拍淀粉，鱼头鱼尾也拍淀粉；06:12锅中热油炸鱼，炸油品种及用量未写。"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1Kw411n74A/",
+          "quote": "原片11:17作者步骤卡：卡内07:27油中加葱姜蒜炒香，再加番茄酱100g、白醋50g、白糖130g、水200克、盐5g，烧开定味后捞出渣；08:34鱼回油复炸，糖醋汁少量多次勾芡；09:05出锅摆盘。配方卡时间是作者标注，不代表本轮逐段回看。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "鱼肉（品种待核）的具体品种或组成待核对"
+        "鱼种尚无原片文字直接证据，不采纳外站自动转写补成草鱼",
+        "淀粉原料、油种和用量待核；莴笋及葱姜蒜花椒用量未注明",
+        "食材卡水200g、盐5g属于糖醋汁，另有浸泡和裹粉用水盐但总量未核",
+        "未完整观看视频，不能把片尾清单收录当作全片用料或完整配方核验"
       ],
-      "notes": "",
+      "notes": "鱼为主料，莴笋为雕刻翠珠配菜，其他作处理或调汁用料；主辅分组是编辑整理。原作者片尾食材卡8项及步骤中另明写的葱、姜、花椒、蒜、油共13项进入索引。原题为翠珠鱼花；未采用外站自动转写推断草鱼，也不把番茄酱替写成鲜番茄。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true,
+        "recipeCard": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录作者片尾食材及步骤卡明写用料，不等于已核对整段视频全部用料、完整配方或准确总用量。",
+      "sourceIngredientList": {
+        "source": "recipe_card",
+        "url": "https://www.bilibili.com/video/BV1Kw411n74A/",
+        "sourceQuote": "原片11:09–11:10作者食材卡列：鱼1.2kg、莴笋、淀粉80g、番茄酱100g、白醋50g、盐5g、白糖130g、水200g。卡片未写鱼种、淀粉原料或莴笋用量。",
+        "sourceNames": [
+          "鱼",
+          "莴笋",
+          "淀粉",
+          "番茄酱",
+          "白醋",
+          "盐",
+          "白糖",
+          "水",
+          "葱",
+          "姜",
+          "花椒",
+          "蒜",
+          "油"
+        ],
+        "indexedNames": [
+          "鱼肉（品种待核）",
+          "莴笋",
+          "淀粉（原料种类待核）",
+          "番茄酱",
+          "白醋",
+          "盐",
+          "白糖",
+          "水",
+          "葱",
+          "姜",
+          "花椒",
+          "蒜",
+          "食用油（种类待核）"
+        ],
+        "quantities": [
+          {
+            "name": "鱼",
+            "quantity": "1.2kg"
+          },
+          {
+            "name": "莴笋",
+            "quantity": null
+          },
+          {
+            "name": "淀粉",
+            "quantity": "80g"
+          },
+          {
+            "name": "番茄酱",
+            "quantity": "100g"
+          },
+          {
+            "name": "白醋",
+            "quantity": "50g"
+          },
+          {
+            "name": "盐",
+            "quantity": "5g"
+          },
+          {
+            "name": "白糖",
+            "quantity": "130g"
+          },
+          {
+            "name": "水",
+            "quantity": "200g"
+          }
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_end_card_and_its_steps",
+        "scopeNote": "8项食材卡及步骤中额外5种用料；不是完整视频核验。"
+      },
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-15",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Kw411n74A/",
+        "coverage": "准确原片画面／硬字幕或作者片尾卡核对。仅部分抽查，不使用第三方转写补料，不冒称完整配方。"
       }
     },
     "BV1zu4y1A7n1": {
