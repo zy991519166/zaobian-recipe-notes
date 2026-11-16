@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "scope": "945条现有视频目录（含27条待核候选）",
   "coverageNote": "标题与明确菜名的食材索引；有作者清单、配方图、原片抽查或已匹配官方同片简介依据时补充。没有逐一看完原视频，空白不代表不用该食材，不是完整配方或过敏原清单。",
   "roleNote": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
@@ -145,16 +145,27 @@
         "BV1dyGw6PEy6"
       ],
       "coverage": "虾肉归入虾的单向搜索，家宴按实际菜品隔离匹配，两条鲍厨原片作者卡补录；仍不宣称全片观看或完整配方。"
+    },
+    "fishSlicesReview": {
+      "date": "2026-11-16",
+      "recipeIds": [
+        "BV1GY411B7mE"
+      ],
+      "searchOnlyRecipeIds": [
+        "BV1kh4y1R7s4",
+        "BV1hM4y1T7zE"
+      ],
+      "coverage": "鱼片及明确黑鱼归入鱼的单向列表；抓炒鱼片仅原片抽查，后两条原数据和未知鱼种保留。未找到完整食材卡、未验证或使用YouTube候选、未完整观看。"
     }
   },
   "stats": {
     "withMain": 855,
-    "withAuxiliary": 269,
+    "withAuxiliary": 270,
     "total": 945,
     "withAnyIngredient": 865,
     "status": {
-      "title_only": 796,
-      "verified_partial": 69,
+      "title_only": 795,
+      "verified_partial": 70,
       "unknown": 80
     },
     "fullyVerifiedRecipes": 0,
@@ -163,7 +174,7 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 36,
+    "sampledVideoRecipes": 37,
     "unknownByClassification": {
       "tutorial": 70,
       "ambiguous": 10
@@ -27924,29 +27935,114 @@
     },
     "BV1GY411B7mE": {
       "main": [
-        "鱼片（品种待核）"
+        "黑鱼（鱼片）"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "水",
+        "酱油",
+        "醋",
+        "盐",
+        "姜",
+        "水淀粉",
+        "食用油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
           "quote": "精确到厘米的宫廷四大抓！上糊是关键，小甜酸才是标准~丨抓炒鱼片"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
+          "quote": "原片00:16–00:18：字幕“黑鱼肉质比较嫩”。字幕叠在原料画面上，师傅手持该鱼片，随后在案板切片。00:29明确长度3.5厘米。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
+          "quote": "原片约01:21–01:25：字幕“兑一碗汁我用的又是一勺水”。舀清水兑汁，紧接字幕约150克。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
+          "quote": "原片约01:32：字幕“加酱油”。酱油随字幕倒入量勺；品种和用量未稳确认。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
+          "quote": "原片约01:35–01:37：字幕“然后我们再加上醋照着20克”。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
+          "quote": "原片约01:42–01:44；02:17：字幕“然后我们再加盐两克”。调汁2克；腌鱼另加一小勺作底味，未换算。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
+          "quote": "原片约02:09–02:15：字幕“鱼肉里面加一点姜”。实际将拍姜放入鱼肉腌制。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
+          "quote": "原片03:15：字幕“我们就是用这水淀粉”。抓匀裹鱼片；约02:01另提生粉湿芡。粉种和用量未确认。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GY411B7mE/",
+          "quote": "原片04:43：用漏勺从油锅捞起炸制鱼片；油种与用量未确认。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "鱼片（品种待核）的具体品种尚待核对"
+        "碗汁中可见碎末，但未读清逐项名目；除明确用于腌制的姜，不据外观录入其他葱蒜。",
+        "未读到对白糖/酒类的明确加料表述，不凭味型或液体颜色推断。",
+        "末段抽样见继续演示及播放结束，未找到作者完整配方卡。",
+        "鱼的总重量、水淀粉用量及粉种、酱油与炸油用量尚未核清；未完整观看，未列出不代表不用。"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "原片明确实际使用黑鱼，记为黑鱼（鱼片），仍可按鱼或鱼片检索；不把其余品种待核鱼片条目一并认定为黑鱼。水淀粉保留湿淀粉原称，未确认粉种和比例；酱油、醋、油的细分品种和多数用量未知。碗汁盐2克不含另腌鱼的一小勺盐，水约150克也只是碗汁用量。只采用对应B站原片，不借同名食谱、YouTube候选或观众笔记补全。主辅角色仍为编辑整理。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已补准确原片画面与硬字幕明确的部分食材，不等于完整清单、完整观看或完整配方核验。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-16",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1GY411B7mE/",
+        "coverage": "准确11:52 B站原片画面与硬字幕抽查；未找到完整作者卡，不使用未匹配YouTube候选。"
+      },
+      "quantityObservations": [
+        {
+          "name": "水",
+          "amount": "约150克",
+          "scope": "碗汁",
+          "time": "约01:21–01:25"
+        },
+        {
+          "name": "醋",
+          "amount": "20克",
+          "scope": "碗汁",
+          "time": "约01:35–01:37"
+        },
+        {
+          "name": "盐",
+          "amount": "2克",
+          "scope": "碗汁",
+          "time": "约01:42–01:44"
+        },
+        {
+          "name": "盐",
+          "amount": "一小勺",
+          "scope": "腌鱼，另加且不换算克数",
+          "time": "02:17"
+        }
+      ]
     },
     "BV1PW4y127cR": {
       "main": [
