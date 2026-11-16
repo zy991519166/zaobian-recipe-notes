@@ -165,17 +165,25 @@
         "BV198411S7LW"
       ],
       "coverage": "红菜汤、冬阴功汤、红烧肉准确原片部分用料；不明牛肉部位、酱种、糖种/用量和未核可选料保留未知。没有找到完整作者清单或完整观看。"
+    },
+    "eelScallopReview": {
+      "date": "2026-11-16",
+      "recipeIds": [
+        "BV1EH4y1s7Zs",
+        "BV1dr4y1B7iA"
+      ],
+      "coverage": "紫龙脱袍与金银干贝汤的准确原片抽查；仅列明确原料，不猜鳝鱼细分种类，不把建议的鸡汤或鸡汁当作已实际使用。保留原入口与部分核对状态，不声称完整观看或完整配方。"
     }
   },
   "stats": {
-    "withMain": 856,
-    "withAuxiliary": 273,
+    "withMain": 857,
+    "withAuxiliary": 275,
     "total": 945,
-    "withAnyIngredient": 866,
+    "withAnyIngredient": 867,
     "status": {
-      "title_only": 793,
-      "verified_partial": 73,
-      "unknown": 79
+      "title_only": 792,
+      "verified_partial": 75,
+      "unknown": 78
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -183,13 +191,13 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 40,
+    "sampledVideoRecipes": 42,
     "unknownByClassification": {
-      "tutorial": 69,
+      "tutorial": 68,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 79,
+      "tutorial": 78,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -25261,25 +25269,80 @@
         "干贝",
         "豆腐"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "黄酒",
+        "葱",
+        "姜",
+        "盐",
+        "玉米粉（生粉）",
+        "老抽"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
           "quote": "3分钟解锁和文思豆腐一样细的豆腐丝儿！丨金银干贝汤"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
+          "quote": "原片约00:27–00:36：“跟文思豆腐一样多细 多好；干贝就给它撕成丝”。原标题明确豆腐丝；镜头分别展示细豆腐丝和撕干贝。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
+          "quote": "原片约00:37：“泡软了 放上黄酒加点葱姜”。撕干贝段说明干贝泡软后的处理。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
+          "quote": "原片约00:56–00:57：“这是蒸出来的汁儿 特别鲜”。干贝旁展示蒸干贝汁，不作为独立原料，没有在该镜头确认倒入。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
+          "quote": "原片约01:22–01:26：“把我们撕好的干贝可以都放在里面；里面再放点盐”。细丝汤中加入撕好的干贝，再以盐调味。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
+          "quote": "原片约01:39–01:42：“玉米粉 生粉 给它勾芡”。原片对同一勾芡食材使用两个称谓，不拆为两项。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
+          "quote": "原片约01:49–01:54：“冰糖老抽；他要不搁点这个颜色太苍白”。镜头给出冰糖老抽瓶身及汤中色泽变化；冰糖老抽是一个调味品名称，并非另加冰糖。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
+          "quote": "原片约01:03–01:05：“你买点小鸡汁儿也非常鲜”。是建议选项，未确认本次实际使用，因此未列入食材索引。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "豆腐具体品种、用量、清汤所用汤底种类和是否使用鸡汤未证实；01:36–01:37 清汤是描述。",
+        "未确认额外加入冰糖，不索引冰糖。",
+        "未见完整配料卡，全量配料及用量待核。",
+        "鸡汁是作者建议，鸡汤与实际汤底未确认；两者都不进入已用料索引。",
+        "YouTube候选未匹配、未采用；未完整观看，不声称完整作者清单或配方，不用于过敏原判断。"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "仅据准确B站原片。玉米粉与生粉是同一勾芡食材的原片称谓，合为一项，不猜两份用量。实际用于上色的调味品原称“冰糖老抽”，规范索引为老抽，原称保留在证据，不据名称拆出单独冰糖。蒸干贝汁是干贝处理产物，不重复列独立原料；清汤仅为描述，不推定外备鸡汤、鸡汁或水已加入。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-16",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1dr4y1B7iA/",
+        "coverage": "准确B站原片硬字幕与画面抽查；未完整观看，未采用观众笔记或未匹配跨站版本。"
       }
     },
     "BV1Tq4y1R71t": {
@@ -26055,27 +26118,73 @@
       "ingredientListNote": "仅收录本次原片抽查中可确认的食材，不等于完整食材清单；没有逐一观看整段视频。"
     },
     "BV1EH4y1s7Zs": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "鳝鱼"
+      ],
+      "auxiliary": [
+        "笋",
+        "香菜"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1EH4y1s7Zs/",
           "quote": "快要失传的大名菜，学到就是赚到！香气飘满整条街~丨紫龙脱袍"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1EH4y1s7Zs/",
+          "quote": "原片约00:40：“因为鳝鱼它特别容易收缩”。近景显示已剖开的长条鱼体和鱼肉；原片字幕直接命名鳝鱼。"
+        },
+        {
+          "source": "metadata",
+          "url": "https://www.bilibili.com/video/BV1EH4y1s7Zs/",
+          "quote": "原页面标签：“鳝鱼”。准确 BV 页面的可见标签。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1EH4y1s7Zs/",
+          "quote": "原片约02:10：“笋一般的要切丝”。厨师在案板上切浅色笋块。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1EH4y1s7Zs/",
+          "quote": "原片约02:17–02:18：“片完片的时候再切丝”。延续前述同一备料过程，画面显示浅色细丝。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1EH4y1s7Zs/",
+          "quote": "原片约02:23–02:24：“香菜因为增加了一种清香”。配料准备过程中直接说明香菜用途。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1EH4y1s7Zs/",
+          "quote": "原片约02:25–02:30：可见香菜叶与梗分理、切配，蓝色盘内多为绿色梗段。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "鳝鱼与笋的细分种类、具体用量及其余调味／粉类尚未核清。",
+        "绿色长叶、浅黄细丝及成品深色条状物没有可靠命名证据，不猜作葱蒜、姜、木耳或香菇。",
+        "只抽查部分备料及片尾；11:43、11:50–11:51未见清单，不代表整片没有作者卡。",
+        "未使用未打开的头条线索补料；未列出不代表不用，不用于过敏原判断。"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "鳝鱼由原片约00:40硬字幕直接确认，原页标签仅作印证；不依菜名或头条线索猜主料。笋与香菜为明确备料，主辅角色是编辑整理。未确认只用香菜梗或完全不用叶，名称保留为香菜。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-16",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1EH4y1s7Zs/?vd_source=0412d050cd4b29e766117ad0398e15ca",
+        "coverage": "准确B站原片硬字幕与画面抽查；未完整观看，未采用观众笔记或未匹配跨站版本。"
       }
     },
     "BV1pE421u7WB": {
