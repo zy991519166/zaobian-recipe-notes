@@ -156,17 +156,26 @@
         "BV1hM4y1T7zE"
       ],
       "coverage": "鱼片及明确黑鱼归入鱼的单向列表；抓炒鱼片仅原片抽查，后两条原数据和未知鱼种保留。未找到完整食材卡、未验证或使用YouTube候选、未完整观看。"
+    },
+    "soupsPorkReview": {
+      "date": "2026-11-16",
+      "recipeIds": [
+        "BV1Ve4y1q7U3",
+        "BV1QP4y1m7BS",
+        "BV198411S7LW"
+      ],
+      "coverage": "红菜汤、冬阴功汤、红烧肉准确原片部分用料；不明牛肉部位、酱种、糖种/用量和未核可选料保留未知。没有找到完整作者清单或完整观看。"
     }
   },
   "stats": {
-    "withMain": 855,
-    "withAuxiliary": 270,
+    "withMain": 856,
+    "withAuxiliary": 273,
     "total": 945,
-    "withAnyIngredient": 865,
+    "withAnyIngredient": 866,
     "status": {
-      "title_only": 795,
-      "verified_partial": 70,
-      "unknown": 80
+      "title_only": 793,
+      "verified_partial": 73,
+      "unknown": 79
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -174,13 +183,13 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 37,
+    "sampledVideoRecipes": 40,
     "unknownByClassification": {
-      "tutorial": 70,
+      "tutorial": 69,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 80,
+      "tutorial": 79,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -9436,28 +9445,73 @@
     },
     "BV198411S7LW": {
       "main": [
-        "肉（品种待核）"
+        "五花肉"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "葱",
+        "姜",
+        "水",
+        "食用油",
+        "糖",
+        "酱油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV198411S7LW/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |一块完美的红烧肉是怎么练成的！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV198411S7LW/",
+          "quote": "原片约02:39：字幕“切好的五花肉块放进去煸一下”。原片明确五花肉名，实际将切块的带皮肥瘦相间猪五花肉下锅煸制。00:57–01:03另见原料修切。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV198411S7LW/",
+          "quote": "原片01:09：字幕“葱姜放进去”。硬字幕明确葱姜，画面见葱段和姜片投入清水锅；水是这一步实际锅中液体，未给定量。约02:51另有葱姜硬字幕及下锅画面。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV198411S7LW/",
+          "quote": "原片约02:05：炒糖前，原片锅中可见少量透明油液在勺下铺开润锅；未核到油品种或数量，不记为猪油、花生油等。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV198411S7LW/",
+          "quote": "原片约02:10：字幕“让那糖呢融化”。画面见锅中浅色糖料炒化，之后02:39将五花肉投入糖色；本轮只确定糖，不擅自细化为白砂糖、绵白糖或冰糖。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV198411S7LW/",
+          "quote": "原片约02:53：字幕“然后我们加入酱油”。明确实际加料指示，02:56随后见深色酱油由勺烹入肉锅；不改记为生抽或老抽。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "肉（品种待核）的具体品种或组成待核对"
+        "本轮仅作有界局部抽查，未完整观看。没有核到作者完整食材卡，不声明配方或清单完整。",
+        "五花肉及各调味料用量未核；食用油品种、糖的细分品种、酱油类型未核。",
+        "04:04附近提及枣红烧肉并持一碗枣，00:41成品叠字提枣香红烧肉，但本轮未稳定核到枣实际投入及是否可选。为避免把说明或建议等同实际加料，红枣暂不加入索引。",
+        "盐、酒类与香料本轮未取得可确认的实际加料或明确可选指示；未知不等于没有使用。",
+        "03:42附近讨论其他做法时的鸡蛋配图不能当成本片实际配料，未据此增加鸡蛋。",
+        "仅作局部抽查，未列出不代表不用；多数用量尚未核清，不用于过敏原判断。"
       ],
-      "notes": "",
+      "notes": "主辅分类为编辑整理。仅使用准确B站原片的可见画面与硬字幕，不使用推荐的另一版红烧肉、观众笔记、旁支配方或跨站素材补料。时码为播放器定位后读到的近似时点，可能有约1秒偏差。此记录7项只代表本轮可靠抽查所得，不代表全部实际用料。 五花肉有原片明确命名与带皮肥瘦分层画面依据。糖、酱油、油均不推定细分品种或用量；红枣只有持碗及谈话线索，尚未确认实际加入，不收作已用或必需配料。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-16",
+        "resolvedUrl": "https://www.bilibili.com/video/BV198411S7LW/",
+        "coverage": "准确B站原版画面与硬字幕抽查；不使用观众笔记或同名替代视频补齐。"
       }
     },
     "BV1Bh411P7x3": {
@@ -17283,28 +17337,82 @@
     },
     "BV1Ve4y1q7U3": {
       "main": [
-        "肉（品种待核）"
+        "牛肉",
+        "红菜头"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "土豆",
+        "胡萝卜",
+        "洋葱",
+        "蒜",
+        "黄油",
+        "番茄调味酱（类型待核）"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
           "quote": "俄罗斯纯正风味！吃肉喝汤直冒汗，秋冬必备暖身神器~丨红菜汤"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
+          "quote": "原片04:54：字幕“牛肉好了”。00:51只表示带点筋更好，不能据此认定牛肉部位。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
+          "quote": "原片04:18–04:21；06:06：字幕“这时候要搁红菜头 炒一下红菜头”。原片强调红色出自红菜头；切丝并实际入锅。红菜头即甜菜根。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
+          "quote": "原片04:10左右；05:23左右：备料盘可辨淡黄土豆丁和橙色胡萝卜丁，炖煮段可见同批蔬菜丁加入牛肉汤；胡萝卜还在约04:04的胡萝卜素语境被提到。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
+          "quote": "原片约04:11；06:06：字幕“洋葱丝”。画面切紫皮洋葱丝，随后在锅中翻炒。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
+          "quote": "原片03:40；05:47：字幕“要点蒜碎”。切碎后在黄油中炒香；炒制段另说先搁蒜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
+          "quote": "原片05:35左右：字幕“黄油一定要温锅”。黄色块状黄油入锅融化。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
+          "quote": "原片06:18–06:23：从碗中向红菜头丝加入均匀稠红酱，同步硬字幕说明是为增加番茄香气。未从加料段确认具体名称、浓度、品牌或用量；04:18的否定句不是加料证据。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "肉（品种待核）",
-        "完整配方和辅料尚待核对"
+        "牛肉具体部位、绿色蔬菜丁及后续白色配料的确切种类未核；未据外观录入。",
+        "04:18提到西红柿不表示已加入鲜西红柿，未索引鲜西红柿。",
+        "糖是否添加、用量及其他调味料未确认；未找到作者完整配方卡。",
+        "仅作局部抽查，未列出不代表不用；多数用量尚未核清，不用于过敏原判断。"
       ],
-      "notes": "完整配方和辅料尚待核对。红菜汤的具体蔬菜未从标题确认。",
+      "notes": "仅据原版视频画面和硬字幕。 牛肉部位仍未知；红色来源为红菜头。番茄调味酱仅凭实际加入稠红酱的画面及增加番茄香气的字幕识别，具体酱种未知，不以早先否定句推断鲜番茄。土豆、胡萝卜、洋葱等作汤中配菜列入辅料；主辅角色是编辑整理。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-16",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Ve4y1q7U3/",
+        "coverage": "准确B站原版画面与硬字幕抽查；不使用观众笔记或同名替代视频补齐。"
       }
     },
     "BV1fK411S743": {
@@ -17335,27 +17443,174 @@
       }
     },
     "BV1QP4y1m7BS": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "虾",
+        "青口贝",
+        "鲍鱼"
+      ],
+      "auxiliary": [
+        "黄油",
+        "南姜",
+        "香茅",
+        "番茄",
+        "冬阴功酱",
+        "柠檬叶",
+        "小米辣",
+        "鸡腿菇",
+        "鸡汁",
+        "白胡椒"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
           "quote": "辣而不呛，喝到冒汗！比泰国五星级酒店的味道还要好~丨冬阴功汤"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片01:01：字幕“用黄油 咱把这虾头先煸一下”。虾头放油锅煸炒，用于汤底；这一帧单独不证明虾身食用。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片03:08：手持去头带壳虾身向汤锅中投入。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片06:15：成品近景清楚显示多只熟虾身和尾壳，与贝类同在汤中。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片03:15：字幕“这个青口贝 泰国都搁”。端着青口贝盘在汤锅旁，作者明确点名。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片03:25：手将带半壳贝肉实际放入汤锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片06:15：成品中可见同种长形半壳贝肉。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片03:30：字幕“鲍鱼就这么几个 鲍鱼我冲一下”。厨师拿起盘中鲍鱼说明清洗。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片04:00：字幕“这个壳给它去掉吗 鲍鱼”。对鲍鱼带壳处理提问。未将问句当作已去壳事实。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片04:50–04:51：碗中鲍鱼连壳倒入勺中并下汤锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片06:15：成品近景显示带壳鲍鱼，与虾及青口贝同汤。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片01:01：字幕“用黄油 咱把这虾头先煸一下”。明确黄油炒虾头，锅内实际炒制。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片00:40–00:41：字幕“你看这个南姜和香茅草”。材料特写展示带茎根块，作者明确名称南姜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片01:46：字幕“先把这个鲜姜跟香茅煸一下炒香”。相同切片根茎与香茅段在锅里炒制；此处称鲜姜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片00:40–00:41：字幕“你看这个南姜和香茅草”。明确香茅草名称并展示材料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片01:46：字幕“先把这个鲜姜跟香茅煸一下炒香”。香茅切段与根茎片在锅内炒制。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片01:52：字幕“下番茄”。实际番茄块与根茎、香茅同锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片01:55–01:56：字幕“咱们兑一点这个冬阴功酱”。深红褐色复合酱实际入锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片02:40：字幕“这个柠檬叶一定要搁”。手持绿叶并明确点名。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片03:00：同样大片绿叶已在汤锅中。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片02:57：字幕“小米辣”。手将红色小辣椒圈放入汤锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片02:21–02:25：砧板上白色菌菇被切成斜片。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片02:29：字幕“鸡腿菇我先搁进去”。白色菌菇片已投入汤锅，原字幕明确实际名；有保存的同帧截图。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片04:36：字幕“搁了点味加了点鸡汁”。黄瓶调味汁倒向汤锅，同时手中有白色调味颗粒。只收字幕完整点名的鸡汁。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+          "quote": "原片04:40：字幕“来一点点胡椒 白胡椒”。原片明确点名加入白胡椒。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料尚待原片核对",
-        "完整配方和辅料尚待核对"
+        "白色液体：05:39手持白色液体碗，05:43汤色变浅；名称、来源以及是否组合液体本轮未可靠确认。",
+        "柑橘圆片：03:00等汤锅画面有圆形柑橘切片；本轮未把具体果实名称/品种核准，不由柠檬叶反推。",
+        "未明白色颗粒调味：04:36画面手持白色颗粒、字幕只说‘味’，不定名为盐、糖、味精。",
+        "汤底液体、用量和未取到的其他调味：没有全部逐项核验，不声称完整配方。",
+        "仅作局部抽查，未列出不代表不用；多数用量尚未核清，不用于过敏原判断。"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "原作者明确名称的实际海鲜与部分汤底/配料；不是通用泰式食谱。 虾头用于汤底，虾身确实入汤；青口贝、鲍鱼是实际主料。鸡腿菇按作者原名，不改作草菇、白玉菇或杏鲍菇；其它菇只是替换建议。冬阴功酱、鸡汁保留复合用料原名，不拆组成；片尾羊肉建议未采用。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-16",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1QP4y1m7BS/",
+        "coverage": "准确B站原版画面与硬字幕抽查；不使用观众笔记或同名替代视频补齐。"
       }
     },
     "BV1te4y1x7E7": {

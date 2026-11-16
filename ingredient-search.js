@@ -18,7 +18,7 @@
     虾:['大虾','鲜虾','虾仁','虾肉','基围虾','河虾','海虾','对虾','明虾','青虾','白虾','虾尾'],
     豆腐:['嫩豆腐','老豆腐','北豆腐','南豆腐','内酯豆腐','冻豆腐'],
     辣椒:['青椒','红椒','青辣椒','红辣椒','泡辣椒','红泡椒','尖椒','小米椒','小米辣','泡椒','干辣椒','二荆条','杭椒','彩椒'],
-    蘑菇:['香菇','口蘑','平菇','杏鲍菇','金针菇','茶树菇','蟹味菇','白玉菇']
+    蘑菇:['鸡腿菇','香菇','口蘑','平菇','杏鲍菇','金针菇','茶树菇','蟹味菇','白玉菇']
   };
   const nameOf=x=>typeof x==='string'?x:x?.name||x?.ingredient||'';
   const listOf=xs=>[...new Set((Array.isArray(xs)?xs:[]).map(nameOf).filter(Boolean))];
@@ -43,6 +43,8 @@
     const n=canonical(base),variants=[n];
     if(q==='猪肉'&&/品种待核|品种未确认/.test(raw)&&!base.includes('猪'))return false;
     for(const inner of raw.matchAll(/[（(]([^）)]+)[）)]/g))if(!/待核|未知|品种|未确认/.test(inner[1]))variants.push(canonical(inner[1]));
+    // A named mushroom is not poultry just because its Chinese name contains 鸡腿.
+    if(n==='鸡腿菇'&&['鸡','鸡肉','鸡腿'].includes(q))return false;
     if(variants.includes(q))return true;
     if(families[q])return variants.some(v=>families[q].map(canonical).includes(v));
     return variants.some(v=>v.includes(q));
