@@ -283,6 +283,21 @@ for(const term of ['红枣','鸡蛋','冰糖','白糖','绵白糖','生抽','老
 assert.equal(dataset.recipes.BV198411S7LW.main.length+dataset.recipes.BV198411S7LW.auxiliary.length,7);
 for(const q of ['猪肉 糖','猪肉 姜','五花肉 酱油']){assert(recovered('BV198411S7LW',q,true));assert(!recovered('BV198411S7LW',q));}
 
+// Explicit existing family members: no data/species inference and no reciprocal expansion.
+for(const name of ['鳗鱼','小黄鱼','大黄鱼','老板鱼']){assert(index.matchesName(name,'鱼'));assert(!index.matchesName('鱼',name));assert(!index.matchesName('鱼片（品种待核）',name));}
+for(const name of ['草菇','干香菇']){assert(index.matchesName(name,'蘑菇'));assert(!index.matchesName('蘑菇',name));}
+assert(index.matchesName('鲶鱼','鱼'));assert(!index.matchesName('鳗鱼','鲶鱼'));assert(!index.matchesName('鲶鱼','鳗鱼'));
+assert(!index.matchesName('鱼露','鱼'));assert(!index.matchesName('虾酱','虾'));
+assert(!index.matchesName('排骨（品种待核）','猪肉'));assert(!index.matchesName('肉馅（肉种待核，制成丸子）','猪肉'));
+for(const name of ['鸡','鸡肉','鸡腿'])assert(!index.matchesName('鸡腿菇',name));
+for(const bv of ['BV1W5BzYnEa6','BV1vK411A7vQ','BV1hMpT68E7W','BV1x6ZHBmEW4'])assert(recovered(bv,'鱼'));
+assert.deepEqual(get(dataset.recipes.BV1W5BzYnEa6.main),['鳗鱼']);assert(!recovered('BV1W5BzYnEa6','鲶鱼'));
+for(const bv of ['BV1W5BzYnEa6','BV1vK411A7vQ','BV1hMpT68E7W','BV1x6ZHBmEW4','BV17hzmYvEpk'])assert.equal(dataset.recipes[bv].status,'title_only');
+for(const q of ['鱼 番茄','鱼 西红柿'])assert(recovered('BV1x6ZHBmEW4',q));
+for(const bv of ['BV17hzmYvEpk','BV13F4m1M7Y1']){assert(recovered(bv,'蘑菇'));assert(recovered(bv,'蘑菇 鸡肉'));}
+assert(recovered('BV17hzmYvEpk','蘑菇 生菜',true));assert(!recovered('BV17hzmYvEpk','蘑菇 生菜'));
+assert.equal(dataset.recipes.BV13F4m1M7Y1.ingredientListCoverage,'partial_video_evidence');
+
 const allRecipes=context.window.RECIPE_COLLECTION.recipes;
 for(const cls of ['tutorial','ambiguous']){const rs=allRecipes.filter(r=>r.classification===cls),none=rs.filter(r=>{const e=index.get(r);return !e.main.length&&!e.auxiliary.length}),mainUnknown=rs.filter(r=>!index.get(r).main.length);assert.equal(none.length,dataset.stats.unknownByClassification[cls]);assert.equal(mainUnknown.length,dataset.stats.mainUnknownByClassification[cls]);}
 const splitCounts={};
@@ -302,10 +317,16 @@ run("query='牛肉';selected.method.add('炖')");const filtered=get(run('filtere
 const pool=get(run('randomPool()'));assert.equal(new Set(pool.map(r=>r.dishName||r.displayName||r.title)).size,pool.length);const random=get(run('sampleMenu(randomPool())'));assert(random.length<=12);assert(random.every(r=>filtered.some(x=>x.id===r.id)));assert(!random.some(r=>r.classification==='ambiguous'));
 assert.equal(run("dailyRecipe(new Date('2026-11-09T09:00:00')).id"),run("dailyRecipe(new Date('2026-11-09T23:59:59')).id"));assert.notEqual(run("dailyRecipe(new Date('2026-11-09T23:59:59')).id"),run("dailyRecipe(new Date('2026-11-10T00:00:00')).id"));
 run("query='虾';searchMode='ingredient';detailFilter='all';activeCreator='all';selected.method.clear()");const shrimp=get(run('filteredRecipes()'));assert.equal(shrimp.length,52);assert(shrimp.some(r=>r.url.includes('BV1ZY4y1H7DZ')));
-run("query='鱼';includeAuxiliary=false");const fish=get(run('filteredRecipes()'));assert.equal(fish.length,88);
+run("query='鱼';includeAuxiliary=false");const fish=get(run('filteredRecipes()'));assert.equal(fish.length,91);
 for(const bv of ['BV1GY411B7mE','BV1kh4y1R7s4','BV1hM4y1T7zE'])assert(fish.some(r=>r.url.includes(bv)));
 run("query='鱼片'");const fishSlices=get(run('filteredRecipes()'));assert.equal(fishSlices.length,3);
 run("query='鳜鱼'");const mandarinFish=get(run('filteredRecipes().map(r=>r.id)'));run("query='桂鱼'");assert.deepEqual(get(run('filteredRecipes().map(r=>r.id)')),mandarinFish);assert.equal(mandarinFish.length,7);
 run("query='鱼 姜'");assert.equal(run('filteredRecipes().length'),0);run("includeAuxiliary=true");const fishGinger=get(run('filteredRecipes()'));assert(fishGinger.some(r=>r.url.includes('BV1kh4y1R7s4')));assert(fishGinger.every(r=>index.match(r,'鱼 姜',true).rank===1));
 run("query='猪肉';includeAuxiliary=false");const pork=get(run('filteredRecipes()'));assert.equal(pork.length,30);assert(pork.some(r=>r.url.includes('BV198411S7LW')));assert.equal(beef.length,84);
-console.log(JSON.stringify({passed:true,pork:pork.length,soupPorkOriginals:3,fish:fish.length,fishSlices:fishSlices.length,fishAndGingerAuxiliary:fishGinger.length,shrimp:shrimp.length,records:945,mainDirectory:918,beef:beef.length,tomato:tomato.length,beefAndTomato:combo.length,auxiliaryOnion:withAux.length,random:random.length,mainMissingSplit:splitCounts,tests:['preserve original catalog and notes','every ingredient record has source evidence','directional families and aliases','unknown species stay unknown','beef example dishes','multi-ingredient AND','main-first ranking','auxiliary opt-in','old text search','category merges','type and facet filters','scoped random menu','daily hero']},null,2));
+run("query='鱼 番茄';includeAuxiliary=false");const fishTomato=get(run('filteredRecipes()'));assert.equal(fishTomato.length,1);assert(fishTomato[0].url.includes('BV1x6ZHBmEW4'));
+run("query='蘑菇'");const mushrooms=get(run('filteredRecipes()'));assert.equal(mushrooms.length,8);
+run("query='蘑菇 鸡肉'");const mushroomsChicken=get(run('filteredRecipes()'));assert.equal(mushroomsChicken.length,3);
+run("query='蘑菇 生菜'");assert.equal(run('filteredRecipes().length'),0);run("includeAuxiliary=true");const mushroomsLettuce=get(run('filteredRecipes()'));assert.equal(mushroomsLettuce.length,1);assert(mushroomsLettuce[0].url.includes('BV17hzmYvEpk'));
+run("query='鱼 大黄鱼';includeAuxiliary=false");assert.equal(run('filteredRecipes().length'),0);run("detailFilter='ambiguous'");const pendingYellow=get(run('filteredRecipes()'));assert.equal(pendingYellow.length,1);assert(pendingYellow[0].url.includes('BV1hMpT68E7W'));assert.equal(pendingYellow[0].classification,'ambiguous');
+run("query='鱼';detailFilter='all'");assert.equal(run('filteredRecipes().length'),91);
+console.log(JSON.stringify({passed:true,mushrooms:mushrooms.length,mushroomsChicken:mushroomsChicken.length,mushroomsLettuceAux:mushroomsLettuce.length,fishTomato:fishTomato.length,pendingYellow:pendingYellow.length,pork:pork.length,soupPorkOriginals:3,fish:fish.length,fishSlices:fishSlices.length,fishAndGingerAuxiliary:fishGinger.length,shrimp:shrimp.length,records:945,mainDirectory:918,beef:beef.length,tomato:tomato.length,beefAndTomato:combo.length,auxiliaryOnion:withAux.length,random:random.length,mainMissingSplit:splitCounts,tests:['preserve original catalog and notes','every ingredient record has source evidence','directional families and aliases','unknown species stay unknown','beef example dishes','multi-ingredient AND','main-first ranking','auxiliary opt-in','old text search','category merges','type and facet filters','scoped random menu','daily hero']},null,2));
