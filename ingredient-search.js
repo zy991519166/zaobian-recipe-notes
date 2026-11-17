@@ -47,6 +47,8 @@
     if(n==='鸡腿菇'&&['鸡','鸡肉','鸡腿'].includes(q))return false;
     // Standalone 鸡 denotes poultry, not the explicitly named egg ingredients.
     if(q==='鸡'&&['鸡蛋','鸡蛋清','鸡蛋液','鸡蛋黄','鸡蛋白'].includes(n))return false;
+    // This annotated clam name is not a goose or an egg; independent egg tokens still match.
+    if(n==='天鹅蛋'&&variants.includes('贝类')&&['鹅','鹅蛋','蛋'].includes(q))return false;
     if(variants.includes(q))return true;
     if(families[q])return variants.some(v=>families[q].map(canonical).includes(v));
     return variants.some(v=>v.includes(q));

@@ -215,17 +215,24 @@
         "BV1Ug41117oP"
       ],
       "coverage": "茄鲞与醋溜苜蓿准确原片部分食材核对；实际鸡腿肉与旧书斑鸠分开，实际坚果与未核品种／替代建议分开，苜蓿不当植物且肉种未知不猜。保留原入口与部分状态，不新增完整观看、作者清单或跨站说明计数。"
+    },
+    "baosanyangOriginalReview": {
+      "date": "2026-11-17",
+      "recipeIds": [
+        "BV1xjnP66ExC"
+      ],
+      "coverage": "只核对准确老程本味原片主料切配及硬字幕，猪通脊有明确物种，腰子与肝保持品种未知；辅料与数字用量暂空。未完整观看、不新增作者清单或跨站说明。"
     }
   },
   "stats": {
-    "withMain": 864,
+    "withMain": 865,
     "withAuxiliary": 285,
     "total": 945,
-    "withAnyIngredient": 874,
+    "withAnyIngredient": 875,
     "status": {
       "title_only": 787,
-      "verified_partial": 87,
-      "unknown": 71
+      "verified_partial": 88,
+      "unknown": 70
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -233,13 +240,13 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 54,
+    "sampledVideoRecipes": 55,
     "unknownByClassification": {
-      "tutorial": 61,
+      "tutorial": 60,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 71,
+      "tutorial": 70,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -1665,28 +1672,60 @@
       }
     },
     "BV1xjnP66ExC": {
-      "main": [],
+      "main": [
+        "猪通脊",
+        "腰子（品种待核）",
+        "肝（品种待核）"
+      ],
       "auxiliary": [],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1xjnP66ExC/",
           "quote": "传统鲁菜【爆三样】三种滋味爆棚，脆嫩鲜香，技术细节拉满！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1xjnP66ExC/",
+          "quote": "原片约01:06：切配肉片时硬字幕明确“猪的通脊就可以哈”。因此记录实际备料猪通脊，不以旧有猪肉／内脏风味标签推断用料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1xjnP66ExC/",
+          "quote": "原片约02:39：备料盘展示切配食材，硬字幕“这是腰子啊”；未取得直接动物种类名称，记录腰子（品种待核），不能把另一项猪通脊中的“猪”移用于腰子。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1xjnP66ExC/",
+          "quote": "原片约02:51：硬字幕“教科书级的肝尖啊”，随后约02:52继续展示红色肝片切配；主料盘显示三类已备食材。只记录肝（品种待核），不从形态、菜名或同盘猪通脊推断为猪肝。时间用于抽查定位，02:52切配截图本身不是02:51命名字幕。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "腰子与肝的动物种类未直接核明，不推断猪、牛、羊等",
+        "全部辅料、调味品、用量与完整配方待核，空白不代表不用",
+        "仅原片切配段抽查，未完整观看或核全作者清单，不用于过敏原判断"
       ],
-      "notes": "",
+      "notes": "老程本味08:35准确原片，主料切配阶段明确猪通脊、腰子和肝尖。只有猪通脊具有直接物种证据；腰子、肝仍保留品种待核，不因“三样”同盘就全部归为猪内脏。辅料和调味未取得可靠命名证据，本轮留空；无已核数字用量，不移用通用爆三样配方或旧风味标签。",
       "recipeComplete": false,
       "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1xjnP66ExC/",
+        "publisherObserved": "老程本味",
+        "runtimeObserved": "08:35",
+        "coverage": "只抽查准确原片主料切配画面和硬字幕，未完整观看，辅料与用量未核清。"
+      },
+      "quantityObservations": []
     },
     "BV1CSJv6sEe8": {
       "main": [],
