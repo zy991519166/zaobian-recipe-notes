@@ -45,6 +45,8 @@
     for(const inner of raw.matchAll(/[（(]([^）)]+)[）)]/g))if(!/待核|未知|品种|未确认/.test(inner[1]))variants.push(canonical(inner[1]));
     // A named mushroom is not poultry just because its Chinese name contains 鸡腿.
     if(n==='鸡腿菇'&&['鸡','鸡肉','鸡腿'].includes(q))return false;
+    // Standalone 鸡 denotes poultry, not the explicitly named egg ingredients.
+    if(q==='鸡'&&['鸡蛋','鸡蛋清','鸡蛋液','鸡蛋黄','鸡蛋白'].includes(n))return false;
     if(variants.includes(q))return true;
     if(families[q])return variants.some(v=>families[q].map(canonical).includes(v));
     return variants.some(v=>v.includes(q));

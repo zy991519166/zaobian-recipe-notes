@@ -421,6 +421,35 @@ for(const q of ['花椒','味精','葱','鸡蛋','面粉','淀粉','水']){asser
 for(const q of ['盐','姜','料酒','玉米淀粉','食用油'])assert(!recovered('BV1vK411A7vQ',q,true));
 assert.deepEqual(get(smallFish.quantityRelations[0].items),['面粉','淀粉']);assert.equal(smallFish.quantityRelations[0].ratio,'2:1');assert.equal(smallFish.quantityRelations[0].absoluteAmounts,null);assert(smallFish.notes.includes('不声称截图已显示倒水'));
 
+// A standalone 鸡 query must not be satisfied by egg ingredients.
+for(const name of ['鸡蛋','鸡蛋清','鸡蛋液','鸡蛋黄','鸡蛋白','鸡子','鸡蛋（可选）']){
+ assert(!index.matchesName(name,'鸡'));
+ assert(index.matchesName(name,'鸡蛋'));
+}
+for(const name of ['鸡','鸡肉','鸡腿肉','鸡爪','鸡翅','鸡胸肉','老母鸡（含鸡头、鸡爪）'])assert(index.matchesName(name,'鸡'));
+for(const term of ['鸡','鸡肉','鸡腿'])assert(!index.matchesName('鸡腿菇',term));
+assert(index.matchesName('鸡腿菇','鸡腿菇'));assert(index.matchesName('鸡腿菇','蘑菇'));
+assert(!recovered('BV1Z6gczgEA1','鸡'));assert(recovered('BV1Z6gczgEA1','鸡蛋'));
+assert(!recovered('BV1N6an6EEx8','扇贝 鸡',true));assert(recovered('BV1N6an6EEx8','扇贝 鸡蛋',true));
+assert(!recovered('BV1Hpun6nECx','海参 鸡',true));assert(recovered('BV1Hpun6nECx','海参 鸡蛋',true));
+for(const bv of ['BV13F4m1M7Y1','BV1bt4y1v7ig','BV1Zt4y1e7z5']){
+ assert(recovered(bv,'鸡'));assert(recovered(bv,'鸡 鸡蛋',true));
+}
+for(const aux of [false,true]){
+ const rows=context.window.RECIPE_COLLECTION.recipes.filter(r=>r.classification==='tutorial'&&index.match(r,'鸡',aux).matched);
+ assert.equal(rows.length,aux?92:87);
+ for(const r of rows){const m=index.match(r,'鸡',aux);assert(![...m.main,...m.auxiliary].some(x=>/^鸡蛋/.test(x)));}
+}
+// AND must find actual chicken and egg within one component, never across dishes.
+dataset.recipes.chickenEggOne={main:['鸡腿肉'],auxiliary:['鸡蛋'],evidence:[]};
+dataset.recipes.chickenEggSplit={main:['鸡腿肉','鸡蛋'],auxiliary:[],evidence:[],dishes:[{name:'蒸蛋',main:['鸡蛋'],auxiliary:[]},{name:'鸡肉菜',main:['鸡腿肉'],auxiliary:[]}]};
+assert(!index.match({id:'chickenEggOne'},'鸡 鸡蛋').matched);
+assert(index.match({id:'chickenEggOne'},'鸡 鸡蛋',true).matched);
+assert(!index.match({id:'chickenEggSplit'},'鸡 鸡蛋',true).matched);
+assert.deepEqual(get(index.match({id:'chickenEggSplit'},'鸡',true).matchedDishNames),['鸡肉菜']);
+assert.deepEqual(get(index.match({id:'chickenEggSplit'},'鸡蛋',true).matchedDishNames),['蒸蛋']);
+delete dataset.recipes.chickenEggOne;delete dataset.recipes.chickenEggSplit;
+
 const allRecipes=context.window.RECIPE_COLLECTION.recipes;
 for(const cls of ['tutorial','ambiguous']){const rs=allRecipes.filter(r=>r.classification===cls),none=rs.filter(r=>{const e=index.get(r);return !e.main.length&&!e.auxiliary.length}),mainUnknown=rs.filter(r=>!index.get(r).main.length);assert.equal(none.length,dataset.stats.unknownByClassification[cls]);assert.equal(mainUnknown.length,dataset.stats.mainUnknownByClassification[cls]);}
 const splitCounts={};
