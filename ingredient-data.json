@@ -199,17 +199,25 @@
         "BV1vK411A7vQ"
       ],
       "coverage": "准确原片山东老味狮子头、扒仙贝腹及炸小黄鱼的部分食材核对；不从菜名或未匹配转载猜食材。保留原入口、目录分类与未知信息，不声称完整观看或配方。"
+    },
+    "foshouSteamedReview": {
+      "date": "2026-11-17",
+      "recipeIds": [
+        "BV1XU4y1F7xa",
+        "BV1nb421e7tJ"
+      ],
+      "coverage": "准确原片佛手卷与河南蒸菜的部分食材核对；蒸菜按两个实际吃法隔离搜索，未知肉种、植物细类和复合蒜汁组成不猜测。未使用未完成同片匹配的YouTube候选，不新增完整清单或完整观看计数。"
     }
   },
   "stats": {
-    "withMain": 860,
-    "withAuxiliary": 281,
+    "withMain": 862,
+    "withAuxiliary": 283,
     "total": 945,
-    "withAnyIngredient": 870,
+    "withAnyIngredient": 872,
     "status": {
       "title_only": 787,
-      "verified_partial": 83,
-      "unknown": 75
+      "verified_partial": 85,
+      "unknown": 73
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -217,13 +225,13 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 50,
+    "sampledVideoRecipes": 52,
     "unknownByClassification": {
-      "tutorial": 65,
+      "tutorial": 63,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 75,
+      "tutorial": 73,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -231,7 +239,7 @@
       "tutorial": 10,
       "ambiguous": 0
     },
-    "groupedMultiDishVideos": 2
+    "groupedMultiDishVideos": 3
   },
   "recipes": {
     "BV1mheg6hE6j": {
@@ -5897,28 +5905,260 @@
       }
     },
     "BV1nb421e7tJ": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "白萝卜",
+        "胡萝卜",
+        "蒿菜（嫩叶）"
+      ],
+      "auxiliary": [
+        "面粉",
+        "蒜汁",
+        "食用油",
+        "干辣椒",
+        "蒜",
+        "盐",
+        "味精"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1nb421e7tJ/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |万能菜！甜香软糯的河南蒸菜！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片00:29：原字幕“好我们准备好的蔬菜”。准备盘近景直接可见去皮白萝卜、橙色胡萝卜及一束叶菜。白萝卜与胡萝卜依据清晰原料画面识别，不声称该句字幕逐一命名。随后00:33擦胡萝卜、00:41擦白萝卜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片00:50; 01:01：原字幕“咱把控完水的萝卜呢”。00:50将红白两种萝卜丝共同倒入滤网；01:01同盘摊开控水后的混合萝卜丝。引文对应01:01。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片00:51：原字幕“这是蒿菜杆”。近景切除该束叶菜的下部粗梗。保留原字幕蒿菜称谓，不作更具体物种推断。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片00:52：原字幕“用的都是嫩叶的部分”。延续前一镜头，说明选用嫩叶，非把被切除的粗梗索引为实际食材。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片01:08：原字幕“用普通面粉就可以了”。厨师手持用于裹菜的面粉袋说明；只记录普通面粉，不推断低筋、中筋等类型。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片01:17：原字幕“你看盘子底下没有太多的面粉就行了”。将红白萝卜丝同盘翻拌，清晰裹上白色面粉。无可换算克数。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片01:35; 01:40：01:35直接向另一盘叶菜撒相同制作环节的面粉，01:40翻拌裹粉叶菜。与01:08明确普通面粉说明、01:17萝卜裹粉共同支持两类蔬菜共用面粉。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片02:57–02:58：原字幕“给你们提供两种吃法”。厨师举两指介绍蒸好后的两个处理方式；后续均有实际示范，不只是口头食用建议。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片03:01：原字幕“就是直接拿蒜汁拌了”。玻璃碗内实际手拌蒸好的红白萝卜丝。未取得第一种明确加入叶菜的镜头，也未核实蒜汁完整组成。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片03:05–03:06; 03:11; 03:14：原字幕“第二种我们起锅烧油”。引文对应03:05附近第二种做法开头。03:11可见油中炒香干辣椒和蒜末；03:14说明锅底油不要太多。油种与量未核实。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片03:08：原字幕“倒入干辣椒和蒜末”。锅中明确可见红色干辣椒段及切碎蒜块，实际入锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片03:23：原字幕“加点盐味精调下味”。向混合蒸菜的炒锅中撒入调味粉粒。记录盐、味精，但不推断克数。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+          "quote": "原片03:28：同一炒锅近景明确见裹粉白萝卜丝、胡萝卜丝、叶菜及干辣椒一起翻拌；保留这一同锅关系。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "蒿菜更细植物品种未核实，保留原文名称。",
+        "第一种是否还含明确加入的叶菜未证实，未列入第一组。",
+        "蒜汁具体组成、各食材重量、油种、蒸制时长未完整核实。",
+        "仅原片抽查，未核全全部用量、蒸制细节或作者清单；未列出不代表不用，不用于过敏原判断"
       ],
-      "notes": "",
+      "notes": "特厨做饭_2024-06-12准确原片，浏览器播放器04:28，目录原记录04:29不改。原片明确演示两种吃法，按蒜汁拌法、蒜末干辣椒炒法分别整理；分组名为编辑说明。红白萝卜实际混合，两者不是互斥菜。蒿菜沿用原字幕名称，只取嫩叶，不自行细化植物种类，且只赋给已明确同锅的炒法。顶层主辅数组仅为覆盖并集，多词搜索只在一个做法内同时满足。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+        "publisherObserved": "特厨做饭_",
+        "runtimeObserved": "04:28",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，未使用未匹配的跨站版本补齐食材。"
+      },
+      "searchScope": "same_dish",
+      "ingredientAggregation": "coverage_only",
+      "dishes": [
+        {
+          "name": "河南蒸菜（蒜汁拌法）",
+          "main": [
+            "白萝卜",
+            "胡萝卜"
+          ],
+          "auxiliary": [
+            "面粉",
+            "蒜汁"
+          ],
+          "evidence": [
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片00:29：原字幕“好我们准备好的蔬菜”。准备盘近景直接可见去皮白萝卜、橙色胡萝卜及一束叶菜。白萝卜与胡萝卜依据清晰原料画面识别，不声称该句字幕逐一命名。随后00:33擦胡萝卜、00:41擦白萝卜。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片00:50; 01:01：原字幕“咱把控完水的萝卜呢”。00:50将红白两种萝卜丝共同倒入滤网；01:01同盘摊开控水后的混合萝卜丝。引文对应01:01。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片01:08：原字幕“用普通面粉就可以了”。厨师手持用于裹菜的面粉袋说明；只记录普通面粉，不推断低筋、中筋等类型。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片01:17：原字幕“你看盘子底下没有太多的面粉就行了”。将红白萝卜丝同盘翻拌，清晰裹上白色面粉。无可换算克数。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片02:57–02:58：原字幕“给你们提供两种吃法”。厨师举两指介绍蒸好后的两个处理方式；后续均有实际示范，不只是口头食用建议。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片03:01：原字幕“就是直接拿蒜汁拌了”。玻璃碗内实际手拌蒸好的红白萝卜丝。未取得第一种明确加入叶菜的镜头，也未核实蒜汁完整组成。"
+            }
+          ],
+          "notes": "编辑分组标签；原片称第一种吃法，并非独立作者菜名。红白萝卜丝实际混合裹粉，随后实际用蒜汁拌，不应拆成白萝卜与胡萝卜两个互斥菜。 第一种拌法未取得明确加入叶菜的证据，因此不把蒿菜赋给本组。 蒜汁为原片直接名称，不拆出盐、醋、水、油或其他未核实组成。 无已核实精确用量。",
+          "status": "verified_partial",
+          "recipeComplete": false,
+          "unresolved": [
+            "蒿菜更细植物品种未核实，保留原文名称。",
+            "第一种是否还含明确加入的叶菜未证实，未列入第一组。",
+            "蒜汁具体组成、各食材重量、油种、蒸制时长未完整核实。"
+          ]
+        },
+        {
+          "name": "河南蒸菜（蒜末干辣椒炒法）",
+          "main": [
+            "白萝卜",
+            "胡萝卜",
+            "蒿菜（嫩叶）"
+          ],
+          "auxiliary": [
+            "面粉",
+            "食用油",
+            "干辣椒",
+            "蒜",
+            "盐",
+            "味精"
+          ],
+          "evidence": [
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片00:29：原字幕“好我们准备好的蔬菜”。准备盘近景直接可见去皮白萝卜、橙色胡萝卜及一束叶菜。白萝卜与胡萝卜依据清晰原料画面识别，不声称该句字幕逐一命名。随后00:33擦胡萝卜、00:41擦白萝卜。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片00:50; 01:01：原字幕“咱把控完水的萝卜呢”。00:50将红白两种萝卜丝共同倒入滤网；01:01同盘摊开控水后的混合萝卜丝。引文对应01:01。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片00:51：原字幕“这是蒿菜杆”。近景切除该束叶菜的下部粗梗。保留原字幕蒿菜称谓，不作更具体物种推断。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片00:52：原字幕“用的都是嫩叶的部分”。延续前一镜头，说明选用嫩叶，非把被切除的粗梗索引为实际食材。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片01:08：原字幕“用普通面粉就可以了”。厨师手持用于裹菜的面粉袋说明；只记录普通面粉，不推断低筋、中筋等类型。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片01:17：原字幕“你看盘子底下没有太多的面粉就行了”。将红白萝卜丝同盘翻拌，清晰裹上白色面粉。无可换算克数。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片01:35; 01:40：01:35直接向另一盘叶菜撒相同制作环节的面粉，01:40翻拌裹粉叶菜。与01:08明确普通面粉说明、01:17萝卜裹粉共同支持两类蔬菜共用面粉。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片02:57–02:58：原字幕“给你们提供两种吃法”。厨师举两指介绍蒸好后的两个处理方式；后续均有实际示范，不只是口头食用建议。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片03:05–03:06; 03:11; 03:14：原字幕“第二种我们起锅烧油”。引文对应03:05附近第二种做法开头。03:11可见油中炒香干辣椒和蒜末；03:14说明锅底油不要太多。油种与量未核实。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片03:08：原字幕“倒入干辣椒和蒜末”。锅中明确可见红色干辣椒段及切碎蒜块，实际入锅。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片03:23：原字幕“加点盐味精调下味”。向混合蒸菜的炒锅中撒入调味粉粒。记录盐、味精，但不推断克数。"
+            },
+            {
+              "source": "video_frame",
+              "url": "https://www.bilibili.com/video/BV1nb421e7tJ/",
+              "quote": "原片03:28：同一炒锅近景明确见裹粉白萝卜丝、胡萝卜丝、叶菜及干辣椒一起翻拌；保留这一同锅关系。"
+            }
+          ],
+          "notes": "编辑分组标签；原片称第二种吃法，并非独立作者菜名。03:23及03:28同一炒锅中直接可见白萝卜丝、胡萝卜丝、裹粉叶菜与干辣椒混合，不是跨菜拼接原料。 蒿菜沿用00:51原字幕名称；00:52说明用嫩叶部分，不自行细化为茼蒿或其他植物品种。 蒜的实际形态为原字幕蒜末。食用油不推断油种。 盐、味精仅有加点的相对描述；无克数、比例或油量已核实。 不能把第一种的蒜汁自动加到此组。",
+          "status": "verified_partial",
+          "recipeComplete": false,
+          "unresolved": [
+            "蒿菜更细植物品种未核实，保留原文名称。",
+            "第一种是否还含明确加入的叶菜未证实，未列入第一组。",
+            "蒜汁具体组成、各食材重量、油种、蒸制时长未完整核实。"
+          ]
+        }
+      ],
+      "quantityObservations": []
     },
     "BV14r421c7R8": {
       "main": [
@@ -20928,28 +21168,91 @@
       }
     },
     "BV1XU4y1F7xa": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "鸡蛋",
+        "肉馅（品种待核）"
+      ],
+      "auxiliary": [
+        "马蹄",
+        "味精",
+        "盐",
+        "玉米淀粉",
+        "葱",
+        "姜",
+        "水淀粉",
+        "面粉",
+        "水",
+        "食用油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
           "quote": "国宴大厨还原正宗宫廷菜【佛手卷】，色香味俱全！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
+          "quote": "原片01:41；01:46–01:57：01:41硬字幕“放点马蹄你看”，近景将白色马蹄剁细；01:46字幕明确肉馅，01:57同一钢盆可见绞肉与马蹄末。肉类物种、部位和比例未核，不据菜名猜猪肉。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
+          "quote": "原片01:50–01:57：01:50向肉馅加白色调味，01:51字幕提及此菜放味精；01:57明确“放盐 放点盐”，同盆加入。没有据此推算味精或盐的克数。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
+          "quote": "原片02:12：馅盆近景加入白色淀粉料，硬字幕“水淀粉 玉米淀粉”。按作者命名记录玉米淀粉用于馅料，不把这一字幕拆成两份干淀粉用量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
+          "quote": "原片02:17–02:18；02:28；02:52：02:17–02:18字幕明确“蛋液全蛋液 加鸡蛋增加它的香气”，用于肉馅；02:28另敲鸡蛋准备蛋皮；02:52原字幕“加点水淀粉就行”，向蛋液碗加水淀粉。蛋皮用水淀粉的干粉种类未另确认。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
+          "quote": "原片约02:18–02:20：原字幕“我们把这点葱姜米加进去”，把小碗里切碎的葱姜加入同一肉馅盆。米指切碎形态，不是大米。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
+          "quote": "原片05:53；06:01；06:32–07:03：05:53可见摊好的黄色蛋皮在圆木板上分切；06:01硬字幕“就是面加水 就是浆糊”，用于蛋皮内面黏合；06:32–07:03涂浆并卷成条。面粉筋度、水量与肉馅量未核，不把面粉误作主要外皮。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
+          "quote": "原片09:01：原片近景见切有多道切口的蛋皮卷实际在油锅中炸制；食用油的品种和用量未知。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "肉馅物种、部位、肥瘦比例及各食材用量未核",
+        "蛋皮水淀粉的干粉种类、面粉筋度、油种及其余调味尚待核对",
+        "YouTube候选klEuIxeOpuM为同日官方标题，但时长08:39与B站11:47不同且正片持续缓冲，仅见有限预览，未完成同版画面核对；不采用候选简介独有食材补齐",
+        "只抽查原片，未完整观看、未核全作者清单；未列出不代表不用，不用于过敏原判断"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "老饭骨2021-10-23、11:47原片。鸡蛋用于肉馅及摊制外皮，肉馅物种待核；马蹄切末入馅。玉米淀粉按02:12作者原称记录；蛋皮另加水淀粉，不推断其干粉品种。面粉加水只用于黏合浆糊，不是另做面皮。食用油为实际炸制用油；所有用量、油种及其余调味仍待核。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1XU4y1F7xa/",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "11:47",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，未使用未匹配的跨站版本补齐食材。"
+      },
+      "quantityObservations": []
     },
     "BV1ch41147Tq": {
       "main": [
