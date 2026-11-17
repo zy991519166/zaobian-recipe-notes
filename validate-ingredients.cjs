@@ -72,7 +72,7 @@ assert(recovered('BV1ab4y1s7wk','鸡蛋 黄酒 淀粉',true));assert(!recovered(
 assert(recovered('BV1RC411p79s','肠'));assert(recovered('BV1RC411p79s','肝 酒',true));assert(!recovered('BV1RC411p79s','猪肉'));
 assert(recovered('BV1gr4y1n7uv','腰花 酱油',true));assert(!recovered('BV1gr4y1n7uv','猪肉'));assert(!recovered('BV1gr4y1n7uv','高汤',true));
 assert(recovered('BV15P411V7YS','面粉'));assert(recovered('BV15P411V7YS','低筋面粉'));assert(recovered('BV15P411V7YS','面粉 红菜头汁',true));assert(!recovered('BV15P411V7YS','蜜枣',true));assert(!recovered('BV15P411V7YS','枣泥',true));
-assert.equal(dataset.stats.withMain,857);assert.equal(dataset.stats.withAuxiliary,275);assert.equal(dataset.stats.status.unknown,78);assert.equal(dataset.stats.sampledVideoRecipes,42);assert.equal(dataset.limits.fullVideosWatched,0);assert.equal(dataset.limits.originalDescriptionsMissing,6);
+assert.equal(dataset.stats.withMain,858);assert.equal(dataset.stats.withAuxiliary,277);assert.equal(dataset.stats.status.unknown,77);assert.equal(dataset.stats.sampledVideoRecipes,45);assert.equal(dataset.limits.fullVideosWatched,0);assert.equal(dataset.limits.originalDescriptionsMissing,6);
 // Exact user beef examples: author card vs partial video evidence remain distinct.
 assert(recovered('BV1KDdSBZEVw','牛腩'));assert(recovered('BV1KDdSBZEVw','牛肉 西红柿'));
 for(const term of ['料包','香芹','胡萝卜','黄油','水','食用油','番茄沙司','香菜']){assert(recovered('BV1KDdSBZEVw',term,true));assert(!recovered('BV1KDdSBZEVw',term));}
@@ -191,7 +191,7 @@ for(const term of ['草鱼','鲤鱼','生抽','胡椒','鸡蛋','料酒','玉米
 assert(!recovered('BV1Kw411n74A','番茄'));assert(!dataset.recipes.BV1Kw411n74A.auxiliary.includes('番茄'));assert.equal(dataset.recipes.BV1Kw411n74A.main.length+dataset.recipes.BV1Kw411n74A.auxiliary.length,13);
 for(const bv of ['BV1Kw411n74A','BV1Gw4m197fR'])assert.equal(dataset.recipes[bv].ingredientListCoverage,'source_list_transcribed');
 for(const bv of ['BV1Kw411n74A','BV1Gw4m197fR','BV13F4m1M7Y1']){const e=dataset.recipes[bv];assert.equal(e.status,'verified_partial');assert.equal(e.recipeComplete,false);assert.equal(e.sourceReview.fullVideo,false);assert.equal(e.sourceReview.videoFrames,true);assert(!e.sourceReview.crosspostMatched);}
-assert.equal(dataset.stats.groupedMultiDishVideos,2);assert.equal(dataset.stats.withMain,857);assert.equal(dataset.stats.withAuxiliary,275);
+assert.equal(dataset.stats.groupedMultiDishVideos,2);assert.equal(dataset.stats.withMain,858);assert.equal(dataset.stats.withAuxiliary,277);
 
 // Exact 2026-11-15 original clips: no generic substitutions or guessed stock.
 for(const term of ['猪肚头','猪肚','鸡胗'])assert(recovered('BV1XT411i7RV',term));
@@ -324,12 +324,45 @@ assert(dataset.recipes.BV1dr4y1B7iA.evidence.some(e=>e.quote.includes('冰糖老
 assert(dataset.recipes.BV1dr4y1B7iA.auxiliary.includes('玉米粉（生粉）'));
 for(const bv of ['BV1EH4y1s7Zs','BV1dr4y1B7iA']){assert(!dataset.recipes[bv].sourceReview.crosspostMatched);assert(!dataset.recipes[bv].sourceReview.officialCrosspostDescription);}
 
+// Exact salmon and tofu-sheet family members only, without conflating narrow ingredient names.
+assert(index.matchesName('三文鱼','鱼'));assert(!index.matchesName('鱼','三文鱼'));
+for(const name of ['鱼露','鱼子酱','鲍鱼','鱿鱼','三文鱼头'])assert(!index.matchesName(name,'鱼'));
+for(const q of ['鳜鱼','桂鱼','鳝鱼','鲶鱼'])assert(!index.matchesName('三文鱼',q));
+assert(index.matchesName('干豆腐','豆腐'));assert(!index.matchesName('豆腐','干豆腐'));
+for(const q of ['豆腐干','豆干','豆皮','嫩豆腐'])assert(!index.matchesName('干豆腐',q));
+for(const name of ['豆腐干','豆皮','腐乳'])assert(!index.matchesName(name,'豆腐'));
+assert(index.matchesName('豆干','豆腐干'));assert(index.matchesName('嫩豆腐','豆腐'));
+for(const bv of ['BV14i7nzcEiH','BV1YqJ8zMENR','BV1jM4m1y7f6','BV1yT42167se']){
+ assert(recovered(bv,'鱼 三文鱼'));assert.equal(dataset.recipes[bv].status,'title_only');
+ for(const q of ['鳜鱼','桂鱼','鱼露'])assert(!recovered(bv,q,true));
+}
+assert(recovered('BV1GctTeeEAV','豆腐 干豆腐 尖椒'));
+for(const q of ['豆腐干','豆干','豆皮','嫩豆腐'])assert(!recovered('BV1GctTeeEAV',q,true));
+for(const bv of ['BV1GctTeeEAV','BV1D54y1k7pZ','BV1bt4y1v7ig']){
+ const e=dataset.recipes[bv];assert.equal(e.status,'verified_partial');assert.equal(e.recipeComplete,false);
+ assert.equal(e.sourceReview.fullVideo,false);assert.equal(e.sourceReview.videoFrames,true);
+ assert.equal(e.ingredientListCoverage,'partial_video_evidence');assert(!e.sourceIngredientList);
+ assert(e.evidence.some(x=>x.source==='video_frame'&&x.url.includes(bv)));
+ assert(!e.sourceReview.crosspostMatched);assert(!e.sourceReview.officialCrosspostDescription);
+}
+assert.deepEqual(get(dataset.recipes.BV1D54y1k7pZ.main),['海参','虾仁','肉馅（品种待核）','韭菜']);
+for(const q of ['海参 虾','虾 韭菜','肉馅'])assert(recovered('BV1D54y1k7pZ',q));
+for(const q of ['海参 姜','虾 黄酒','韭菜 香油']){assert(!recovered('BV1D54y1k7pZ',q));assert(recovered('BV1D54y1k7pZ',q,true));}
+for(const q of ['猪肉','牛肉','羊肉','鸡肉','鸡蛋','面粉'])assert(!recovered('BV1D54y1k7pZ',q,true));
+assert.deepEqual(get(dataset.recipes.BV1bt4y1v7ig.main),['鸡腿肉']);
+assert(recovered('BV1bt4y1v7ig','鸡肉 鸡腿肉'));
+for(const q of ['鸡肉 淀粉','鸡肉 鸡蛋','鸡肉 老抽','鸡肉 盐','鸡肉 胡椒粉','鸡肉 黄酒','鸡肉 香油','鸡肉 番茄酱','鸡肉 辣酱油','鸡肉 糖','鸡肉 食用油','鸡肉 洋葱']){assert(!recovered('BV1bt4y1v7ig',q));assert(recovered('BV1bt4y1v7ig',q,true));}
+for(const q of ['鸡胸肉','冰糖','白糖','玉米淀粉','蒜'])assert(!recovered('BV1bt4y1v7ig',q,true));
+assert(!dataset.recipes.BV1bt4y1v7ig.auxiliary.includes('葱')); // Existing textual 葱 query also finds 洋葱; not an asserted scallion ingredient.
+assert(dataset.recipes.BV1bt4y1v7ig.evidence.some(e=>e.quote.includes('冰糖老抽')));
+assert.equal(dataset.recipes.BV1bt4y1v7ig.main.length+dataset.recipes.BV1bt4y1v7ig.auxiliary.length,13);
+
 const allRecipes=context.window.RECIPE_COLLECTION.recipes;
 for(const cls of ['tutorial','ambiguous']){const rs=allRecipes.filter(r=>r.classification===cls),none=rs.filter(r=>{const e=index.get(r);return !e.main.length&&!e.auxiliary.length}),mainUnknown=rs.filter(r=>!index.get(r).main.length);assert.equal(none.length,dataset.stats.unknownByClassification[cls]);assert.equal(mainUnknown.length,dataset.stats.mainUnknownByClassification[cls]);}
 const splitCounts={};
 for(const cls of ['tutorial','ambiguous']){const rs=allRecipes.filter(r=>r.classification===cls),missing=rs.filter(r=>!index.get(r).main.length),empty=missing.filter(r=>!index.get(r).auxiliary.length),auxOnly=missing.filter(r=>index.get(r).auxiliary.length);splitCounts[cls]={mainMissing:missing.length,whollyEmpty:empty.length,auxiliaryOnly:auxOnly.length};assert.equal(missing.length,empty.length+auxOnly.length);assert.equal(auxOnly.length,dataset.stats.auxiliaryOnlyByClassification[cls]);}
-assert.deepEqual(splitCounts.tutorial,{mainMissing:78,whollyEmpty:68,auxiliaryOnly:10});assert.deepEqual(splitCounts.ambiguous,{mainMissing:10,whollyEmpty:10,auxiliaryOnly:0});
-assert.equal(dataset.stats.status.verified_partial,75);assert.equal(dataset.stats.status.title_only,792);
+assert.deepEqual(splitCounts.tutorial,{mainMissing:77,whollyEmpty:67,auxiliaryOnly:10});assert.deepEqual(splitCounts.ambiguous,{mainMissing:10,whollyEmpty:10,auxiliaryOnly:0});
+assert.equal(dataset.stats.status.verified_partial,78);assert.equal(dataset.stats.status.title_only,790);
 run("query='牛肉'");const beef=get(run('filteredRecipes()'));assert(beef.some(r=>/小炒黄牛肉/.test(r.dishName||r.title)),'Missing 小炒黄牛肉');assert(beef.some(r=>/番茄.*牛腩|西红柿.*牛腩/.test(r.dishName||r.title)),'Missing tomato beef');assert(beef.every(r=>index.match(r,'牛肉').matched));
 run("query='牛腩'");assert(run('filteredRecipes().length')>0);assert(run('filteredRecipes().length')<beef.length);
 run("query='番茄'");const tomato=get(run('filteredRecipes().map(r=>r.id)'));run("query='西红柿'");assert.deepEqual(get(run('filteredRecipes().map(r=>r.id)')),tomato);
@@ -342,8 +375,8 @@ run("searchMode='ingredient';query='不存在的食材'");assert.equal(run('filt
 run("query='牛肉';selected.method.add('炖')");const filtered=get(run('filteredRecipes()'));assert(filtered.every(r=>r.facets.method.includes('炖')&&index.match(r,'牛肉').matched));
 const pool=get(run('randomPool()'));assert.equal(new Set(pool.map(r=>r.dishName||r.displayName||r.title)).size,pool.length);const random=get(run('sampleMenu(randomPool())'));assert(random.length<=12);assert(random.every(r=>filtered.some(x=>x.id===r.id)));assert(!random.some(r=>r.classification==='ambiguous'));
 assert.equal(run("dailyRecipe(new Date('2026-11-09T09:00:00')).id"),run("dailyRecipe(new Date('2026-11-09T23:59:59')).id"));assert.notEqual(run("dailyRecipe(new Date('2026-11-09T23:59:59')).id"),run("dailyRecipe(new Date('2026-11-10T00:00:00')).id"));
-run("query='虾';searchMode='ingredient';detailFilter='all';activeCreator='all';selected.method.clear()");const shrimp=get(run('filteredRecipes()'));assert.equal(shrimp.length,52);assert(shrimp.some(r=>r.url.includes('BV1ZY4y1H7DZ')));
-run("query='鱼';includeAuxiliary=false");const fish=get(run('filteredRecipes()'));assert.equal(fish.length,92);
+run("query='虾';searchMode='ingredient';detailFilter='all';activeCreator='all';selected.method.clear()");const shrimp=get(run('filteredRecipes()'));assert.equal(shrimp.length,53);assert(shrimp.some(r=>r.url.includes('BV1ZY4y1H7DZ')));
+run("query='鱼';includeAuxiliary=false");const fish=get(run('filteredRecipes()'));assert.equal(fish.length,96);
 for(const bv of ['BV1GY411B7mE','BV1kh4y1R7s4','BV1hM4y1T7zE'])assert(fish.some(r=>r.url.includes(bv)));
 run("query='鱼片'");const fishSlices=get(run('filteredRecipes()'));assert.equal(fishSlices.length,3);
 run("query='鳜鱼'");const mandarinFish=get(run('filteredRecipes().map(r=>r.id)'));run("query='桂鱼'");assert.deepEqual(get(run('filteredRecipes().map(r=>r.id)')),mandarinFish);assert.equal(mandarinFish.length,7);
@@ -354,7 +387,7 @@ run("query='蘑菇'");const mushrooms=get(run('filteredRecipes()'));assert.equal
 run("query='蘑菇 鸡肉'");const mushroomsChicken=get(run('filteredRecipes()'));assert.equal(mushroomsChicken.length,3);
 run("query='蘑菇 生菜'");assert.equal(run('filteredRecipes().length'),0);run("includeAuxiliary=true");const mushroomsLettuce=get(run('filteredRecipes()'));assert.equal(mushroomsLettuce.length,1);assert(mushroomsLettuce[0].url.includes('BV17hzmYvEpk'));
 run("query='鱼 大黄鱼';includeAuxiliary=false");assert.equal(run('filteredRecipes().length'),0);run("detailFilter='ambiguous'");const pendingYellow=get(run('filteredRecipes()'));assert.equal(pendingYellow.length,1);assert(pendingYellow[0].url.includes('BV1hMpT68E7W'));assert.equal(pendingYellow[0].classification,'ambiguous');
-run("query='鱼';detailFilter='all'");assert.equal(run('filteredRecipes().length'),92);
+run("query='鱼';detailFilter='all'");assert.equal(run('filteredRecipes().length'),96);
 run("query='鳝鱼';includeAuxiliary=false");const eels=get(run('filteredRecipes()'));assert.equal(eels.length,5);assert(eels.some(r=>r.url.includes('BV1EH4y1s7Zs')));
 run("query='鱼 鳝鱼'");const fishEels=get(run('filteredRecipes()'));assert.equal(fishEels.length,4);
 run("query='干贝 冰糖';includeAuxiliary=true");assert.equal(run('filteredRecipes().length'),0);

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "scope": "945条现有视频目录（含27条待核候选）",
   "coverageNote": "标题与明确菜名的食材索引；有作者清单、配方图、原片抽查或已匹配官方同片简介依据时补充。没有逐一看完原视频，空白不代表不用该食材，不是完整配方或过敏原清单。",
   "roleNote": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
@@ -173,17 +173,26 @@
         "BV1dr4y1B7iA"
       ],
       "coverage": "紫龙脱袍与金银干贝汤的准确原片抽查；仅列明确原料，不猜鳝鱼细分种类，不把建议的鸡汤或鸡汁当作已实际使用。保留原入口与部分核对状态，不声称完整观看或完整配方。"
+    },
+    "salmonTofuDumplingReview": {
+      "date": "2026-11-17",
+      "recipeIds": [
+        "BV1bt4y1v7ig",
+        "BV1D54y1k7pZ",
+        "BV1GctTeeEAV"
+      ],
+      "coverage": "干豆腐形态、三鲜馅饺子实作用料与煎烹鸡肉串原片抽查；三文鱼和干豆腐只作精确成员的单向类别扩展。保留原入口和部分状态，不把未核肉种或复合调味品拆成猜测食材，不声称完整观看或清单。"
     }
   },
   "stats": {
-    "withMain": 857,
-    "withAuxiliary": 275,
+    "withMain": 858,
+    "withAuxiliary": 277,
     "total": 945,
-    "withAnyIngredient": 867,
+    "withAnyIngredient": 868,
     "status": {
-      "title_only": 792,
-      "verified_partial": 75,
-      "unknown": 78
+      "title_only": 790,
+      "verified_partial": 78,
+      "unknown": 77
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -191,13 +200,13 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 42,
+    "sampledVideoRecipes": 45,
     "unknownByClassification": {
-      "tutorial": 68,
+      "tutorial": 67,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 78,
+      "tutorial": 77,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -5307,19 +5316,34 @@
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1GctTeeEAV/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |尖椒干豆腐千万次的艾特终于出教程了！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1GctTeeEAV/",
+          "quote": "原片约00:17：厨师前方右侧盘中原料呈浅黄色薄片/切条后折叠堆放的形态；可见柔软薄片折边，不是厚块状。此帧硬字幕为“没有东北那么好”，不是食材名称。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "未成功读到厨师直接命名食材的硬字幕，不声称原片口述已对比干豆腐与豆腐干。",
+        "只核标题与局部形态，辅料、用量和完整配方待核；未列出不代表不用。"
       ],
-      "notes": "",
+      "notes": "原作者标题称干豆腐；00:17局部画面支持薄片／条片折叠形态。保留原名，不改作豆腐干，也不把豆腐干、豆皮或嫩豆腐设为同义词。本次只核名称与形态，不补猜辅料。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1GctTeeEAV/?vd_source=0412d050cd4b29e766117ad0398e15ca",
+        "coverage": "准确B站原片画面／硬字幕抽查；未完整观看，未使用观众笔记或未匹配的跨站版本。"
       }
     },
     "BV1Ns4teyEpg": {
@@ -12002,52 +12026,199 @@
     },
     "BV1bt4y1v7ig": {
       "main": [
-        "鸡肉"
+        "鸡腿肉"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "淀粉",
+        "鸡蛋",
+        "老抽",
+        "盐",
+        "胡椒粉",
+        "黄酒",
+        "香油",
+        "番茄酱",
+        "辣酱油",
+        "糖",
+        "食用油",
+        "洋葱"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1bt4y1v7ig/",
           "quote": "国宴大厨教你经典老菜：煎烹鸡肉串，香到让人直流口水！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1bt4y1v7ig/",
+          "quote": "原片约00:13–00:16：鸡腿肉 先搁点淀粉上浆了。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1bt4y1v7ig/",
+          "quote": "原片约00:17–00:20：鸡蛋。肉碗内见蛋黄和蛋清样液体；不根据单镜头认定配方总量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1bt4y1v7ig/",
+          "quote": "原片约00:22–00:27：搁点酱油 冰糖老抽 盐 胡椒粉 黄酒；这料就放完了 接着放香油。浇入深色调味汁；酱油在该句引出冰糖老抽，不拆作另一份酱油。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1bt4y1v7ig/",
+          "quote": "原片约02:30–02:32：酱汁配料画面：番茄酱、辣酱油、黄酒、冰糖老抽、糖、胡椒粉。作者叠字列示酱汁原料，不是全菜食材表。后续约03:06–03:10见倒入盘中。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1bt4y1v7ig/",
+          "quote": "原片约02:56–03:07：来点底油 小料。清楚见油入锅、可辨紫皮白瓤洋葱丁；同盘其余切碎小料不据颜色猜名称。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "糖的种类、原片辣酱油的具体品种、淀粉与底油类型及用量待核。冰糖老抽是完整调味品名，不等于单独加入冰糖。",
+        "其余小料未核准；只抽查原片，未核实全菜完整食材清单。",
+        "仅凭香料碎末颜色不能确认葱、蒜等；没有核实完整配方，不用于过敏原判断。"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "原片明确鸡腿肉；作者酱汁叠字仅是该酱汁配料，不是全菜清单。冰糖老抽按老抽索引，保留原称于证据，不拆出冰糖；作者另列的糖独立记录。主辅角色是编辑整理。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1bt4y1v7ig/",
+        "coverage": "准确B站原片画面／硬字幕抽查；未完整观看，未使用观众笔记或未匹配的跨站版本。"
       }
     },
     "BV1D54y1k7pZ": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "海参",
+        "虾仁",
+        "肉馅（品种待核）",
+        "韭菜"
+      ],
+      "auxiliary": [
+        "姜",
+        "黄酒",
+        "葱",
+        "盐",
+        "香油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
           "quote": "国宴大厨教你做：三鲜馅饺子，家的味道！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约01:00：“海参这肠有的人不爱去”。水槽内实际清理海参。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约02:00：“这海参可多可少”。案板上将海参切丁。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约01:20：“然后咱把虾仁给它处理一下”。展示盛有虾仁的盆。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约01:30：案板上实际剁切去壳虾仁。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约03:20–03:30：混合肉馅盆中清楚可见虾仁块。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约02:15：“肉馅是这样”。厨师展示盆中的粉红色绞肉馅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约02:20–03:00：拌制、摔打该肉馅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约03:45：“韭菜有沙子”。原片讲解韭菜清理并实际切配成束韭菜。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约04:05：“咱就搁在里头了”。切碎的韭菜倒入先前肉与海鲜的同一盆馅中。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约01:10：“来两片姜 来点酒 黄酒”。汆制用锅中可见姜片。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约01:10：“来两片姜 来点酒 黄酒”。实际向汆制锅中倒酒。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约01:12：“再来几个葱 还得搁点盐”。向含姜片的锅中放入葱段。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约01:12：“再来几个葱 还得搁点盐”。讲解海参汆制水的用料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约01:15：“这去掉海参的腥味和给它增加点味道”。同锅近景，实际加入白色颗粒并解释处理海参用途。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1D54y1k7pZ/",
+          "quote": "原片约03:30：“香油 二合油 这叫什么”。镜头近拍向肉与海鲜混合馅中实际倒油，同时直接命名香油。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料尚待原片核对",
-        "完整配方和辅料尚待核对"
+        "肉馅畜种及部位、海参与虾的细分类待核，不推定猪肉。",
+        "面皮具体用料及比例、完整馅料调味和用量尚未核实。",
+        "03:30另提二合油，但另一种油及比例未确认，不拆分猜测。",
+        "01:10的“两片姜”仅属汆海参工序，不是整份姜总量。",
+        "仅抽查原片，07:58片尾未见清单，不代表整片没有卡；未列出不代表不用，不用于过敏原判断。"
       ],
-      "notes": "完整配方和辅料尚待核对。三鲜馅的具体组成待核。",
+      "notes": "海参、虾仁、肉馅和韭菜确认为同一盆混合馅，不按常见“三鲜”配方猜。姜、黄酒、葱、盐为汆海参用料，不等同全部直接拌入馅；香油明确加入馅。主辅角色是编辑整理。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
         "description": true,
-        "pinnedComments": true
+        "pinnedComments": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "已整理准确原片画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1D54y1k7pZ/?vd_source=0412d050cd4b29e766117ad0398e15ca",
+        "coverage": "准确B站原片画面／硬字幕抽查；未完整观看，未使用观众笔记或未匹配的跨站版本。"
       }
     },
     "BV1vK411A7vQ": {
