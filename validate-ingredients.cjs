@@ -42,14 +42,14 @@ assert(recovered('BV1GoMw6HEDP','排骨（品种待核）'));
 assert(recovered('BV1eKgY6CEEH','食用油（可选糖色用）',true));
 assert(recovered('BV1qd2tYwE7A','水',true));
 assert(recovered('BV1JY411K7PJ','蔬菜汁',true));assert(recovered('BV1eV4y1h7P9','蔬菜',true));assert(!recovered('BV1eV4y1h7P9','可乐',true));
-assert.equal(Object.values(dataset.recipes).filter(e=>e.ingredientListCoverage==='source_list_transcribed').length,19);
+assert.equal(Object.values(dataset.recipes).filter(e=>e.ingredientListCoverage==='source_list_transcribed').length,20);
 for(const e of Object.values(dataset.recipes).filter(e=>e.ingredientListCoverage==='source_list_transcribed')){
   assert.equal(e.recipeComplete,false);assert.equal(e.sourceReview.fullVideo,false);assert.equal(index.statusLabel(e),'作者食材清单已收录');
   assert(e.ingredientListNote.includes('不等于'));assert(e.evidence.some(x=>['recipe_card','description','pinned_comment'].includes(x.source)));
   for(const name of e.sourceIngredientList?.indexedNames||[])assert([...e.main,...e.auxiliary].includes(name),'Author list name omitted: '+name);
 }
 assert.equal(dataset.stats.withAuxiliary,Object.values(dataset.recipes).filter(e=>e.auxiliary.length).length);
-assert.equal(dataset.stats.authorIngredientListsTranscribed,19);
+assert.equal(dataset.stats.authorIngredientListsTranscribed,20);
 // Exact grabbed-fish original: partial ingredients, no unverified cross-post or recipe-card claim.
 const grabbedFish=dataset.recipes.BV1GY411B7mE;
 for(const term of ['黑鱼','鱼片','鱼'])assert(recovered('BV1GY411B7mE',term));
@@ -72,7 +72,7 @@ assert(recovered('BV1ab4y1s7wk','鸡蛋 黄酒 淀粉',true));assert(!recovered(
 assert(recovered('BV1RC411p79s','肠'));assert(recovered('BV1RC411p79s','肝 酒',true));assert(!recovered('BV1RC411p79s','猪肉'));
 assert(recovered('BV1gr4y1n7uv','腰花 酱油',true));assert(!recovered('BV1gr4y1n7uv','猪肉'));assert(!recovered('BV1gr4y1n7uv','高汤',true));
 assert(recovered('BV15P411V7YS','面粉'));assert(recovered('BV15P411V7YS','低筋面粉'));assert(recovered('BV15P411V7YS','面粉 红菜头汁',true));assert(!recovered('BV15P411V7YS','蜜枣',true));assert(!recovered('BV15P411V7YS','枣泥',true));
-assert.equal(dataset.stats.withMain,865);assert.equal(dataset.stats.withAuxiliary,285);assert.equal(dataset.stats.status.unknown,70);assert.equal(dataset.stats.sampledVideoRecipes,55);assert.equal(dataset.limits.fullVideosWatched,0);assert.equal(dataset.limits.originalDescriptionsMissing,6);
+assert.equal(dataset.stats.withMain,867);assert.equal(dataset.stats.withAuxiliary,287);assert.equal(dataset.stats.status.unknown,68);assert.equal(dataset.stats.sampledVideoRecipes,57);assert.equal(dataset.limits.fullVideosWatched,0);assert.equal(dataset.limits.originalDescriptionsMissing,6);
 // Exact user beef examples: author card vs partial video evidence remain distinct.
 assert(recovered('BV1KDdSBZEVw','牛腩'));assert(recovered('BV1KDdSBZEVw','牛肉 西红柿'));
 for(const term of ['料包','香芹','胡萝卜','黄油','水','食用油','番茄沙司','香菜']){assert(recovered('BV1KDdSBZEVw',term,true));assert(!recovered('BV1KDdSBZEVw',term));}
@@ -191,7 +191,7 @@ for(const term of ['草鱼','鲤鱼','生抽','胡椒','鸡蛋','料酒','玉米
 assert(!recovered('BV1Kw411n74A','番茄'));assert(!dataset.recipes.BV1Kw411n74A.auxiliary.includes('番茄'));assert.equal(dataset.recipes.BV1Kw411n74A.main.length+dataset.recipes.BV1Kw411n74A.auxiliary.length,13);
 for(const bv of ['BV1Kw411n74A','BV1Gw4m197fR'])assert.equal(dataset.recipes[bv].ingredientListCoverage,'source_list_transcribed');
 for(const bv of ['BV1Kw411n74A','BV1Gw4m197fR','BV13F4m1M7Y1']){const e=dataset.recipes[bv];assert.equal(e.status,'verified_partial');assert.equal(e.recipeComplete,false);assert.equal(e.sourceReview.fullVideo,false);assert.equal(e.sourceReview.videoFrames,true);assert(!e.sourceReview.crosspostMatched);}
-assert.equal(dataset.stats.groupedMultiDishVideos,3);assert.equal(dataset.stats.withMain,865);assert.equal(dataset.stats.withAuxiliary,285);
+assert.equal(dataset.stats.groupedMultiDishVideos,3);assert.equal(dataset.stats.withMain,867);assert.equal(dataset.stats.withAuxiliary,287);
 
 // Exact 2026-11-15 original clips: no generic substitutions or guessed stock.
 for(const term of ['猪肚头','猪肚','鸡胗'])assert(recovered('BV1XT411i7RV',term));
@@ -498,7 +498,7 @@ for(const q of ['苜蓿','牛肉','羊肉','猪肉','里脊','鸡','鸡肉','盐
 assert(recovered('BV1Ug41117oP','玉米粉 土豆粉 米醋 黄豆酱油',true));
 assert(muxu.evidence.some(x=>x.quote.includes('磨裆部位')));assert(muxu.notes.includes('不把标题苜蓿当作植物'));
 assert(qiexiang.evidence.some(x=>x.quote.includes('代替了斑鸠肉')));assert(qiexiang.unresolved.some(x=>x.includes('100克')));
-assert.equal(dataset.stats.withAnyIngredient,875);assert.equal(dataset.stats.authorIngredientListsTranscribed,19);assert.equal(dataset.stats.officialCrosspostDescriptionsReviewed,10);
+assert.equal(dataset.stats.withAnyIngredient,877);assert.equal(dataset.stats.authorIngredientListsTranscribed,20);assert.equal(dataset.stats.officialCrosspostDescriptionsReviewed,10);
 
 // Exact annotated clam token must not satisfy goose or egg queries.
 for(const name of ['天鹅蛋（贝类）','天鹅蛋(贝类)']){
@@ -546,12 +546,43 @@ for(const q of ['猪通脊','猪肉','腰子','肝','猪通脊 腰子 肝'])asse
 for(const q of ['猪肝','猪腰','牛肉','羊肉','鸡肉','葱','姜','蒜','盐','淀粉','料酒','酱油','食用油'])assert(!recovered('BV1xjnP66ExC',q,true));
 for(const name of ['腰子（品种待核）','肝（品种待核）'])assert(!index.matchesName(name,'猪肉'));
 
+// 2024 exact original 炸排叉 and 隋卞一做 三不沾, not other editions.
+const paicha=dataset.recipes.BV1Et421H7nv,sanbuzhan=dataset.recipes.BV1KJ4m1W7ZU;
+assert.deepEqual(get(sanbuzhan.main),['鸡蛋黄']);
+assert.deepEqual(get(sanbuzhan.auxiliary),['白糖','水','土豆淀粉','食用油']);
+assert.equal(sanbuzhan.ingredientListCoverage,'source_list_transcribed');
+assert.equal(index.statusLabel(sanbuzhan),'作者食材清单已收录');
+assert.equal(sanbuzhan.sourceIngredientList.sourceListTranscribed,true);
+assert.equal(sanbuzhan.sourceIngredientList.quantities.length,5);
+assert.deepEqual(get(sanbuzhan.sourceIngredientList.quantities.map(x=>[x.name,x.amount])),[['鸡蛋','5个'],['白糖','80g'],['水','150g'],['土豆淀粉','40g'],['油','50g']]);
+assert(sanbuzhan.sourceIngredientList.quantities[0].scope.includes('只取蛋黄'));
+assert(sanbuzhan.evidence.some(x=>x.source==='recipe_card'&&x.quote.includes('06:05')&&x.quote.includes('只取蛋黄')));
+for(const q of ['鸡蛋黄','蛋黄','鸡蛋','蛋'])assert(recovered('BV1KJ4m1W7ZU',q));
+for(const q of ['白糖','水','土豆淀粉','食用油']){assert(!recovered('BV1KJ4m1W7ZU',q));assert(recovered('BV1KJ4m1W7ZU',q,true));assert(recovered('BV1KJ4m1W7ZU','鸡蛋黄 '+q,true));}
+assert(recovered('BV1KJ4m1W7ZU','鸡蛋黄 土豆淀粉 白糖 水 食用油',true));
+for(const q of ['鸡','鸡肉','鸡蛋清','蛋清','猪油','色拉油','黄油','牛奶','面粉','玉米淀粉'])assert(!recovered('BV1KJ4m1W7ZU',q,true));
+for(const bv of ['BV1Et421H7nv','BV1KJ4m1W7ZU']){
+ const e=dataset.recipes[bv];assert.equal(e.status,'verified_partial');assert.equal(e.recipeComplete,false);assert.equal(e.sourceReview.fullVideo,false);assert.equal(e.sourceReview.videoFrames,true);assert(!e.sourceReview.crosspostMatched);assert(!e.dishes);assert(e.evidence.every(x=>x.url.includes(bv)));assert(e.ingredientListNote.includes('不等于'));
+}
+assert.deepEqual(get(paicha.main),['面粉（标准粉）']);assert.deepEqual(get(paicha.auxiliary),['鸡蛋','芝麻','水','盐','苏打','食用油']);
+assert.equal(paicha.ingredientListCoverage,'partial_video_evidence');assert(!paicha.sourceIngredientList);
+assert.equal(paicha.quantityObservations.length,5);
+assert.deepEqual(get(paicha.quantityObservations.map(x=>[x.name,x.amount])),[['面粉（标准粉）','一斤半'],['芝麻','20克'],['鸡蛋','一个'],['盐','7.5克'],['苏打','4克']]);
+for(const q of ['面粉','标准粉','面粉 标准粉'])assert(recovered('BV1Et421H7nv',q));
+for(const q of ['鸡蛋','芝麻','水','盐','苏打','食用油']){assert(!recovered('BV1Et421H7nv',q));assert(recovered('BV1Et421H7nv','标准粉 '+q,true));}
+for(const q of ['低筋面粉','中筋面粉','高筋面粉','小苏打','泡打粉','猪油','白糖','鸡','鸡肉','牛奶','土豆淀粉'])assert(!recovered('BV1Et421H7nv',q,true));
+assert.equal(paicha.evidence.filter(x=>x.source==='video_frame').length,6);
+assert(paicha.evidence.some(x=>x.quote.includes('01:10')&&x.quote.includes('同一青花小碟')));
+assert(paicha.notes.includes('传人'));assert(sanbuzhan.notes.includes('同和居'));
+const sbHtml=run("detailIngredients({url:'https://www.bilibili.com/video/BV1KJ4m1W7ZU/'})");assert(sbHtml.includes('作者食材清单已收录'));assert(sbHtml.includes('土豆淀粉40g'));assert(sbHtml.includes('只取蛋黄'));
+const pcHtml=run("detailIngredients({url:'https://www.bilibili.com/video/BV1Et421H7nv/'})");assert(pcHtml.includes('部分食材已核对'));assert(!pcHtml.includes('作者食材清单已收录'));assert(pcHtml.includes('一斤半标准粉'));
+
 const allRecipes=context.window.RECIPE_COLLECTION.recipes;
 for(const cls of ['tutorial','ambiguous']){const rs=allRecipes.filter(r=>r.classification===cls),none=rs.filter(r=>{const e=index.get(r);return !e.main.length&&!e.auxiliary.length}),mainUnknown=rs.filter(r=>!index.get(r).main.length);assert.equal(none.length,dataset.stats.unknownByClassification[cls]);assert.equal(mainUnknown.length,dataset.stats.mainUnknownByClassification[cls]);}
 const splitCounts={};
 for(const cls of ['tutorial','ambiguous']){const rs=allRecipes.filter(r=>r.classification===cls),missing=rs.filter(r=>!index.get(r).main.length),empty=missing.filter(r=>!index.get(r).auxiliary.length),auxOnly=missing.filter(r=>index.get(r).auxiliary.length);splitCounts[cls]={mainMissing:missing.length,whollyEmpty:empty.length,auxiliaryOnly:auxOnly.length};assert.equal(missing.length,empty.length+auxOnly.length);assert.equal(auxOnly.length,dataset.stats.auxiliaryOnlyByClassification[cls]);}
-assert.deepEqual(splitCounts.tutorial,{mainMissing:70,whollyEmpty:60,auxiliaryOnly:10});assert.deepEqual(splitCounts.ambiguous,{mainMissing:10,whollyEmpty:10,auxiliaryOnly:0});
-assert.equal(dataset.stats.status.verified_partial,88);assert.equal(dataset.stats.status.title_only,787);
+assert.deepEqual(splitCounts.tutorial,{mainMissing:68,whollyEmpty:58,auxiliaryOnly:10});assert.deepEqual(splitCounts.ambiguous,{mainMissing:10,whollyEmpty:10,auxiliaryOnly:0});
+assert.equal(dataset.stats.status.verified_partial,90);assert.equal(dataset.stats.status.title_only,787);
 run("query='牛肉'");const beef=get(run('filteredRecipes()'));assert(beef.some(r=>/小炒黄牛肉/.test(r.dishName||r.title)),'Missing 小炒黄牛肉');assert(beef.some(r=>/番茄.*牛腩|西红柿.*牛腩/.test(r.dishName||r.title)),'Missing tomato beef');assert(beef.every(r=>index.match(r,'牛肉').matched));
 run("query='牛腩'");assert(run('filteredRecipes().length')>0);assert(run('filteredRecipes().length')<beef.length);
 run("query='番茄'");const tomato=get(run('filteredRecipes().map(r=>r.id)'));run("query='西红柿'");assert.deepEqual(get(run('filteredRecipes().map(r=>r.id)')),tomato);

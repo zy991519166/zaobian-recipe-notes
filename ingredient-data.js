@@ -222,31 +222,39 @@ window.INGREDIENT_DATA = {
         "BV1xjnP66ExC"
       ],
       "coverage": "只核对准确老程本味原片主料切配及硬字幕，猪通脊有明确物种，腰子与肝保持品种未知；辅料与数字用量暂空。未完整观看、不新增作者清单或跨站说明。"
+    },
+    "paichaSanbuzhanReview": {
+      "date": "2026-11-17",
+      "recipeIds": [
+        "BV1KJ4m1W7ZU",
+        "BV1Et421H7nv"
+      ],
+      "coverage": "炸排叉准确原片部分用料与三不沾准确作者片尾卡；原文标准粉／苏打不细化，鸡蛋只取蛋黄及油种未知保留。三不沾卡片转录不等于完整配方，炸排叉不声称取得作者完整清单；不使用未匹配跨站或其他厨师版本。"
     }
   },
   "stats": {
-    "withMain": 865,
-    "withAuxiliary": 285,
+    "withMain": 867,
+    "withAuxiliary": 287,
     "total": 945,
-    "withAnyIngredient": 875,
+    "withAnyIngredient": 877,
     "status": {
       "title_only": 787,
-      "verified_partial": 88,
-      "unknown": 70
+      "verified_partial": 90,
+      "unknown": 68
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
     "descriptionPagesReviewed": 939,
     "pinnedCommentPagesRead": 88,
-    "authorIngredientListsTranscribed": 19,
+    "authorIngredientListsTranscribed": 20,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 55,
+    "sampledVideoRecipes": 57,
     "unknownByClassification": {
-      "tutorial": 60,
+      "tutorial": 58,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 70,
+      "tutorial": 68,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -7052,28 +7060,127 @@ window.INGREDIENT_DATA = {
       }
     },
     "BV1KJ4m1W7ZU": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "鸡蛋黄"
+      ],
+      "auxiliary": [
+        "白糖",
+        "水",
+        "土豆淀粉",
+        "食用油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/zh-Hans/video/BV1KJ4m1W7ZU/?spm_id_from=333.1387.upload.video_card.click",
           "quote": "隋卞一做 |这次一定要教会你们做三不沾！"
+        },
+        {
+          "source": "recipe_card",
+          "url": "https://www.bilibili.com/video/BV1KJ4m1W7ZU/",
+          "quote": "原片06:05–06:07作者片尾卡：鸡蛋5个，白糖80g，水150g，土豆淀粉40g，油50g。卡片00:32步骤明确鸡蛋只取蛋黄，去掉蛋黄旁边的胚，放入装水的盆中，倒入淀粉搅拌均匀、过滤，再加入白糖。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1KJ4m1W7ZU/",
+          "quote": "原片00:36–00:48：蛋黄加水、白粉倒入同盆、蛋液过滤；残留蛋清是清除对象，不列为实际加入的用料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1KJ4m1W7ZU/",
+          "quote": "原片01:06及01:16–01:18：“旁边备一盆干净油”“把锅拿油润一下”“烧热了之后把油倒出去”。油种未明确，不凭颜色细化；作者卡只称油。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料或具体组成待核对",
-        "完整配方和辅料尚待核对"
+        "油的具体品种未确证，不从淡色外观猜猪油或色拉油。",
+        "卡片食材已转录，但未逐一核完整视频是否另有补充；不等于完整配方，未列出不能用于过敏原判断。"
       ],
-      "notes": "",
+      "notes": "特厨做饭_2024-04-20、06:07的隋卞一做版本。卡列鸡蛋5个，步骤明确只取蛋黄，故索引鸡蛋黄而不是蛋清或全蛋用量。油50g保留卡片原量，不声称是猪油或色拉油，也不把润锅后倒出的油重复计量。未使用其他年份老饭骨或同和居做法。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
         "description": true,
-        "pinnedComments": true
+        "pinnedComments": true,
+        "videoFrames": true,
+        "recipeCard": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "source_list_transcribed",
+      "ingredientListNote": "已逐项收录准确原片作者片尾食材卡及其步骤限定，不等于逐一核对整段视频的完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1KJ4m1W7ZU/",
+        "publisherObserved": "特厨做饭_",
+        "runtimeObserved": "06:07",
+        "coverage": "原片片尾作者清单及步骤卡转录、部分制作画面抽查；未完整观看，抖音候选不作新增用料依据。"
+      },
+      "sourceIngredientList": {
+        "source": "recipe_card",
+        "url": "https://www.bilibili.com/video/BV1KJ4m1W7ZU/",
+        "sourceQuote": "原片06:05–06:07作者片尾卡：鸡蛋5个，白糖80g，水150g，土豆淀粉40g，油50g。卡片00:32步骤明确鸡蛋只取蛋黄，去掉蛋黄旁边的胚，放入装水的盆中，倒入淀粉搅拌均匀、过滤，再加入白糖。",
+        "sourceNames": [
+          "鸡蛋",
+          "白糖",
+          "水",
+          "土豆淀粉",
+          "油"
+        ],
+        "indexedNames": [
+          "鸡蛋黄",
+          "白糖",
+          "水",
+          "土豆淀粉",
+          "食用油"
+        ],
+        "sourceListTranscribed": true,
+        "sourceListScope": "author_end_card_and_its_steps",
+        "scopeNote": "只说明作者明列食材及步骤限定已转录，不声称完整观看或完整配方。",
+        "quantities": [
+          {
+            "name": "鸡蛋",
+            "amount": "5个",
+            "scope": "作者卡原量；步骤明确只取蛋黄，不是5个全蛋液"
+          },
+          {
+            "name": "白糖",
+            "amount": "80g",
+            "scope": "作者片尾卡"
+          },
+          {
+            "name": "水",
+            "amount": "150g",
+            "scope": "作者片尾卡"
+          },
+          {
+            "name": "土豆淀粉",
+            "amount": "40g",
+            "scope": "作者片尾卡"
+          },
+          {
+            "name": "油",
+            "amount": "50g",
+            "scope": "作者片尾卡；油品种未注明，不另加算润锅油"
+          }
+        ],
+        "nameNormalizations": [
+          {
+            "sourceName": "鸡蛋",
+            "indexedNames": [
+              "鸡蛋黄"
+            ],
+            "basis": "作者卡00:32步骤明确只取蛋黄；数量仍保留5个鸡蛋。"
+          },
+          {
+            "sourceName": "油",
+            "indexedNames": [
+              "食用油"
+            ],
+            "basis": "泛称食用油，不推定实际油种。"
+          }
+        ]
       }
     },
     "BV14A4m1c7Gs": {
@@ -26983,28 +27090,106 @@ window.INGREDIENT_DATA = {
       }
     },
     "BV1Et421H7nv": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "面粉（标准粉）"
+      ],
+      "auxiliary": [
+        "鸡蛋",
+        "芝麻",
+        "水",
+        "盐",
+        "苏打",
+        "食用油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1Et421H7nv/",
           "quote": "过年必备的老北京小吃！一咬嘎嘣脆，5分钟就学会~丨炸排叉"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Et421H7nv/",
+          "quote": "原片01:22：原字幕“一斤半标准粉；现在是芝麻 20克芝麻”。原片左侧大字标明标准粉及一斤半，底部硬字幕标明芝麻20克；俯拍大盆面粉、小盘芝麻及旁边蛋液。01:27另见同一标准粉大字及向面粉中倒入黄色液体。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Et421H7nv/",
+          "quote": "原片00:48–00:49：原字幕“咱们水这里边咱磕一个鸡蛋”。厨师指向和面用液体盆并准备鸡蛋；后续00:58、01:10、01:22均见黄色打散液体，01:27倒入面粉。支持水及一个鸡蛋，不给水量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Et421H7nv/",
+          "quote": "原片00:58：原字幕“7.5克盐”。手持小碗向和面液体盆中倒入，硬字幕明确名称及数量。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Et421H7nv/",
+          "quote": "原片01:09：原字幕“苏打”。青花小碟中的白色粉末近景，硬字幕仅写苏打，未擅自改为小苏打或具体化学品。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Et421H7nv/",
+          "quote": "原片01:10：原字幕“这里边咱们是搁了4克”。承接01:09同一青花小碟，说明数量；01:13见该碟倒入黄色液体并有字幕“苏打也有起膨胀作用”，因同一容器与添加动作可将4克归于苏打。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Et421H7nv/",
+          "quote": "原片约04:20–04:34：原字幕“炸的时候就是一个下锅”。寻至04:20后曾缓冲，恢复后可见排叉在大量油中起泡炸制；稍后播放器显示04:33，保存画面为漏勺从油锅捞出金黄色排叉。仅支持通用食用油，未核油种或数量。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "水量、食用油量与油种未核。",
+        "标准粉筋度、芝麻生熟和苏打更细名称或成分未核，保留原称。",
+        "只抽查备料、炸制和片尾，未核完整作者清单或全部步骤；未列出不代表不用，不用于过敏原判断。"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "老饭骨2024-02-03、05:53的炸排叉原片。标准粉保留原称，以面粉（标准粉）检索；一斤半不替换成未核跨站的750g，标准粉不推断筋度。苏打按原字幕记录，不擅改小苏打。芝麻只记原称，不细分颜色或生熟。鸡蛋、芝麻、盐、苏打和水用于面团，食用油用于实际炸制；主辅角色为编辑整理。未套用老饭骨传人或其他排叉版本。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Et421H7nv/",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "05:53",
+        "coverage": "准确B站原片部分画面／硬字幕核对；未使用YouTube候选、不增加官方同片说明或作者完整清单计数。"
+      },
+      "quantityObservations": [
+        {
+          "name": "面粉（标准粉）",
+          "amount": "一斤半",
+          "scope": "原片和面配料；保留原单位，不采用候选YouTube750g作为证据。"
+        },
+        {
+          "name": "芝麻",
+          "amount": "20克",
+          "scope": "原片和面配料；原文数量，未换算"
+        },
+        {
+          "name": "鸡蛋",
+          "amount": "一个",
+          "scope": "原片和面配料；原文数量，未换算"
+        },
+        {
+          "name": "盐",
+          "amount": "7.5克",
+          "scope": "原片和面配料；原文数量，未换算"
+        },
+        {
+          "name": "苏打",
+          "amount": "4克",
+          "scope": "原片和面配料；原文数量，未换算"
+        }
+      ]
     },
     "BV16F4m1u71M": {
       "main": [
