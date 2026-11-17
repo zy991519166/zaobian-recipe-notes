@@ -190,17 +190,26 @@
         "BV1QR4y1t7Ku"
       ],
       "coverage": "准确原片红烧牛肉与香菇牛肉酱的部分食材核对；不混用红烧牛肉面，不把其他肉类举例和醋的独立问答当作酱料实作用料。保留原入口、角色与未知信息，不声称完整观看或配方。"
+    },
+    "shandongFishReview": {
+      "date": "2026-11-17",
+      "recipeIds": [
+        "BV1N6an6EEx8",
+        "BV1Hpun6nECx",
+        "BV1vK411A7vQ"
+      ],
+      "coverage": "准确原片山东老味狮子头、扒仙贝腹及炸小黄鱼的部分食材核对；不从菜名或未匹配转载猜食材。保留原入口、目录分类与未知信息，不声称完整观看或配方。"
     }
   },
   "stats": {
-    "withMain": 858,
-    "withAuxiliary": 278,
+    "withMain": 860,
+    "withAuxiliary": 281,
     "total": 945,
-    "withAnyIngredient": 868,
+    "withAnyIngredient": 870,
     "status": {
-      "title_only": 788,
-      "verified_partial": 80,
-      "unknown": 77
+      "title_only": 787,
+      "verified_partial": 83,
+      "unknown": 75
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -208,13 +217,13 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 47,
+    "sampledVideoRecipes": 50,
     "unknownByClassification": {
-      "tutorial": 67,
+      "tutorial": 65,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 77,
+      "tutorial": 75,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -12295,26 +12304,93 @@
       "main": [
         "小黄鱼"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "花椒",
+        "味精",
+        "葱",
+        "鸡蛋",
+        "面粉",
+        "淀粉",
+        "水"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1vK411A7vQ/",
           "quote": "国宴大厨大爷带你解锁炸小黄鱼的秘诀，酥脆香嫩！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1vK411A7vQ/",
+          "quote": "原片约00:39：花椒。原片硬字幕，近景可见整粒花椒撒在鱼盆中。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1vK411A7vQ/",
+          "quote": "原片约00:52：少来一点点味精。小碟中的白色颗粒实际倒入鱼盆。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1vK411A7vQ/",
+          "quote": "原片约01:05：腌这鱼就用点葱尾巴。葱绿色部分切段放入鱼盆；索引规范为葱，保留原词葱尾巴。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1vK411A7vQ/",
+          "quote": "原片约02:24：软炸糊就是鸡蛋面粉。02:37另见蛋黄及白粉在盆中实际混合；不据此计算鸡蛋个数。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1vK411A7vQ/",
+          "quote": "原片约02:54：三分之一的淀粉 还得给点水。软炸糊制作中，手持装粉勺向盆内加粉。水的依据是作者明确制作指示，不声称截图显示倒水。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1vK411A7vQ/",
+          "quote": "原片约03:03：二的面粉 一的淀粉。实际搅拌软炸糊时说明比例；支持面粉:淀粉=2:1，无重量单位。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "仅抽查腌鱼及软炸糊片段，全部绝对用量、面粉筋度及淀粉品种尚待核对",
+        "盐、姜、料酒、炸油及其余腌料和蘸料未核，不按常见配方补齐",
+        "花椒盐讨论的后续配方与使用未核，不拆成另外已用的盐或完整椒盐",
+        "未取得完整作者清单；微博与YouTube候选未匹配、未采用",
+        "未列出不代表不用，不用于过敏原判断"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "准确原片为2020-10-24老饭骨大爷08:11炸小黄鱼。花椒、味精、葱用于腌鱼，原片称葱尾巴；鸡蛋、面粉、淀粉和水用于软炸糊。水依据作者明确的制糊指示，不声称截图已显示倒水动作。03:03面粉与淀粉比例2:1，仅属炸糊，不推算克数或鸡蛋数量。淀粉品种及面粉筋度未明确，不套用其他炸鱼版本。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1vK411A7vQ/",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "08:11",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，未使用未匹配的跨站版本补齐食材。"
+      },
+      "quantityObservations": [],
+      "quantityRelations": [
+        {
+          "component": "软炸糊",
+          "time": "约03:03",
+          "items": [
+            "面粉",
+            "淀粉"
+          ],
+          "ratio": "2:1",
+          "absoluteAmounts": null,
+          "notes": "02:54另称三分之一的淀粉；不换算绝对重量，不猜淀粉种类。"
+        }
+      ]
     },
     "BV1Ca411c7hG": {
       "main": [
@@ -15472,52 +15548,201 @@
       ]
     },
     "BV1N6an6EEx8": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "扇贝肉"
+      ],
+      "auxiliary": [
+        "鸡蛋清",
+        "猪油",
+        "牛奶",
+        "水淀粉",
+        "葱姜水",
+        "大葱"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1N6an6EEx8/",
           "quote": "谁懂！又鲜又白又嫩又滑，鲁菜扒仙贝腹，秃噜一口~"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1N6an6EEx8/",
+          "quote": "原片约00:36：600克（扇贝肉） 加上一个鸡蛋清"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1N6an6EEx8/",
+          "quote": "原片约00:40、02:32：尽量用点猪大油；炼葱油 尽量用这个猪大油哈。第二段特写可见与名称同时出现的白色固态油投入锅内。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1N6an6EEx8/",
+          "quote": "原片约00:46–00:49：100克牛奶；让它更白 还有奶香味。奶液入盆；100克明确绑定牛奶。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1N6an6EEx8/",
+          "quote": "原片约00:51、03:31：少加一点水淀粉；勾淀粉 慢一点"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1N6an6EEx8/",
+          "quote": "原片约00:54：葱姜水大概是300克"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1N6an6EEx8/",
+          "quote": "原片约02:32–02:43：炼葱油。紧接的特写可辨大葱段在锅内炼油，另见黄片但不依据外观单独索引。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料尚待原片核对",
-        "完整配方和辅料尚待核对"
+        "约00:45只读到150克，未能确切绑定用料，不将其记为猪油或牛奶用量",
+        "水淀粉品种、鸡汤是否实际使用、其余调味及绿色摆盘配料尚待核对",
+        "仅抽查原片，未取得完整作者清单，不以菜名推断其他贝类或鱼肉",
+        "未列出不代表不用，不用于过敏原判断"
       ],
-      "notes": "完整配方和辅料尚待核对。仙贝腹的具体食材构成待核。",
+      "notes": "准确原片为2026-09-29老饭骨04:59扒仙贝腹。00:36明确扇贝肉600克、鸡蛋清1个；00:46牛奶100克，00:54葱姜水约300克。葱姜水按复合用料保留，不据此推算或另列姜用量；炼葱油实际另用大葱和猪油。水淀粉不猜干淀粉品种。绿豆粉和有鸡汤加鸡汤均只是建议选项，未确认为本次实做品种，不进入食材索引。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1N6an6EEx8/",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "04:59",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，未使用未匹配的跨站版本补齐食材。"
+      },
+      "quantityObservations": [
+        {
+          "name": "扇贝肉",
+          "amount": "600克",
+          "scope": "扇贝浆调制，原片字幕；不推算全菜合计"
+        },
+        {
+          "name": "鸡蛋清",
+          "amount": "1个",
+          "scope": "扇贝浆调制，原片字幕；不推算全菜合计"
+        },
+        {
+          "name": "牛奶",
+          "amount": "100克",
+          "scope": "扇贝浆调制，原片字幕；不推算全菜合计"
+        },
+        {
+          "name": "葱姜水",
+          "amount": "约300克",
+          "scope": "扇贝浆调制，原片字幕；不推算全菜合计"
+        }
+      ]
     },
     "BV1Hpun6nECx": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "肉馅（品种待核）",
+        "海参"
+      ],
+      "auxiliary": [
+        "马蹄",
+        "葱",
+        "姜",
+        "黄酱",
+        "鸡蛋",
+        "玉米淀粉",
+        "面粉"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1Hpun6nECx/",
           "quote": "山东老味狮子头！老鲁菜的讲究，很多人第一步就做错！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Hpun6nECx/",
+          "quote": "原片02:08：山东菜它是绞的肉馅。原片近景显示盆内绞肉馅，并直接说明用的是绞的肉馅。没有在本轮抽样读到畜种、部位或肥瘦比例。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Hpun6nECx/",
+          "quote": "原片01:12；01:35；02:00；02:25–02:26：这海参啊。01:12 厨师持海参并直接命名；01:35 海参实际入水锅；02:00 切成小丁；02:25–02:26 同一盆肉馅内已见切好的海参丁。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Hpun6nECx/",
+          "quote": "原片02:15：这是马蹄。将切碎的白色马蹄实际倒入肉馅盆，原片直接命名。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Hpun6nECx/",
+          "quote": "原片02:20：葱姜米。切碎的葱姜从小碗实际倒入同一盆肉馅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Hpun6nECx/",
+          "quote": "原片02:25–02:26：黄酱。把碟内深褐色黄酱实际刮入已有肉、海参、马蹄、葱姜的馅盆。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Hpun6nECx/",
+          "quote": "原片02:38：他烧菜搁鸡蛋它软和了。手中实际敲开鸡蛋加入馅盆；02:42 搅拌画面仍可见蛋黄。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Hpun6nECx/",
+          "quote": "原片03:20：8的淀粉 2的面粉（比例）。在另一盆内调制外层挂糊，画面手持正在使用的包装可见“玉米淀粉”，同时硬字幕明确淀粉与面粉的配比。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "主料尚待原片核对",
-        "完整配方和辅料尚待核对"
+        "肉馅的物种、部位、肥瘦比例及所有食材绝对用量尚待核对",
+        "鸡蛋实际加入不代表仅用1个；面粉筋度、挂糊液料、油水及其余调味尚未核清",
+        "绿色菜底、橙色细丝及浇汁未核，不猜油菜或胡萝卜",
+        "仅抽查原片，09:40与09:49–09:50未见作者清单，不代表全片没有；微博候选未匹配、未采用",
+        "未列出不代表不用，不用于过敏原判断"
       ],
-      "notes": "完整配方和辅料尚待核对。狮子头的肉类和其他原料待核。",
+      "notes": "准确原片为2026-08-06老饭骨09:53山东老味狮子头。海参实际处理、切丁后与绞肉馅混入同一盆，按混合馅列主料；肉类物种及部位尚未核明，不根据狮子头菜名猜猪肉。马蹄、葱姜米、黄酱、鸡蛋用于馅料；葱姜米的米仅指切碎形态，不是大米。外层挂糊原片包装明确玉米淀粉，字幕给淀粉与面粉8:2比例，只属挂糊，不推算克数或肉馅配比。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Hpun6nECx/",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "09:53",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，未使用未匹配的跨站版本补齐食材。"
+      },
+      "quantityObservations": [],
+      "quantityRelations": [
+        {
+          "component": "外层挂糊",
+          "time": "03:20",
+          "items": [
+            "玉米淀粉",
+            "面粉"
+          ],
+          "ratio": "8:2",
+          "quote": "8的淀粉 2的面粉（比例）",
+          "absoluteAmounts": null,
+          "notes": "只核到比例，未核总量、称重单位或湿料占比。"
+        }
+      ]
     },
     "BV1qSv8BPEan": {
       "main": [
