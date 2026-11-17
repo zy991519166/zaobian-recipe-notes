@@ -207,17 +207,25 @@
         "BV1nb421e7tJ"
       ],
       "coverage": "准确原片佛手卷与河南蒸菜的部分食材核对；蒸菜按两个实际吃法隔离搜索，未知肉种、植物细类和复合蒜汁组成不猜测。未使用未完成同片匹配的YouTube候选，不新增完整清单或完整观看计数。"
+    },
+    "qiexiangMuxuReview": {
+      "date": "2026-11-17",
+      "recipeIds": [
+        "BV13M4y177wF",
+        "BV1Ug41117oP"
+      ],
+      "coverage": "茄鲞与醋溜苜蓿准确原片部分食材核对；实际鸡腿肉与旧书斑鸠分开，实际坚果与未核品种／替代建议分开，苜蓿不当植物且肉种未知不猜。保留原入口与部分状态，不新增完整观看、作者清单或跨站说明计数。"
     }
   },
   "stats": {
-    "withMain": 862,
-    "withAuxiliary": 283,
+    "withMain": 864,
+    "withAuxiliary": 285,
     "total": 945,
-    "withAnyIngredient": 872,
+    "withAnyIngredient": 874,
     "status": {
       "title_only": 787,
-      "verified_partial": 85,
-      "unknown": 73
+      "verified_partial": 87,
+      "unknown": 71
     },
     "fullyVerifiedRecipes": 0,
     "descriptionPagesRetrieved": 939,
@@ -225,13 +233,13 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 52,
+    "sampledVideoRecipes": 54,
     "unknownByClassification": {
-      "tutorial": 63,
+      "tutorial": 61,
       "ambiguous": 10
     },
     "mainUnknownByClassification": {
-      "tutorial": 73,
+      "tutorial": 71,
       "ambiguous": 10
     },
     "officialCrosspostDescriptionsReviewed": 10,
@@ -23839,28 +23847,114 @@
       }
     },
     "BV1Ug41117oP": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "肉（品种待核）",
+        "鸡蛋"
+      ],
+      "auxiliary": [
+        "玉米粉",
+        "土豆粉",
+        "葱",
+        "姜",
+        "蒜",
+        "水",
+        "黄豆酱油",
+        "米醋",
+        "食用油"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
           "quote": "明汁亮芡，下饭绝配！嫩中有嚼劲儿，吃着就是香~丨醋溜苜蓿"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片00:53：原字幕“那天选的那肉 磨裆部位”。当前切肉开场出现此硬字幕，画面展示一整块红色肉。后续01:11修筋膜、01:36–01:46切片。原句提及那天选肉，不含动物种类；部位词原样保存供复核，不把它自动映射为特定动物或里脊。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片02:25：原字幕“蛋清啊 老式的做法”。持蛋壳向肉片碗加入蛋清，用于上浆。并非仅靠盘面推测鸡蛋。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片02:40：原字幕“为什么放玉米粉 这个劲儿比较柔”。向加过蛋清的肉片碗中加入白色粉。原字幕仅称玉米粉，不能以外观擅自改为玉米淀粉。05:54侧字卡再次明示玉米粉上浆。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片04:05; 04:21：原字幕“摊鸡蛋油量不能过多\n但也不能过少”。04:05原片侧字卡为引文；04:21实际见鸡蛋在锅中摊炒。油种和具体用量未明确。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片06:21：原字幕“放到锅里 鸡蛋和肉”。清晰近景为已烹调鸡蛋与肉片同时回锅，支持鸡蛋和肉均为本菜主料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片05:38：原字幕“这是姜就连姜水我都给搁里了”。把姜及其泡水舀入配汁碗。姜水在本片直接命名，水用量未知。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片05:40–05:41：原字幕“这是蒜 也是带蒜水一起”。把蒜及其泡水舀入配汁碗；截图保存的稳定采样点为05:40附近，另一暂停采样为05:41。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片05:45：原字幕“这个黄豆酱油它色儿重”。调制中的碗汁为深色液体，厨师直接称黄豆酱油。未改作老抽、生抽，也未拆出黄豆作为另一个原料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片05:47：原字幕“这是米醋”。勺子向配汁碗加液体时直接命名米醋；并非由菜名推断。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片05:50; 05:54：原字幕“玉米粉上浆\n土豆粉勾芡”。05:50硬字幕这个是土豆粉；05:54原片侧字卡为引文，白色淀粉浆舀入碗汁，同时底部字幕这土豆粉劲儿比较大。原文名称与用途明确；不等于观看过全片配料卡。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片05:57：原字幕“这是水淀粉 把这葱搁里头”。实际把先前切好的葱白条放入碗汁；水淀粉为前述土豆粉芡液的形态，不另计第三种粉。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1Ug41117oP/",
+          "quote": "原片06:25：刚才调好的碗汁连同其中葱条实际倒入鸡蛋和肉片同一锅，证明这些配汁材料用于当前菜，而非建议或旁置备料。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "实际肉种和标准部位未直接核明，不根据磨裆部位或关于别菜的里脊讨论推断牛、羊、猪或里脊",
+        "玉米粉上浆、土豆粉勾芡沿用作者原词；其他调味、食材用量、比例及完整配方待核",
+        "仅原片抽查，未完整观看或核全作者清单；未列出不代表不用，不用于过敏原判断"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "老饭骨2022-08-02、10:05准确原片。鸡蛋蛋清用于肉片上浆，另摊鸡蛋和肉片同锅；同一鸡蛋项不按用途重复计数。肉种未知，不把标题苜蓿当作植物。玉米粉用于上浆、土豆粉以水淀粉形态用于勾芡，保留作者原词，不凭形态改成干淀粉种类或重复增加第三种粉。姜、蒜及各自的泡水进入碗汁，再与葱、黄豆酱油、米醋和芡液一同入锅；黄豆酱油不拆黄豆，不细化生抽老抽。没有已核实数字用量，未确认调味继续留空。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1Ug41117oP/",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "10:05",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，不使用观众笔记或旧书、同名版本补齐食材。"
+      },
+      "quantityObservations": []
     },
     "BV1kS4y1W7PX": {
       "main": [
@@ -27247,28 +27341,109 @@
       }
     },
     "BV13M4y177wF": {
-      "main": [],
-      "auxiliary": [],
+      "main": [
+        "茄子",
+        "鸡腿肉"
+      ],
+      "auxiliary": [
+        "豆腐干",
+        "栗子",
+        "腰果",
+        "核桃仁",
+        "花生仁",
+        "榛子仁",
+        "青椒",
+        "红椒",
+        "葱姜水",
+        "盐",
+        "食用油",
+        "鸡油",
+        "糟油",
+        "味精",
+        "酱油",
+        "鸡汤",
+        "姜",
+        "蒜"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV13M4y177wF/",
           "quote": "红楼梦大名菜！仅食材就有足足18种，看前真是刘姥姥~"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片01:31；04:30–04:50；05:31；08:30：01:31原字幕‘然后用鸡腿肉代替了斑鸠肉’，随后04:30–04:50实际将鸡腿部肉切丁；05:31原片处理紫皮圆茄，08:30茄丁在锅中煸炒。旧书斑鸠肉不是本次实做食材；不移用鸡脯肉等其他版本。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片02:13；11:20；12:21：02:13字幕‘这是干子’，同时将厚豆腐干片切丁；11:20配料连同鸡丁入锅，12:21成品仍能辨认该豆腐干丁。按形态和原称归为豆腐干，不擅自细化为五香豆腐干。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片02:16；06:51–06:53；07:15：02:16‘这个是栗子 生的栗子’，实际将去壳栗子切块；06:51–06:53说明栗子也要下、时间短了熟不了，07:15见栗子块倒入正在炸果仁的油锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片06:41–06:49；07:11；08:00；12:13：06:41原字幕明确‘榛子仁’，06:45明确‘花生仁 核桃仁’，对应实际逐碗倒入；06:49、07:11和08:00能清楚辨认弯曲腰果、核桃仁、花生及榛子仁的实际混合炸制。12:13原字幕‘果仁一撒’，上述混合果仁最后倒入同一道菜。不将其他坚果的建议或旧书清单当作实际用料。另有长椭圆带皮坚果未取得无歧义细名，暂不索引杏仁／扁桃仁。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片01:06；06:15；11:20；12:21：准备盘上可清楚辨认完整青、红椒；06:15已经切成丁，11:20与肉丁及豆腐干丁同锅，12:21同盘成品可见。仅记青椒、红椒，不猜辣度或品种。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片05:41–05:43；05:51；05:57：向鸡丁盆加水状液体，05:41‘现成的葱姜水’、05:43‘加点葱姜水’；05:51‘然后盐 这就是差不多有三两鸡丁’，并加盐；05:57‘再来点味精’，实际加入。三两只是该段厨师对鸡丁的约量口述，不转录为观众所写100克或推算精确净重。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片06:38–07:15；08:06；08:10：06:38–07:15实际在油中炸果仁，油种未核，记食用油；08:06‘鸡油它香’，从01:45已命名鸡油的同一黄色脂肪碗取入锅；08:10‘这是糟油’，另加黄色液体。糟油沿用原称，不拆推酒、香料或油种组成，也不把它当纯香油。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片09:05；09:15；09:25–09:30；09:50：09:05‘加一点点味精’，实际加入茄丁锅；09:15‘酱油’，拌入褐色液体；09:25明确‘老饭骨大师的清鸡汤’，09:30清汤倒入茄丁锅。09:50‘放点姜来点蒜’，两种碎料实际入锅。复合清鸡汤不扩写其内部原料，酱油不细分生抽老抽。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+          "quote": "原片12:06–12:21：此前分别炒制的鸡丁配料、茄丁和果仁在同锅合成并装一盘，是一道菜的组件，不拆成跨菜搜索组。12:00字幕为‘咱们始终不加香油’，不照旧书或通用做法添加香油。"
         }
       ],
-      "status": "unknown",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对",
-        "主料尚待核对"
+        "仍有部分蘑菇、长椭圆带皮坚果和未核调料／淀粉／蛋类等未完成准确命名及使用核对，不凭旧书、观众笔记或外观细化品种",
+        "茄子500克、鸡腿肉100克等观众数值未独立核实；原片05:51约称三两鸡丁，不将其换算或混作精确配方用量",
+        "糟油、清鸡汤和葱姜水保留复合名称；内部组成、份量与完整制法尚未核全",
+        "只抽查原片画面和硬字幕；没有完整观看或转录全菜作者清单，标题18种不等于已核全18项，也不用于过敏原判断"
       ],
-      "notes": "仅据原视频标题明确提及的实际食材建立索引，未逐帧核对视频。",
+      "notes": "老饭骨2023-06-27、15:30原片。主料茄子、鸡腿肉，鸡腿肉是本片替代旧书斑鸠的实作用料；其他配料按原片实际操作与命名整理，不移用旧书完整配方。栗子、腰果、核桃仁、花生仁、榛子仁有实际备料／混合炸制和最终同锅证据；不把未核坚果细名或替代建议加入。各组件最后合成同一道菜，不拆组。葱姜水、糟油、清鸡汤保留复合名称；没有加入12:00明确说不加的香油。完整用量及其余食材尚未核全。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/list/419872064?bvid=BV13M4y177wF&oid=912799059",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "15:30",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，不使用观众笔记或旧书、同名版本补齐食材。"
+      },
+      "quantityObservations": []
     },
     "BV1uj411Z7iK": {
       "main": [
