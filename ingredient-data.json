@@ -182,16 +182,24 @@
         "BV1GctTeeEAV"
       ],
       "coverage": "干豆腐形态、三鲜馅饺子实作用料与煎烹鸡肉串原片抽查；三文鱼和干豆腐只作精确成员的单向类别扩展。保留原入口和部分状态，不把未核肉种或复合调味品拆成猜测食材，不声称完整观看或清单。"
+    },
+    "braisedBeefSauceReview": {
+      "date": "2026-11-17",
+      "recipeIds": [
+        "BV1L5411e7AW",
+        "BV1QR4y1t7Ku"
+      ],
+      "coverage": "准确原片红烧牛肉与香菇牛肉酱的部分食材核对；不混用红烧牛肉面，不把其他肉类举例和醋的独立问答当作酱料实作用料。保留原入口、角色与未知信息，不声称完整观看或配方。"
     }
   },
   "stats": {
     "withMain": 858,
-    "withAuxiliary": 277,
+    "withAuxiliary": 278,
     "total": 945,
     "withAnyIngredient": 868,
     "status": {
-      "title_only": 790,
-      "verified_partial": 78,
+      "title_only": 788,
+      "verified_partial": 80,
       "unknown": 77
     },
     "fullyVerifiedRecipes": 0,
@@ -200,7 +208,7 @@
     "pinnedCommentPagesRead": 88,
     "authorIngredientListsTranscribed": 19,
     "browserGapPagesRechecked": 6,
-    "sampledVideoRecipes": 45,
+    "sampledVideoRecipes": 47,
     "unknownByClassification": {
       "tutorial": 67,
       "ambiguous": 10
@@ -10848,25 +10856,87 @@
       "main": [
         "牛肉"
       ],
-      "auxiliary": [],
+      "auxiliary": [
+        "陈皮",
+        "葱",
+        "姜",
+        "黄酒",
+        "食用油",
+        "水"
+      ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
           "quote": "将牛肉发挥到极致，汤汁浇下的那刻，这才是“康师傅”！丨红烧牛肉"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
+          "quote": "原片约00:16–00:18：这个冷水下锅很关键。准确原片名为红烧牛肉；画面将切块生牛肉放入未沸腾水锅。未在本轮抽样中读取具体肉部位名称。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
+          "quote": "原片约00:30：陈皮有一种芳香味。手持陈皮放进牛肉焯制锅，画面已见陈皮、葱段等。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
+          "quote": "原片约02:00–02:01：不烹水也让它降温 放入葱姜。实际把葱段与姜片倒入炒锅。仅摘录此处字幕，不据前半句反推其他配方。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
+          "quote": "原片约02:30：老饭骨的黄酒 去腥增香的。牛肉炒制段，原片直接说明使用黄酒去腥增香；此前 02:20–02:21 可见向牛肉炒锅加瓶装调味液的动作，但未据瓶外观单独判断其他酱料。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
+          "quote": "原片约03:10–03:11；03:15–03:20：。03:10–03:11 可见勺内透明油状液体流入热炒锅并形成油膜；随后红色酱料在油中炒制。只支持通用食用油，不判断油种。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
+          "quote": "原片约00:16：这个冷水下锅很关键。直接说明冷水下锅。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
+          "quote": "原片约01:08：不是 现在还是小火 非常干净。锅内牛肉继续小火焯制并撇沫。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1QR4y1t7Ku/",
+          "quote": "原片约01:13–01:14：焯了15分钟。焯制结束段正在捞取牛肉，准确原片直接给出十五分钟。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "牛肉具体部位、香料完整组成、红色复合酱料名称、橙色配菜及其余调味和用量尚未核清",
+        "不从成品颜色或香料外观补猜胡萝卜、豆瓣酱、八角、干辣椒、糖、盐、酱油等",
+        "提及上一次焯牛肉的醋不作为本次实际用料；配面条的建议不并入本菜或另一条牛肉面",
+        "仅抽查原片，10:40未见作者清单，不代表整片没有卡；YouTube与印刷菜谱未确认同版、未用作证据",
+        "未列出不代表不用，不用于过敏原判断"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "准确原片为2021-11-18郑秀生10:51红烧牛肉，不与另一条红烧牛肉面合并。00:16冷水下锅、01:13–01:14焯15分钟均为原片直接说明；水仅据焯制过程收录，非汤量。陈皮用于焯制，葱姜、黄酒及食用油另有后续烹调依据。牛肉具体部位不明，主辅角色是编辑整理。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1QR4y1t7Ku/?vd_source=0412d050cd4b29e766117ad0398e15ca",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "10:51",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，不混用其他版本或观众配方。"
       }
     },
     "BV1kS4y1X7Eg": {
@@ -15287,30 +15357,119 @@
     },
     "BV1L5411e7AW": {
       "main": [
-        "牛肉"
+        "牛腩"
       ],
       "auxiliary": [
-        "香菇"
+        "香菇",
+        "甜面酱",
+        "豆瓣酱",
+        "蒜蓉辣酱",
+        "花生油",
+        "香油",
+        "葱",
+        "姜",
+        "黄酒",
+        "熟芝麻"
       ],
       "evidence": [
         {
           "source": "title",
           "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
           "quote": "好酱就要下功夫，二伯的香菇牛肉酱，配方独特，味道堪称一绝！"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约00:19：这是牛腩这块 牛肉必须得煮。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约01:52、03:22：这水就吃满了 润；把这香菇水下锅。原题明确香菇，画面呈现吸水的香菇与后续倒入香菇水；香菇水作为处理产物载入说明，不重复索引。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约02:06–02:08：甜面酱……再来一点（四勺）。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约02:09–02:12：豆瓣酱 一勺 两勺 三勺 四勺。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约02:14–02:20、02:38–02:40：这是蒜蓉辣酱；这也四勺；先把辣酱 蒜蓉辣酱放进去。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约02:35：花生油 搁点香油。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约02:43–02:47：再来点葱姜；剩下的葱可以分两到三次加入。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约03:02–03:05：黄酒 把这盆涮涮；搁里边去 不糟践。"
+        },
+        {
+          "source": "video_frame",
+          "url": "https://www.bilibili.com/video/BV1L5411e7AW/",
+          "quote": "原片约04:06：然后撒在里边 熟芝麻。可见熟芝麻倒入酱中。"
         }
       ],
-      "status": "title_only",
+      "status": "verified_partial",
       "unresolved": [
-        "完整配方和辅料尚待核对"
+        "仅抽查原片；非全量清单。未确认勺容量、其余用量或其他未抽查配料。",
+        "五花肉及片末醋问答不是本轮核实的实际用料，不索引。",
+        "不细化牛腩部位、香菇干鲜或芝麻颜色，不猜盐、糖、蒜瓣、醋等未核用料",
+        "GitHub字幕项目仅作定位线索，不作为食材证据；没有采用未匹配的跨平台配方",
+        "未列出不代表不用，不用于过敏原判断"
       ],
-      "notes": "完整配方和辅料尚待核对。",
+      "notes": "原片00:19明确牛腩，香菇保留原有辅料角色。甜面酱、豆瓣酱、蒜蓉辣酱分别4勺，仅是原片调酱阶段的勺数，容量未知。黄酒用于涮酱碗后入锅；香菇水是处理产物，说明保留而不重复作另购食材。主辅角色是编辑整理，不推断复合酱的内部成分。",
       "recipeComplete": false,
-      "roleBasis": "按菜名与原文语义区分主要食材和配菜/调味；原文未逐项指定角色时，主辅分类属于编辑整理。",
+      "roleBasis": "主料指菜品主体，辅料包括配菜与调味；该角色划分为编辑整理，不等于原作者原文标注。",
       "sourceReview": {
         "title": true,
         "fullVideo": false,
-        "description": true
-      }
+        "description": true,
+        "videoFrames": true,
+        "browserRecipePage": true
+      },
+      "ingredientListCoverage": "partial_video_evidence",
+      "ingredientListNote": "仅整理准确原片抽查画面与硬字幕明确的部分食材，不等于完整食材清单、完整观看或完整配方。",
+      "browserSourceReview": {
+        "reviewedAt": "2026-11-17",
+        "resolvedUrl": "https://www.bilibili.com/video/BV1L5411e7AW/",
+        "publisherObserved": "老饭骨",
+        "runtimeObserved": "04:59",
+        "coverage": "准确B站原片画面／硬字幕抽查；没有完整观看，不混用其他版本或观众配方。"
+      },
+      "quantityObservations": [
+        {
+          "name": "甜面酱",
+          "amount": "4勺",
+          "scope": "原片调酱阶段；勺容量未知",
+          "sourceUrl": "https://www.bilibili.com/video/BV1L5411e7AW/"
+        },
+        {
+          "name": "豆瓣酱",
+          "amount": "4勺",
+          "scope": "原片调酱阶段；勺容量未知",
+          "sourceUrl": "https://www.bilibili.com/video/BV1L5411e7AW/"
+        },
+        {
+          "name": "蒜蓉辣酱",
+          "amount": "4勺",
+          "scope": "原片调酱阶段；勺容量未知",
+          "sourceUrl": "https://www.bilibili.com/video/BV1L5411e7AW/"
+        }
+      ]
     },
     "BV1N6an6EEx8": {
       "main": [],
